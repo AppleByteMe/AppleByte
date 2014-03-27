@@ -4,22 +4,26 @@ AppleByte integration/staging tree
 http://www.applebyte.org
 
 Copyright (c) 2009-2013 Bitcoin Developers
-Copyright (c) 2011-2013 AppleByte Developers
+Copyright (c) 2014 AppleByte Developers
 
 What is AppleByte?
 ----------------
 
-AppleByte is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
- - 2.5 minute block targets
- - subsidy halves in 840k blocks (~4 years)
- - ~84 million total coins
+AppleByte is cloned from Litecoin using scrypt as a proof-of-work algorithm.
+ - 2 minute block targets
+ - 4 hour difficulty retarget
+ - Approx. 1 billion total coins, plus 0.005% inflation after year 5
 
-The rest is the same as Bitcoin.
- - 50 coins per block
- - 2016 blocks to retarget difficulty
+   Block 1-2500: Premine - 25% to fund the AppleByte Foundation and get the coin                           in the hands of the user community
+   Block 2,501 — 250,000: 1-3200 random
+   Block 250,001 — 500,000: 1-1600 random 
+   Block 500,001 — 750,000: 1-800 random
+   Block 750,001 — 1,000,000: 1-400 random
+   Block 1,000,001 - 1,250,000: 1-200 random
+   BLOCK > 1,250,000: 20: Approx. 0.005% per year
 
 For more information, as well as an immediately useable, binary version of
-the AppleByte client sofware, see http://www.applebyte.org.
+the AppleByte client sofware, see http://www.AppleByte.me
 
 License
 -------
