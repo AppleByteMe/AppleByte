@@ -1,4 +1,4 @@
-#define BOOST_TEST_MODULE AppleByte Test Suite
+#define BOOST_TEST_MODULE Applebyte Test Suite
 #include <boost/test/unit_test.hpp>
 #include <boost/filesystem.hpp>
 

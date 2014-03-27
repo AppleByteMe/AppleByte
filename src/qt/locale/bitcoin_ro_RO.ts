@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About AppleByte</source>
-        <translation>Despre AppleByte</translation>
+        <source>About Applebyte</source>
+        <translation>Despre Applebyte</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;AppleByte&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;AppleByte&lt;/b&gt; versiunea</translation>
+        <source>&lt;b&gt;Applebyte&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Applebyte&lt;/b&gt; versiunea</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -29,7 +29,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The AppleByte developers</source>
+        <source>The Applebyte developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -62,8 +62,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your AppleByte addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Acestea sunt adresele dumneavoastră AppleByte pentru a primi plăţi. Dacă doriţi, puteți da o adresa diferită fiecărui expeditor, pentru a putea ţine evidenţa plăţilor.</translation>
+        <source>These are your Applebyte addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Acestea sunt adresele dumneavoastră Applebyte pentru a primi plăţi. Dacă doriţi, puteți da o adresa diferită fiecărui expeditor, pentru a putea ţine evidenţa plăţilor.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -77,7 +77,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a AppleByte address</source>
+        <source>Sign a message to prove you own a Applebyte address</source>
         <translation>Semneaza mesajul pentru a dovedi ca detii aceasta adresa Bitocin</translation>
     </message>
     <message>
@@ -102,7 +102,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified AppleByte address</source>
+        <source>Verify a message to ensure it was signed with a specified Applebyte address</source>
         <translation>Verifica mesajul pentru a te asigura ca a fost insemnat cu o adresa applebyte specifica</translation>
     </message>
     <message>
@@ -117,7 +117,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your AppleByte addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Applebyte addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -270,8 +270,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>AppleByte will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your applebytes from being stolen by malware infecting your computer.</source>
-        <translation>AppleByte se va închide acum pentru a termina procesul de criptare. Amintiți-vă că criptarea portofelului dumneavoastră nu poate proteja în totalitate applebytes dvs. de a fi furate de intentii rele.</translation>
+        <source>Applebyte will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your applebytes from being stolen by malware infecting your computer.</source>
+        <translation>Applebyte se va închide acum pentru a termina procesul de criptare. Amintiți-vă că criptarea portofelului dumneavoastră nu poate proteja în totalitate applebytes dvs. de a fi furate de intentii rele.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -369,8 +369,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about AppleByte</source>
-        <translation>Informaţii despre AppleByte</translation>
+        <source>Show information about Applebyte</source>
+        <translation>Informaţii despre Applebyte</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -414,13 +414,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a AppleByte address</source>
-        <translation>&amp;Trimiteţi AppleByte către o anumită adresă</translation>
+        <source>Send coins to a Applebyte address</source>
+        <translation>&amp;Trimiteţi Applebyte către o anumită adresă</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for AppleByte</source>
-        <translation>Modifică setările pentru AppleByte</translation>
+        <source>Modify configuration options for Applebyte</source>
+        <translation>Modifică setările pentru Applebyte</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -450,8 +450,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>AppleByte</source>
-        <translation>AppleByte</translation>
+        <source>Applebyte</source>
+        <translation>Applebyte</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -475,8 +475,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About AppleByte</source>
-        <translation>&amp;Despre AppleByte</translation>
+        <source>&amp;About Applebyte</source>
+        <translation>&amp;Despre Applebyte</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -495,12 +495,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your AppleByte addresses to prove you own them</source>
+        <source>Sign messages with your Applebyte addresses to prove you own them</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified AppleByte addresses</source>
+        <source>Verify messages to ensure they were signed with specified Applebyte addresses</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -531,13 +531,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>AppleByte client</source>
-        <translation>Client AppleByte</translation>
+        <source>Applebyte client</source>
+        <translation>Client Applebyte</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to AppleByte network</source>
-        <translation><numerusform>%n active connections to AppleByte network</numerusform><numerusform>%n active connections to AppleByte network</numerusform><numerusform>%n active connections to AppleByte network</numerusform></translation>
+        <source>%n active connection(s) to Applebyte network</source>
+        <translation><numerusform>%n active connections to Applebyte network</numerusform><numerusform>%n active connections to Applebyte network</numerusform><numerusform>%n active connections to Applebyte network</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -647,7 +647,7 @@ Address: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid AppleByte address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid Applebyte address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -662,7 +662,7 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. AppleByte can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. Applebyte can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -728,7 +728,7 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid AppleByte address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Applebyte address.</source>
         <translation>Adresa introdusă &quot;%1&quot; nu este o adresă applebyte valabilă.</translation>
     </message>
     <message>
@@ -747,8 +747,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>AppleByte-Qt</source>
-        <translation>AppleByte-Qt</translation>
+        <source>Applebyte-Qt</source>
+        <translation>Applebyte-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -810,13 +810,13 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start AppleByte after logging in to the system.</source>
-        <translation>Porneşte automat programul AppleByte la pornirea computerului.</translation>
+        <source>Automatically start Applebyte after logging in to the system.</source>
+        <translation>Porneşte automat programul Applebyte la pornirea computerului.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start AppleByte on system login</source>
-        <translation>&amp;S Porneşte AppleByte la pornirea sistemului</translation>
+        <source>&amp;Start Applebyte on system login</source>
+        <translation>&amp;S Porneşte Applebyte la pornirea sistemului</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -835,8 +835,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the AppleByte client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Deschide automat în router portul aferent clientului AppleByte. Funcţionează doar în cazul în care routerul e compatibil UPnP şi opţiunea e activată.</translation>
+        <source>Automatically open the Applebyte client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Deschide automat în router portul aferent clientului Applebyte. Funcţionează doar în cazul în care routerul e compatibil UPnP şi opţiunea e activată.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -845,8 +845,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the AppleByte network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Conectare la reţeaua AppleByte folosind un proxy SOCKS (de exemplu, când conexiunea se stabileşte prin reţeaua Tor)</translation>
+        <source>Connect to the Applebyte network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Conectare la reţeaua Applebyte folosind un proxy SOCKS (de exemplu, când conexiunea se stabileşte prin reţeaua Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -920,8 +920,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting AppleByte.</source>
-        <translation>Limba interfeței utilizatorului poate fi setat aici. Această setare va avea efect după repornirea AppleByte.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Applebyte.</source>
+        <translation>Limba interfeței utilizatorului poate fi setat aici. Această setare va avea efect după repornirea Applebyte.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -935,8 +935,8 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show AppleByte addresses in the transaction list or not.</source>
-        <translation>Vezi dacă adresele AppleByte sunt în lista de tranzacție sau nu</translation>
+        <source>Whether to show Applebyte addresses in the transaction list or not.</source>
+        <translation>Vezi dacă adresele Applebyte sunt în lista de tranzacție sau nu</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -987,7 +987,7 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting AppleByte.</source>
+        <source>This setting will take effect after restarting Applebyte.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1006,8 +1006,8 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AppleByte network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informațiile afișate pot fi expirate. Portofelul tău se sincronizează automat cu rețeaua AppleByte după ce o conexiune este stabilita, dar acest proces nu a fost finalizat încă.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Applebyte network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informațiile afișate pot fi expirate. Portofelul tău se sincronizează automat cu rețeaua Applebyte după ce o conexiune este stabilita, dar acest proces nu a fost finalizat încă.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1210,8 +1210,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the AppleByte-Qt help message to get a list with possible AppleByte command-line options.</source>
-        <translation>Arata mesajul de ajutor AppleByte-QT pentru a obtine o lista cu posibilele optiuni ale comenzilor AppleByte</translation>
+        <source>Show the Applebyte-Qt help message to get a list with possible Applebyte command-line options.</source>
+        <translation>Arata mesajul de ajutor Applebyte-QT pentru a obtine o lista cu posibilele optiuni ale comenzilor Applebyte</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1230,13 +1230,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>AppleByte - Debug window</source>
-        <translation>AppleByte-Fereastra pentru debug</translation>
+        <source>Applebyte - Debug window</source>
+        <translation>Applebyte-Fereastra pentru debug</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>AppleByte Core</source>
-        <translation>AppleByte Core</translation>
+        <source>Applebyte Core</source>
+        <translation>Applebyte Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1245,7 +1245,7 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the AppleByte debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Applebyte debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Deschide logurile debug din directorul curent. Aceasta poate dura cateva secunde pentru fisierele mai mari</translation>
     </message>
     <message>
@@ -1255,7 +1255,7 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the AppleByte RPC console.</source>
+        <source>Welcome to the Applebyte RPC console.</source>
         <translation>Bun venit la consola applebyte RPC</translation>
     </message>
     <message>
@@ -1281,7 +1281,7 @@ Address: %4
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Trimite AppleByte</translation>
+        <translation>Trimite Applebyte</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -1439,8 +1439,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a AppleByte address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introduceţi o adresă AppleByte (de exemplu: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Applebyte address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Introduceţi o adresă Applebyte (de exemplu: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1463,7 +1463,7 @@ Address: %4
     <message>
         <location line="+18"/>
         <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introduceţi o adresă AppleByte (de exemplu: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <translation>Introduceţi o adresă Applebyte (de exemplu: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1504,8 +1504,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this AppleByte address</source>
-        <translation>Semneaza mesajul pentru a dovedi ca detii acesta adresa AppleByte</translation>
+        <source>Sign the message to prove you own this Applebyte address</source>
+        <translation>Semneaza mesajul pentru a dovedi ca detii acesta adresa Applebyte</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1536,12 +1536,12 @@ Address: %4
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introduceţi o adresă AppleByte (de exemplu: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <translation>Introduceţi o adresă Applebyte (de exemplu: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified AppleByte address</source>
-        <translation>Verifica mesajul pentru a fi sigur ca a fost semnat cu adresa AppleByte specifica</translation>
+        <source>Verify the message to ensure it was signed with the specified Applebyte address</source>
+        <translation>Verifica mesajul pentru a fi sigur ca a fost semnat cu adresa Applebyte specifica</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1556,8 +1556,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a AppleByte address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introduceţi o adresă AppleByte (de exemplu: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Applebyte address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Introduceţi o adresă Applebyte (de exemplu: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1566,7 +1566,7 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter AppleByte signature</source>
+        <source>Enter Applebyte signature</source>
         <translation>Introduce semnatura bitocin</translation>
     </message>
     <message>
@@ -1640,7 +1640,7 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The AppleByte developers</source>
+        <source>The Applebyte developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2128,7 +2128,7 @@ Address: %4
     <message>
         <location filename="../walletmodel.cpp" line="+193"/>
         <source>Send Coins</source>
-        <translation>Trimite AppleByte</translation>
+        <translation>Trimite Applebyte</translation>
     </message>
 </context>
 <context>
@@ -2178,8 +2178,8 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>AppleByte version</source>
-        <translation>versiunea AppleByte</translation>
+        <source>Applebyte version</source>
+        <translation>versiunea Applebyte</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2298,7 +2298,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;AppleByte Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Applebyte Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2314,7 +2314,7 @@ for example: alertnotify=echo %%s | mail -s &quot;AppleByte Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. AppleByte is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Applebyte is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2359,7 +2359,7 @@ for example: alertnotify=echo %%s | mail -s &quot;AppleByte Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong AppleByte will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Applebyte will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2609,8 +2609,8 @@ for example: alertnotify=echo %%s | mail -s &quot;AppleByte Alert&quot; admin@fo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the AppleByte Wiki for SSL setup instructions)</source>
-        <translation>Optiuni SSl (vezi AppleByte wiki pentru intructiunile de instalare)</translation>
+        <source>SSL options: (see the Applebyte Wiki for SSL setup instructions)</source>
+        <translation>Optiuni SSl (vezi Applebyte wiki pentru intructiunile de instalare)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2801,12 +2801,12 @@ for example: alertnotify=echo %%s | mail -s &quot;AppleByte Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of AppleByte</source>
-        <translation>Eroare incarcare wallet.dat: Portofelul are nevoie de o versiune AppleByte mai noua</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Applebyte</source>
+        <translation>Eroare incarcare wallet.dat: Portofelul are nevoie de o versiune Applebyte mai noua</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart AppleByte to complete</source>
+        <source>Wallet needed to be rewritten: restart Applebyte to complete</source>
         <translation>Portofelul trebuie rescris: restarteaza aplicatia applebyte pentru a face asta.</translation>
     </message>
     <message>
@@ -2868,8 +2868,8 @@ details suggestions history
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. AppleByte is probably already running.</source>
-        <translation>Imposibilitatea de a lega la% s pe acest computer. AppleByte este, probabil, deja în execuție.</translation>
+        <source>Unable to bind to %s on this computer. Applebyte is probably already running.</source>
+        <translation>Imposibilitatea de a lega la% s pe acest computer. Applebyte este, probabil, deja în execuție.</translation>
     </message>
     <message>
         <location line="+64"/>

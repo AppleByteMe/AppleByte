@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About AppleByte</source>
-        <translation>Om AppleByte</translation>
+        <source>About Applebyte</source>
+        <translation>Om Applebyte</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;AppleByte&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;AppleByte&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;Applebyte&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Applebyte&lt;/b&gt; version</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="+0"/>
-        <source>The AppleByte developers</source>
-        <translation>AppleByte-udviklerne</translation>
+        <source>The Applebyte developers</source>
+        <translation>Applebyte-udviklerne</translation>
     </message>
 </context>
 <context>
@@ -67,8 +67,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your AppleByte addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dette er dine AppleByte-adresser til at modtage betalinger med. Du kan give en forskellig adresse til hver afsender, så du kan holde styr på, hvem der betaler dig.</translation>
+        <source>These are your Applebyte addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dette er dine Applebyte-adresser til at modtage betalinger med. Du kan give en forskellig adresse til hver afsender, så du kan holde styr på, hvem der betaler dig.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,8 +82,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a AppleByte address</source>
-        <translation>Underskriv en besked for at bevise, at en AppleByte-adresse tilhører dig</translation>
+        <source>Sign a message to prove you own a Applebyte address</source>
+        <translation>Underskriv en besked for at bevise, at en Applebyte-adresse tilhører dig</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified AppleByte address</source>
-        <translation>Efterprøv en besked for at sikre, at den er underskrevet med den angivne AppleByte-adresse</translation>
+        <source>Verify a message to ensure it was signed with a specified Applebyte address</source>
+        <translation>Efterprøv en besked for at sikre, at den er underskrevet med den angivne Applebyte-adresse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your AppleByte addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Disse er dine AppleByte-adresser for at sende betalinger. Tjek altid beløb og modtageradresse, inden du sender applebytes.</translation>
+        <source>These are your Applebyte addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Disse er dine Applebyte-adresser for at sende betalinger. Tjek altid beløb og modtageradresse, inden du sender applebytes.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -275,8 +275,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="-56"/>
-        <source>AppleByte will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your applebytes from being stolen by malware infecting your computer.</source>
-        <translation>AppleByte vil nu lukke for at gennemføre krypteringsprocessen. Husk på, at kryptering af din tegnebog vil ikke beskytte dine applebytes fuldt ud mod at blive stjålet af malware på din computer.</translation>
+        <source>Applebyte will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your applebytes from being stolen by malware infecting your computer.</source>
+        <translation>Applebyte vil nu lukke for at gennemføre krypteringsprocessen. Husk på, at kryptering af din tegnebog vil ikke beskytte dine applebytes fuldt ud mod at blive stjålet af malware på din computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about AppleByte</source>
-        <translation>Vis informationer om AppleByte</translation>
+        <source>Show information about Applebyte</source>
+        <translation>Vis informationer om Applebyte</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a AppleByte address</source>
-        <translation>Send applebytes til en AppleByte-adresse</translation>
+        <source>Send coins to a Applebyte address</source>
+        <translation>Send applebytes til en Applebyte-adresse</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for AppleByte</source>
-        <translation>Rediger konfigurationsindstillinger af AppleByte</translation>
+        <source>Modify configuration options for Applebyte</source>
+        <translation>Rediger konfigurationsindstillinger af Applebyte</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>AppleByte</source>
-        <translation>AppleByte</translation>
+        <source>Applebyte</source>
+        <translation>Applebyte</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About AppleByte</source>
-        <translation>Om AppleByte</translation>
+        <source>&amp;About Applebyte</source>
+        <translation>Om Applebyte</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your AppleByte addresses to prove you own them</source>
-        <translation>Underskriv beskeder med dine AppleByte-adresser for at bevise, at de tilhører dig</translation>
+        <source>Sign messages with your Applebyte addresses to prove you own them</source>
+        <translation>Underskriv beskeder med dine Applebyte-adresser for at bevise, at de tilhører dig</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified AppleByte addresses</source>
-        <translation>Efterprøv beskeder for at sikre, at de er underskrevet med de(n) angivne AppleByte-adresse(r)</translation>
+        <source>Verify messages to ensure they were signed with specified Applebyte addresses</source>
+        <translation>Efterprøv beskeder for at sikre, at de er underskrevet med de(n) angivne Applebyte-adresse(r)</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="+47"/>
-        <source>AppleByte client</source>
-        <translation>AppleByte-klient</translation>
+        <source>Applebyte client</source>
+        <translation>Applebyte-klient</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to AppleByte network</source>
-        <translation><numerusform>%n aktiv(e) forbindelse(r) til AppleByte-netværket</numerusform><numerusform>%n aktiv(e) forbindelse(r) til AppleByte-netværket</numerusform></translation>
+        <source>%n active connection(s) to Applebyte network</source>
+        <translation><numerusform>%n aktiv(e) forbindelse(r) til Applebyte-netværket</numerusform><numerusform>%n aktiv(e) forbindelse(r) til Applebyte-netværket</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -656,8 +656,8 @@ Adresse: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid AppleByte address or malformed URI parameters.</source>
-        <translation>URI kan ikke fortolkes! Dette kan skyldes en ugyldig AppleByte-adresse eller misdannede URI-parametre.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Applebyte address or malformed URI parameters.</source>
+        <translation>URI kan ikke fortolkes! Dette kan skyldes en ugyldig Applebyte-adresse eller misdannede URI-parametre.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,8 +671,8 @@ Adresse: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. AppleByte can no longer continue safely and will quit.</source>
-        <translation>Der opstod en fatal fejl. AppleByte kan ikke længere fortsætte sikkert og vil afslutte.</translation>
+        <source>A fatal error occurred. Applebyte can no longer continue safely and will quit.</source>
+        <translation>Der opstod en fatal fejl. Applebyte kan ikke længere fortsætte sikkert og vil afslutte.</translation>
     </message>
 </context>
 <context>
@@ -737,8 +737,8 @@ Adresse: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid AppleByte address.</source>
-        <translation>Den indtastede adresse &quot;%1&quot; er ikke en gyldig AppleByte-adresse.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Applebyte address.</source>
+        <translation>Den indtastede adresse &quot;%1&quot; er ikke en gyldig Applebyte-adresse.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,8 +756,8 @@ Adresse: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>AppleByte-Qt</source>
-        <translation>AppleByte-Qt</translation>
+        <source>Applebyte-Qt</source>
+        <translation>Applebyte-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Adresse: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start AppleByte after logging in to the system.</source>
-        <translation>Start AppleByte automatisk, når der logges ind på systemet</translation>
+        <source>Automatically start Applebyte after logging in to the system.</source>
+        <translation>Start Applebyte automatisk, når der logges ind på systemet</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start AppleByte on system login</source>
-        <translation>Start AppleByte, når systemet startes</translation>
+        <source>&amp;Start Applebyte on system login</source>
+        <translation>Start Applebyte, når systemet startes</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,8 +844,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the AppleByte client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Åbn AppleByte-klientens port på routeren automatisk. Dette virker kun, når din router understøtter UPnP og UPnP er aktiveret.</translation>
+        <source>Automatically open the Applebyte client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Åbn Applebyte-klientens port på routeren automatisk. Dette virker kun, når din router understøtter UPnP og UPnP er aktiveret.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -854,8 +854,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the AppleByte network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Opret forbindelse til AppleByte-netværket via en SOCKS-proxy (f.eks. ved tilslutning gennem Tor)</translation>
+        <source>Connect to the Applebyte network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Opret forbindelse til Applebyte-netværket via en SOCKS-proxy (f.eks. ved tilslutning gennem Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,8 +929,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting AppleByte.</source>
-        <translation>Brugergrænsefladesproget kan angives her. Denne indstilling træder først i kraft, når AppleByte genstartes.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Applebyte.</source>
+        <translation>Brugergrænsefladesproget kan angives her. Denne indstilling træder først i kraft, når Applebyte genstartes.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -944,8 +944,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show AppleByte addresses in the transaction list or not.</source>
-        <translation>Afgør hvorvidt AppleByte-adresser skal vises i transaktionslisten eller ej.</translation>
+        <source>Whether to show Applebyte addresses in the transaction list or not.</source>
+        <translation>Afgør hvorvidt Applebyte-adresser skal vises i transaktionslisten eller ej.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -996,8 +996,8 @@ Adresse: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting AppleByte.</source>
-        <translation>Denne indstilling træder i kraft, efter AppleByte genstartes.</translation>
+        <source>This setting will take effect after restarting Applebyte.</source>
+        <translation>Denne indstilling træder i kraft, efter Applebyte genstartes.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,8 +1015,8 @@ Adresse: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AppleByte network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den viste information kan være forældet. Din tegnebog synkroniserer automatisk med AppleByte-netværket, når en forbindelse etableres, men denne proces er ikke gennemført endnu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Applebyte network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den viste information kan være forældet. Din tegnebog synkroniserer automatisk med Applebyte-netværket, når en forbindelse etableres, men denne proces er ikke gennemført endnu.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1219,8 +1219,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the AppleByte-Qt help message to get a list with possible AppleByte command-line options.</source>
-        <translation>Vis AppleByte-Qt-hjælpebeskeden for at få en liste over de tilgængelige AppleByte-kommandolinjeindstillinger.</translation>
+        <source>Show the Applebyte-Qt help message to get a list with possible Applebyte command-line options.</source>
+        <translation>Vis Applebyte-Qt-hjælpebeskeden for at få en liste over de tilgængelige Applebyte-kommandolinjeindstillinger.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,13 +1239,13 @@ Adresse: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>AppleByte - Debug window</source>
-        <translation>AppleByte - Fejlsøgningsvindue</translation>
+        <source>Applebyte - Debug window</source>
+        <translation>Applebyte - Fejlsøgningsvindue</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>AppleByte Core</source>
-        <translation>AppleByte Core</translation>
+        <source>Applebyte Core</source>
+        <translation>Applebyte Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1254,8 +1254,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the AppleByte debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Åbn AppleByte-fejlsøgningslogfilen fra det nuværende datakatalog. Dette kan tage nogle få sekunder for en store logfiler.</translation>
+        <source>Open the Applebyte debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Åbn Applebyte-fejlsøgningslogfilen fra det nuværende datakatalog. Dette kan tage nogle få sekunder for en store logfiler.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1264,8 +1264,8 @@ Adresse: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the AppleByte RPC console.</source>
-        <translation>Velkommen til AppleByte RPC-konsollen</translation>
+        <source>Welcome to the Applebyte RPC console.</source>
+        <translation>Velkommen til Applebyte RPC-konsollen</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1408,7 +1408,7 @@ Adresse: %4
     <message>
         <location line="+34"/>
         <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>AppleByte-adressen som betalingen skal sendes til (f.eks. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <translation>Applebyte-adressen som betalingen skal sendes til (f.eks. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1448,8 +1448,8 @@ Adresse: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a AppleByte address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Indtast en AppleByte-adresse (f.eks. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Applebyte address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Indtast en Applebyte-adresse (f.eks. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1467,12 +1467,12 @@ Adresse: %4
     <message>
         <location line="+6"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Du kan underskrive beskeder med dine AppleByte-adresser for at bevise, at de tilhører dig. Pas på ikke at underskrive noget vagt, da phisingangreb kan narre dig til at overdrage din identitet. Underskriv kun fuldt detaljerede udsagn, du er enig i.</translation>
+        <translation>Du kan underskrive beskeder med dine Applebyte-adresser for at bevise, at de tilhører dig. Pas på ikke at underskrive noget vagt, da phisingangreb kan narre dig til at overdrage din identitet. Underskriv kun fuldt detaljerede udsagn, du er enig i.</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>AppleByte-adressen som beskeden skal underskrives med (f.eks. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <translation>Applebyte-adressen som beskeden skal underskrives med (f.eks. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1513,8 +1513,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this AppleByte address</source>
-        <translation>Underskriv denne besked for at bevise, at AppleByte-adressen tilhører dig</translation>
+        <source>Sign the message to prove you own this Applebyte address</source>
+        <translation>Underskriv denne besked for at bevise, at Applebyte-adressen tilhører dig</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1545,12 +1545,12 @@ Adresse: %4
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>AppleByte-adressen som beskeden er underskrevet med (f.eks. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <translation>Applebyte-adressen som beskeden er underskrevet med (f.eks. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified AppleByte address</source>
-        <translation>Efterprøv beskeden for at sikre, at den er underskrevet med den angivne AppleByte-adresse</translation>
+        <source>Verify the message to ensure it was signed with the specified Applebyte address</source>
+        <translation>Efterprøv beskeden for at sikre, at den er underskrevet med den angivne Applebyte-adresse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,8 +1565,8 @@ Adresse: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a AppleByte address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Indtast en AppleByte-adresse (f.eks. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Applebyte address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Indtast en Applebyte-adresse (f.eks. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter AppleByte signature</source>
-        <translation>Indtast AppleByte-underskriften</translation>
+        <source>Enter Applebyte signature</source>
+        <translation>Indtast Applebyte-underskriften</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1649,8 +1649,8 @@ Adresse: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The AppleByte developers</source>
-        <translation>AppleByte-udviklerne</translation>
+        <source>The Applebyte developers</source>
+        <translation>Applebyte-udviklerne</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2187,8 +2187,8 @@ Adresse: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>AppleByte version</source>
-        <translation>AppleByte-version</translation>
+        <source>Applebyte version</source>
+        <translation>Applebyte-version</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2306,7 +2306,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;AppleByte Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Applebyte Alert&quot; admin@foo.com
 </source>
         <translation>%s, du skal angive en RPC-adgangskode i konfigurationsfilen:
 %s
@@ -2317,7 +2317,7 @@ rpcpassword=%s
 Brugernavnet og adgangskode MÅ IKKE være det samme.
 Hvis filen ikke eksisterer, opret den og giv ingen andre end ejeren læserettighed.
 Det anbefales også at angive alertnotify, så du påmindes om problemer;
-f.eks.: alertnotify=echo %%s | mail -s &quot;AppleByte Alert&quot; admin@foo.com
+f.eks.: alertnotify=echo %%s | mail -s &quot;Applebyte Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2332,8 +2332,8 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;AppleByte Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. AppleByte is probably already running.</source>
-        <translation>Kan ikke opnå lås på datakatalog %s. AppleByte er sandsynligvis allerede startet.</translation>
+        <source>Cannot obtain a lock on data directory %s. Applebyte is probably already running.</source>
+        <translation>Kan ikke opnå lås på datakatalog %s. Applebyte er sandsynligvis allerede startet.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2377,8 +2377,8 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;AppleByte Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong AppleByte will not work properly.</source>
-        <translation>Advarsel: Undersøg venligst, at din computers dato og klokkeslæt er korrekt indstillet! Hvis der er fejl i disse, vil AppleByte ikke fungere korrekt.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Applebyte will not work properly.</source>
+        <translation>Advarsel: Undersøg venligst, at din computers dato og klokkeslæt er korrekt indstillet! Hvis der er fejl i disse, vil Applebyte ikke fungere korrekt.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2627,8 +2627,8 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;AppleByte Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the AppleByte Wiki for SSL setup instructions)</source>
-        <translation>SSL-indstillinger: (se AppleByte Wiki for SSL-opsætningsinstruktioner)</translation>
+        <source>SSL options: (see the Applebyte Wiki for SSL setup instructions)</source>
+        <translation>SSL-indstillinger: (se Applebyte Wiki for SSL-opsætningsinstruktioner)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2817,13 +2817,13 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;AppleByte Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of AppleByte</source>
-        <translation>Fejl ved indlæsning af wallet.dat: Tegnebog kræver en nyere version af AppleByte</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Applebyte</source>
+        <translation>Fejl ved indlæsning af wallet.dat: Tegnebog kræver en nyere version af Applebyte</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart AppleByte to complete</source>
-        <translation>Det var nødvendigt at genskrive tegnebogen: genstart AppleByte for at gennemføre</translation>
+        <source>Wallet needed to be rewritten: restart Applebyte to complete</source>
+        <translation>Det var nødvendigt at genskrive tegnebogen: genstart Applebyte for at gennemføre</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2882,8 +2882,8 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;AppleByte Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. AppleByte is probably already running.</source>
-        <translation>Kunne ikke tildele %s på denne computer. AppleByte kører sikkert allerede.</translation>
+        <source>Unable to bind to %s on this computer. Applebyte is probably already running.</source>
+        <translation>Kunne ikke tildele %s på denne computer. Applebyte kører sikkert allerede.</translation>
     </message>
     <message>
         <location line="+64"/>

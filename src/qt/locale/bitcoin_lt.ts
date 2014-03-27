@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About AppleByte</source>
-        <translation>Apie AppleByte</translation>
+        <source>About Applebyte</source>
+        <translation>Apie Applebyte</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;AppleByte&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;AppleByte&lt;/b&gt; versija</translation>
+        <source>&lt;b&gt;Applebyte&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Applebyte&lt;/b&gt; versija</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -33,7 +33,7 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="+0"/>
-        <source>The AppleByte developers</source>
+        <source>The Applebyte developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -66,8 +66,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your AppleByte addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Tai yra jūsų AppleByte adresai mokėjimų gavimui. Galite duoti skirtingus adresus atskiriems siuntėjams, kad galėtumėte sekti, kas jums moka.</translation>
+        <source>These are your Applebyte addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Tai yra jūsų Applebyte adresai mokėjimų gavimui. Galite duoti skirtingus adresus atskiriems siuntėjams, kad galėtumėte sekti, kas jums moka.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -81,8 +81,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a AppleByte address</source>
-        <translation>Pasirašykite žinutę, kad įrodytume, jog esate AppleByte adreso savininkas</translation>
+        <source>Sign a message to prove you own a Applebyte address</source>
+        <translation>Pasirašykite žinutę, kad įrodytume, jog esate Applebyte adreso savininkas</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -106,8 +106,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified AppleByte address</source>
-        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas AppleByte adresas</translation>
+        <source>Verify a message to ensure it was signed with a specified Applebyte address</source>
+        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Applebyte adresas</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -121,7 +121,7 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your AppleByte addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Applebyte addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -274,8 +274,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="-56"/>
-        <source>AppleByte will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your applebytes from being stolen by malware infecting your computer.</source>
-        <translation>AppleByte dabar užsidarys šifravimo proceso pabaigai. Atminkite, kad piniginės šifravimas negali pilnai apsaugoti applebyteų vagysčių kai tinkle esančios kenkėjiškos programos patenka į jūsų kompiuterį.</translation>
+        <source>Applebyte will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your applebytes from being stolen by malware infecting your computer.</source>
+        <translation>Applebyte dabar užsidarys šifravimo proceso pabaigai. Atminkite, kad piniginės šifravimas negali pilnai apsaugoti applebyteų vagysčių kai tinkle esančios kenkėjiškos programos patenka į jūsų kompiuterį.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -373,8 +373,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about AppleByte</source>
-        <translation>Rodyti informaciją apie AppleByte</translation>
+        <source>Show information about Applebyte</source>
+        <translation>Rodyti informaciją apie Applebyte</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -418,12 +418,12 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a AppleByte address</source>
-        <translation>Siųsti monetas AppleByte adresui</translation>
+        <source>Send coins to a Applebyte address</source>
+        <translation>Siųsti monetas Applebyte adresui</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for AppleByte</source>
+        <source>Modify configuration options for Applebyte</source>
         <translation>Keisti applebyte konfigūracijos galimybes</translation>
     </message>
     <message>
@@ -454,8 +454,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>AppleByte</source>
-        <translation>AppleByte</translation>
+        <source>Applebyte</source>
+        <translation>Applebyte</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -479,8 +479,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About AppleByte</source>
-        <translation>&amp;Apie AppleByte</translation>
+        <source>&amp;About Applebyte</source>
+        <translation>&amp;Apie Applebyte</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -499,12 +499,12 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your AppleByte addresses to prove you own them</source>
+        <source>Sign messages with your Applebyte addresses to prove you own them</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified AppleByte addresses</source>
+        <source>Verify messages to ensure they were signed with specified Applebyte addresses</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -535,13 +535,13 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="+47"/>
-        <source>AppleByte client</source>
-        <translation>AppleByte klientas</translation>
+        <source>Applebyte client</source>
+        <translation>Applebyte klientas</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to AppleByte network</source>
-        <translation><numerusform>%n AppleByte tinklo aktyvus ryšys</numerusform><numerusform>%n AppleByte tinklo aktyvūs ryšiai</numerusform><numerusform>%n AppleByte tinklo aktyvūs ryšiai</numerusform></translation>
+        <source>%n active connection(s) to Applebyte network</source>
+        <translation><numerusform>%n Applebyte tinklo aktyvus ryšys</numerusform><numerusform>%n Applebyte tinklo aktyvūs ryšiai</numerusform><numerusform>%n Applebyte tinklo aktyvūs ryšiai</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -654,7 +654,7 @@ Adresas: %4</translation>
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid AppleByte address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid Applebyte address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -669,7 +669,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. AppleByte can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. Applebyte can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -735,8 +735,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid AppleByte address.</source>
-        <translation>Įvestas adresas „%1“ nėra galiojantis AppleByte adresas.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Applebyte address.</source>
+        <translation>Įvestas adresas „%1“ nėra galiojantis Applebyte adresas.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -754,8 +754,8 @@ Adresas: %4</translation>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>AppleByte-Qt</source>
-        <translation>AppleByte-Qt</translation>
+        <source>Applebyte-Qt</source>
+        <translation>Applebyte-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -817,13 +817,13 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start AppleByte after logging in to the system.</source>
+        <source>Automatically start Applebyte after logging in to the system.</source>
         <translation>Automatiškai paleisti Bitkoin programą įjungus sistemą.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start AppleByte on system login</source>
-        <translation>&amp;Paleisti AppleByte programą su window sistemos paleidimu</translation>
+        <source>&amp;Start Applebyte on system login</source>
+        <translation>&amp;Paleisti Applebyte programą su window sistemos paleidimu</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -842,8 +842,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the AppleByte client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatiškai atidaryti AppleByte kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
+        <source>Automatically open the Applebyte client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatiškai atidaryti Applebyte kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -852,7 +852,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the AppleByte network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the Applebyte network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation>Jungtis į Bitkoin tinklą per  socks proxy (pvz. jungiantis per Tor)</translation>
     </message>
     <message>
@@ -927,8 +927,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting AppleByte.</source>
-        <translation>Čia gali būti nustatyta naudotojo sąsajos kalba. Šis nustatymas įsigalios iš naujo paleidus AppleByte.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Applebyte.</source>
+        <translation>Čia gali būti nustatyta naudotojo sąsajos kalba. Šis nustatymas įsigalios iš naujo paleidus Applebyte.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -942,7 +942,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show AppleByte addresses in the transaction list or not.</source>
+        <source>Whether to show Applebyte addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -994,7 +994,7 @@ Adresas: %4</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting AppleByte.</source>
+        <source>This setting will take effect after restarting Applebyte.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1013,7 +1013,7 @@ Adresas: %4</translation>
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AppleByte network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Applebyte network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1217,7 +1217,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the AppleByte-Qt help message to get a list with possible AppleByte command-line options.</source>
+        <source>Show the Applebyte-Qt help message to get a list with possible Applebyte command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1237,13 +1237,13 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>AppleByte - Debug window</source>
-        <translation>AppleByte - Derinimo langas</translation>
+        <source>Applebyte - Debug window</source>
+        <translation>Applebyte - Derinimo langas</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>AppleByte Core</source>
-        <translation>AppleByte branduolys</translation>
+        <source>Applebyte Core</source>
+        <translation>Applebyte branduolys</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1252,7 +1252,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the AppleByte debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Applebyte debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1262,7 +1262,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the AppleByte RPC console.</source>
+        <source>Welcome to the Applebyte RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1446,7 +1446,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a AppleByte address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <source>Enter a Applebyte address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation>Įveskite bitkoinų adresą (pvz. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
@@ -1511,7 +1511,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this AppleByte address</source>
+        <source>Sign the message to prove you own this Applebyte address</source>
         <translation>Registruotis žinute įrodymuii, kad turite šį adresą</translation>
     </message>
     <message>
@@ -1547,8 +1547,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified AppleByte address</source>
-        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas AppleByte adresas</translation>
+        <source>Verify the message to ensure it was signed with the specified Applebyte address</source>
+        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Applebyte adresas</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1563,7 +1563,7 @@ Adresas: %4</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a AppleByte address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <source>Enter a Applebyte address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation>Įveskite bitkoinų adresą (pvz. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
@@ -1573,8 +1573,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter AppleByte signature</source>
-        <translation>Įveskite AppleByte parašą</translation>
+        <source>Enter Applebyte signature</source>
+        <translation>Įveskite Applebyte parašą</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1647,7 +1647,7 @@ Adresas: %4</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The AppleByte developers</source>
+        <source>The Applebyte developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2185,8 +2185,8 @@ Adresas: %4</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>AppleByte version</source>
-        <translation>AppleByte versija</translation>
+        <source>Applebyte version</source>
+        <translation>Applebyte versija</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2304,7 +2304,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;AppleByte Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Applebyte Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2320,7 +2320,7 @@ for example: alertnotify=echo %%s | mail -s &quot;AppleByte Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. AppleByte is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Applebyte is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2365,8 +2365,8 @@ for example: alertnotify=echo %%s | mail -s &quot;AppleByte Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong AppleByte will not work properly.</source>
-        <translation>Įspėjimas: Patikrinkite, kad kompiuterio data ir laikas yra teisingi.Jei Jūsų laikrodis neteisingai nustatytas AppleByte, veiks netinkamai.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Applebyte will not work properly.</source>
+        <translation>Įspėjimas: Patikrinkite, kad kompiuterio data ir laikas yra teisingi.Jei Jūsų laikrodis neteisingai nustatytas Applebyte, veiks netinkamai.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2615,8 +2615,8 @@ for example: alertnotify=echo %%s | mail -s &quot;AppleByte Alert&quot; admin@fo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the AppleByte Wiki for SSL setup instructions)</source>
-        <translation>SSL opcijos (žr.e AppleByte Wiki for SSL setup instructions)</translation>
+        <source>SSL options: (see the Applebyte Wiki for SSL setup instructions)</source>
+        <translation>SSL opcijos (žr.e Applebyte Wiki for SSL setup instructions)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2805,13 +2805,13 @@ for example: alertnotify=echo %%s | mail -s &quot;AppleByte Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of AppleByte</source>
-        <translation> wallet.dat pakrovimo klaida,  wallet.dat reikalauja naujasnės AppleByte versijos</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Applebyte</source>
+        <translation> wallet.dat pakrovimo klaida,  wallet.dat reikalauja naujasnės Applebyte versijos</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart AppleByte to complete</source>
-        <translation>Piniginė turi būti prrašyta: įvykdymui perkraukite AppleByte</translation>
+        <source>Wallet needed to be rewritten: restart Applebyte to complete</source>
+        <translation>Piniginė turi būti prrašyta: įvykdymui perkraukite Applebyte</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2870,8 +2870,8 @@ for example: alertnotify=echo %%s | mail -s &quot;AppleByte Alert&quot; admin@fo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. AppleByte is probably already running.</source>
-        <translation>Nepavyko susieti šiame kompiuteryje prievado %s. AppleByte tikriausiai jau veikia.</translation>
+        <source>Unable to bind to %s on this computer. Applebyte is probably already running.</source>
+        <translation>Nepavyko susieti šiame kompiuteryje prievado %s. Applebyte tikriausiai jau veikia.</translation>
     </message>
     <message>
         <location line="+64"/>

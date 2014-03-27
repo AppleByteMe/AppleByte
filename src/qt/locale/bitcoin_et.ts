@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About AppleByte</source>
-        <translation>AppleByteist</translation>
+        <source>About Applebyte</source>
+        <translation>Applebyteist</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;AppleByte&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;AppleBytei&lt;/b&gt; versioon</translation>
+        <source>&lt;b&gt;Applebyte&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Applebytei&lt;/b&gt; versioon</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,7 +34,7 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+0"/>
-        <source>The AppleByte developers</source>
+        <source>The Applebyte developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -67,8 +67,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your AppleByte addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Maksete saamiseks kasutatavad AppleBytei aadressid. Maksjate paremaks jälgimiseks võib igaühele anda erineva.</translation>
+        <source>These are your Applebyte addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Maksete saamiseks kasutatavad Applebytei aadressid. Maksjate paremaks jälgimiseks võib igaühele anda erineva.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,7 +82,7 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a AppleByte address</source>
+        <source>Sign a message to prove you own a Applebyte address</source>
         <translation>Allkirjasta sõnum, et tõestada Bitconi aadressi olemasolu.</translation>
     </message>
     <message>
@@ -107,8 +107,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified AppleByte address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud AppleBytei aadressiga.</translation>
+        <source>Verify a message to ensure it was signed with a specified Applebyte address</source>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Applebytei aadressiga.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your AppleByte addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Need on sinu AppleBytei aadressid maksete saatmiseks. Müntide saatmisel kontrolli alati summat ning saaja aadressi.</translation>
+        <source>These are your Applebyte addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Need on sinu Applebytei aadressid maksete saatmiseks. Müntide saatmisel kontrolli alati summat ning saaja aadressi.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -275,8 +275,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="-56"/>
-        <source>AppleByte will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your applebytes from being stolen by malware infecting your computer.</source>
-        <translation>AppleByte sulgub krüpteeringu lõpetamiseks. Pea meeles, et rahakoti krüpteerimine ei välista applebyteide vargust, kui sinu arvuti on nakatunud pahavaraga.</translation>
+        <source>Applebyte will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your applebytes from being stolen by malware infecting your computer.</source>
+        <translation>Applebyte sulgub krüpteeringu lõpetamiseks. Pea meeles, et rahakoti krüpteerimine ei välista applebyteide vargust, kui sinu arvuti on nakatunud pahavaraga.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about AppleByte</source>
-        <translation>Kuva info AppleBytei kohta</translation>
+        <source>Show information about Applebyte</source>
+        <translation>Kuva info Applebytei kohta</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a AppleByte address</source>
-        <translation>Saada münte AppleBytei aadressile</translation>
+        <source>Send coins to a Applebyte address</source>
+        <translation>Saada münte Applebytei aadressile</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for AppleByte</source>
-        <translation>Muuda AppleBytei seadeid</translation>
+        <source>Modify configuration options for Applebyte</source>
+        <translation>Muuda Applebytei seadeid</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>AppleByte</source>
-        <translation>AppleByte</translation>
+        <source>Applebyte</source>
+        <translation>Applebyte</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About AppleByte</source>
-        <translation>%AppleByteist</translation>
+        <source>&amp;About Applebyte</source>
+        <translation>%Applebyteist</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your AppleByte addresses to prove you own them</source>
-        <translation>Omandi tõestamiseks allkirjasta sõnumid oma AppleBytei aadressiga</translation>
+        <source>Sign messages with your Applebyte addresses to prove you own them</source>
+        <translation>Omandi tõestamiseks allkirjasta sõnumid oma Applebytei aadressiga</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified AppleByte addresses</source>
-        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud AppleBytei aadressiga</translation>
+        <source>Verify messages to ensure they were signed with specified Applebyte addresses</source>
+        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Applebytei aadressiga</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+47"/>
-        <source>AppleByte client</source>
-        <translation>AppleBytei klient</translation>
+        <source>Applebyte client</source>
+        <translation>Applebytei klient</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to AppleByte network</source>
-        <translation><numerusform>%n aktiivne ühendus AppleBytei võrku</numerusform><numerusform>%n aktiivset ühendust AppleBytei võrku</numerusform></translation>
+        <source>%n active connection(s) to Applebyte network</source>
+        <translation><numerusform>%n aktiivne ühendus Applebytei võrku</numerusform><numerusform>%n aktiivset ühendust Applebytei võrku</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -655,8 +655,8 @@ Aadress: %4⏎</translation>
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid AppleByte address or malformed URI parameters.</source>
-        <translation>URI ei suudeta parsida. Põhjuseks võib olla kehtetu AppleBytei aadress või vigased URI parameetrid.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Applebyte address or malformed URI parameters.</source>
+        <translation>URI ei suudeta parsida. Põhjuseks võib olla kehtetu Applebytei aadress või vigased URI parameetrid.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -670,8 +670,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. AppleByte can no longer continue safely and will quit.</source>
-        <translation>Ilmnes kriitiline tõrge. AppleByte suletakse turvakaalutluste tõttu.</translation>
+        <source>A fatal error occurred. Applebyte can no longer continue safely and will quit.</source>
+        <translation>Ilmnes kriitiline tõrge. Applebyte suletakse turvakaalutluste tõttu.</translation>
     </message>
 </context>
 <context>
@@ -736,8 +736,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid AppleByte address.</source>
-        <translation>Sisestatud aadress &quot;%1&quot; ei ole AppleByteis kehtiv.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Applebyte address.</source>
+        <translation>Sisestatud aadress &quot;%1&quot; ei ole Applebyteis kehtiv.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -755,8 +755,8 @@ Aadress: %4⏎</translation>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>AppleByte-Qt</source>
-        <translation>AppleBytei-Qt</translation>
+        <source>Applebyte-Qt</source>
+        <translation>Applebytei-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -818,13 +818,13 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start AppleByte after logging in to the system.</source>
-        <translation>Käivita AppleByte süsteemi logimisel.</translation>
+        <source>Automatically start Applebyte after logging in to the system.</source>
+        <translation>Käivita Applebyte süsteemi logimisel.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start AppleByte on system login</source>
-        <translation>&amp;Start AppleByte sisselogimisel</translation>
+        <source>&amp;Start Applebyte on system login</source>
+        <translation>&amp;Start Applebyte sisselogimisel</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -843,8 +843,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the AppleByte client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>AppleBytei kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
+        <source>Automatically open the Applebyte client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Applebytei kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -853,8 +853,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the AppleByte network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Kasuta AppleBytei võrgustikku ühendumiseks SOCKS turva proxy&apos;t (nt Tor&apos;i kasutamisel).</translation>
+        <source>Connect to the Applebyte network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Kasuta Applebytei võrgustikku ühendumiseks SOCKS turva proxy&apos;t (nt Tor&apos;i kasutamisel).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -928,8 +928,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting AppleByte.</source>
-        <translation>Kasutajaliidese keele valimise koht. Valik rakendub AppleBytei käivitamisel.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Applebyte.</source>
+        <translation>Kasutajaliidese keele valimise koht. Valik rakendub Applebytei käivitamisel.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -943,8 +943,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show AppleByte addresses in the transaction list or not.</source>
-        <translation>Kuvada AppleBytei aadress tehingute loetelus või mitte.</translation>
+        <source>Whether to show Applebyte addresses in the transaction list or not.</source>
+        <translation>Kuvada Applebytei aadress tehingute loetelus või mitte.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -995,8 +995,8 @@ Aadress: %4⏎</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting AppleByte.</source>
-        <translation>Tehtud valik rakendub AppleBytei käivitamisel.</translation>
+        <source>This setting will take effect after restarting Applebyte.</source>
+        <translation>Tehtud valik rakendub Applebytei käivitamisel.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1014,7 +1014,7 @@ Aadress: %4⏎</translation>
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AppleByte network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Applebyte network after a connection is established, but this process has not completed yet.</source>
         <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Bitconi võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
     </message>
     <message>
@@ -1069,7 +1069,7 @@ Aadress: %4⏎</translation>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start applebyte: click-to-pay handler</source>
-        <translation>AppleByte ei käivitu: vajuta-maksa toiming</translation>
+        <translation>Applebyte ei käivitu: vajuta-maksa toiming</translation>
     </message>
 </context>
 <context>
@@ -1218,8 +1218,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the AppleByte-Qt help message to get a list with possible AppleByte command-line options.</source>
-        <translation>Näita kehtivate käsurea valikute kuvamiseks AppleBytei-Qt abiteksti</translation>
+        <source>Show the Applebyte-Qt help message to get a list with possible Applebyte command-line options.</source>
+        <translation>Näita kehtivate käsurea valikute kuvamiseks Applebytei-Qt abiteksti</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1238,13 +1238,13 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>AppleByte - Debug window</source>
-        <translation>AppleByte - debugimise aken</translation>
+        <source>Applebyte - Debug window</source>
+        <translation>Applebyte - debugimise aken</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>AppleByte Core</source>
-        <translation>AppleBytei tuumik</translation>
+        <source>Applebyte Core</source>
+        <translation>Applebytei tuumik</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1253,8 +1253,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the AppleByte debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Ava AppleBytei logifail praegusest andmekaustast. Toiminguks võib kuluda kuni mõni sekund.</translation>
+        <source>Open the Applebyte debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Ava Applebytei logifail praegusest andmekaustast. Toiminguks võib kuluda kuni mõni sekund.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1263,8 +1263,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the AppleByte RPC console.</source>
-        <translation>Teretulemast AppleBytei RPC konsooli.</translation>
+        <source>Welcome to the Applebyte RPC console.</source>
+        <translation>Teretulemast Applebytei RPC konsooli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1447,8 +1447,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a AppleByte address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Sisesta AppleBytei aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Applebyte address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Sisesta Applebytei aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1512,8 +1512,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this AppleByte address</source>
-        <translation>Allkirjasta sõnum AppleBytei aadressi sulle kuulumise tõestamiseks</translation>
+        <source>Sign the message to prove you own this Applebyte address</source>
+        <translation>Allkirjasta sõnum Applebytei aadressi sulle kuulumise tõestamiseks</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1548,8 +1548,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified AppleByte address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud AppleBytei aadressiga.</translation>
+        <source>Verify the message to ensure it was signed with the specified Applebyte address</source>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Applebytei aadressiga.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1564,8 +1564,8 @@ Aadress: %4⏎</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a AppleByte address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Sisesta AppleBytei aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Applebyte address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Sisesta Applebytei aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1574,8 +1574,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter AppleByte signature</source>
-        <translation>Sisesta AppleBytei allkiri</translation>
+        <source>Enter Applebyte signature</source>
+        <translation>Sisesta Applebytei allkiri</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1648,7 +1648,7 @@ Aadress: %4⏎</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The AppleByte developers</source>
+        <source>The Applebyte developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2186,8 +2186,8 @@ Aadress: %4⏎</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>AppleByte version</source>
-        <translation>AppleBytei versioon</translation>
+        <source>Applebyte version</source>
+        <translation>Applebytei versioon</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2305,7 +2305,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;AppleByte Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Applebyte Alert&quot; admin@foo.com
 </source>
         <translation>%s, sul tuleb rpcpassword määrata seadete failis:
 %s
@@ -2316,7 +2316,7 @@ rpcpassword=%s
 Kasutajanimi ning parool EI TOHI kattuda.
 Kui faili ei leita, loo see ainult-omaniku-loetavas failiõigustes .
 Soovitatav on seadistada tõrgete puhul teavitus;
-nt: alertnotify=echo %%s | email -s &quot;AppleByte Alert&quot; admin@foo.com
+nt: alertnotify=echo %%s | email -s &quot;Applebyte Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2331,8 +2331,8 @@ nt: alertnotify=echo %%s | email -s &quot;AppleByte Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. AppleByte is probably already running.</source>
-        <translation>Ei suuda määrata ainuõigust andmekaustale %s. Tõenäolisel on AppleByte juba avatud.</translation>
+        <source>Cannot obtain a lock on data directory %s. Applebyte is probably already running.</source>
+        <translation>Ei suuda määrata ainuõigust andmekaustale %s. Tõenäolisel on Applebyte juba avatud.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2376,8 +2376,8 @@ nt: alertnotify=echo %%s | email -s &quot;AppleByte Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong AppleByte will not work properly.</source>
-        <translation>Hoiatus: Palun kontrolli oma arvuti kuupäeva/kellaaega! Kui arvuti kell on vale, siis AppleByte ei tööta korralikult</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Applebyte will not work properly.</source>
+        <translation>Hoiatus: Palun kontrolli oma arvuti kuupäeva/kellaaega! Kui arvuti kell on vale, siis Applebyte ei tööta korralikult</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2626,8 +2626,8 @@ nt: alertnotify=echo %%s | email -s &quot;AppleByte Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the AppleByte Wiki for SSL setup instructions)</source>
-        <translation>SSL valikud: (vaata AppleBytei Wikist või SSL sätete juhendist)</translation>
+        <source>SSL options: (see the Applebyte Wiki for SSL setup instructions)</source>
+        <translation>SSL valikud: (vaata Applebytei Wikist või SSL sätete juhendist)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2816,13 +2816,13 @@ nt: alertnotify=echo %%s | email -s &quot;AppleByte Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of AppleByte</source>
-        <translation>Viga wallet.dat käivitamisel: Rahakott nõuab AppleBytei uusimat versiooni</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Applebyte</source>
+        <translation>Viga wallet.dat käivitamisel: Rahakott nõuab Applebytei uusimat versiooni</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart AppleByte to complete</source>
-        <translation>Rahakott tuli ümberkirjutada: toimingu lõpetamiseks taaskäivita AppleByte</translation>
+        <source>Wallet needed to be rewritten: restart Applebyte to complete</source>
+        <translation>Rahakott tuli ümberkirjutada: toimingu lõpetamiseks taaskäivita Applebyte</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2881,8 +2881,8 @@ nt: alertnotify=echo %%s | email -s &quot;AppleByte Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. AppleByte is probably already running.</source>
-        <translation>%s&apos;ga ei ole võimalik sellest arvutist siduda. AppleByte juba töötab.</translation>
+        <source>Unable to bind to %s on this computer. Applebyte is probably already running.</source>
+        <translation>%s&apos;ga ei ole võimalik sellest arvutist siduda. Applebyte juba töötab.</translation>
     </message>
     <message>
         <location line="+64"/>

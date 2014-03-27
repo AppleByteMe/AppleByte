@@ -109,7 +109,7 @@ void AskPassphraseDialog::accept()
                 {
                     QMessageBox::warning(this, tr("Wallet encrypted"),
                                          "<qt>" +
-                                         tr("AppleByte will close now to finish the encryption process. "
+                                         tr("Applebyte will close now to finish the encryption process. "
                                          "Remember that encrypting your wallet cannot fully protect "
                                          "your applebytes from being stolen by malware infecting your computer.") +
                                          "<br><br><b>" +
