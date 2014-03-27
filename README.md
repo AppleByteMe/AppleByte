@@ -1,9 +1,10 @@
 AppleByte integration/staging tree
 ================================
 
-http://www.applebyte.org
+http://www.AppleByte.me
 
 Copyright (c) 2009-2013 Bitcoin Developers
+
 Copyright (c) 2014 AppleByte Developers
 
 What is AppleByte?
