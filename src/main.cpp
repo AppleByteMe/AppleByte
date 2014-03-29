@@ -2793,7 +2793,7 @@ bool InitBlockIndex() {
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1396102131;
+        block.nTime    = 1396118389; 
         block.nBits    = 0x1e0ffff0;
         block.nNonce   = 2084524493;
 
@@ -2808,7 +2808,7 @@ bool InitBlockIndex() {
         printf("%s\n", hash.ToString().c_str());
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("0x97ddfbbae6be97fd6cdf3e7ca13232a3afff2353e29badfab7f73011edd4ced9"));
+        assert(block.hashMerkleRoot == uint256("0x82ae3b5bb9cc439da0ab26a86568890593dded5458da3e95279d3d742974e503"));
         block.print();
         assert(hash == hashGenesisBlock);
 
