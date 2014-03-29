@@ -13,19 +13,17 @@ What is AppleByte?
 AppleByte is cloned from Litecoin using scrypt as a proof-of-work algorithm.
  - 2 minute block targets
  - 4 hour difficulty retarget
- - Approx. 1 billion total coins, plus 0.005% inflation after year 5
+ - Approx. 1 billion total coins, plus 0.5% inflation after year 8 
 
    Block 1-2500: Premine - 25% to fund the AppleByte Foundation and get the coin                           in the hands of the user community
  
-   Block 2,501 — 250,000: 1-3200 random
+   Block 2,501 — 500,000: 800
 
-   Block 250,001 — 500,000: 1-1600 random
+   Block 500,001 — 1,000,000: 400
  
-   Block 500,001 — 750,000: 1-800 random
+   Block 1,000,001 — 1,500,000: 200
 
-   Block 750,001 — 1,000,000: 1-400 random
-
-   Block 1,000,001 - 1,250,000: 1-200 random
+   Block 1,500,001 — 2,000,000: 100
 
    Block > 1,250,000: 20: Approx. 0.005% per year
 

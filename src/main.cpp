@@ -1065,60 +1065,30 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
 {
     int64 nSubsidy = 20 * COIN;
 
- std::string cseed_str = prevHash.ToString().substr(7,7);
-    const char* cseed = cseed_str.c_str();
-    long seed = hex2long(cseed);
-    int rand = generateMTRandom(seed,199999);
-    int rand1 = 0;
-    int rand2 = 0;
-    int rand3 = 0;
-    int rand4 = 0;
-    int rand5 = 0;
 
     if(nHeight < 2500
-)
     {
-        nSubsidy = (1 + rand) * COIN;
+        nSubsidy = 100000 * COIN;
     }
-    else if(nHeight < 250000)
-    {
-        cseed_str = prevHash.ToString().substr(7,7);
-        cseed = cseed_str.c_str();
-        seed = hex2long(cseed);
-        rand1 = generateMTRandom(seed, 3199);
-        nSubsidy = (1 + rand1) * COIN;
-    }
+
     else if(nHeight < 500000)
     {
-        cseed_str = prevHash.ToString().substr(6,7);
-        cseed = cseed_str.c_str();
-        seed = hex2long(cseed);
-        rand2 = generateMTRandom(seed, 1599);
-        nSubsidy = (1 + rand2) * COIN;
+        nSubsidy = 800 * COIN;
     }
-    else if(nHeight < 750000)
-    {
-        cseed_str = prevHash.ToString().substr(7,7);
-        cseed = cseed_str.c_str();
-        seed = hex2long(cseed);
-        rand3 = generateMTRandom(seed, 799);
-        nSubsidy = (1 + rand3) * COIN;
-    }
+
     else if(nHeight < 1000000)
     {
-        cseed_str = prevHash.ToString().substr(7,7);
-        cseed = cseed_str.c_str();
-        seed = hex2long(cseed);
-        rand4 = generateMTRandom(seed, 399);
-        nSubsidy = (1 + rand4) * COIN;
+        nSubsidy = 400 * COIN;
     }
-    else if(nHeight < 1250000)
+
+    else if(nHeight < 1500000)
     {
-        cseed_str = prevHash.ToString().substr(6,7);
-        cseed = cseed_str.c_str();
-        seed = hex2long(cseed);
-        rand5 = generateMTRandom(seed, 199);
-        nSubsidy = (1 + rand5) * COIN;
+        nSubsidy = 200 * COIN;
+    }
+
+    else if(nHeight < 2000000)
+    {
+        nSubsidy = 100 * COIN;
     }
 
     return nSubsidy + nFees;
