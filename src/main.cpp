@@ -1067,7 +1067,9 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
 
 
     if(nHeight < 2500
-    {
+    )
+
+{
         nSubsidy = 100000 * COIN;
     }
 
@@ -2791,7 +2793,7 @@ bool InitBlockIndex() {
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1395883757;
+        block.nTime    = 1396102131;
         block.nBits    = 0x1e0ffff0;
         block.nNonce   = 2084524493;
 

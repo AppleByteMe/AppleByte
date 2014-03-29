@@ -1192,18 +1192,17 @@ void MapPort(bool)
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strMainNetDNSSeed[][2] = {
-    {"applebytetools.com", "dnsseed.applebytetools.com"},
-    {"applebytepool.org", "dnsseed.applebytepool.org"},
-    {"xurious.com", "dnsseed.ltc.xurious.com"},
-    {"koin-project.com", "dnsseed.koin-project.com"},
-    {"weminemnc.com", "dnsseed.weminemnc.com"},
+     // {"applebytetools.com", "dnsseed.applebytetools.com"},
+        {"107.170.116.196", "107.170.116.196"},
+        {"107.170.116.157", "107.170.116.157"}, 
+         
     {NULL, NULL}
 };
 
 static const char *strTestNetDNSSeed[][2] = {
-    {"applebytetools.com", "testnet-seed.applebytetools.com"},
-    {"weminemnc.com", "testnet-seed.weminemnc.com"},
-    {NULL, NULL}
+        {"107.170.116.196", "107.170.116.196"},
+        {"107.170.116.157", "107.170.116.157"},
+     {NULL, NULL}
 };
 
 void ThreadDNSAddressSeed()
