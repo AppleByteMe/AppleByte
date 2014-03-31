@@ -2748,7 +2748,7 @@ bool LoadBlockIndex()
         pchMessageStart[1] = 0xc1;
         pchMessageStart[2] = 0xb7;
         pchMessageStart[3] = 0xdc;
-        hashGenesisBlock = uint256("0x77cafb8812586370802ca5d5147f92abcc31a5ff5ea3c536f63977376c11af24");
+        hashGenesisBlock = uint256("0xf5a9e4315907ad16e81fd3e00dc5482a7dc64824304d21ea9ec14d932f22b8bc");
     }
 
     //
@@ -2781,7 +2781,7 @@ bool InitBlockIndex() {
         //   vMerkleTree: 97ddfbbae6
 
         // Genesis block
-        const char* pszTimestamp = "New York -  AppleByte coming this April 2014";
+        const char* pszTimestamp = "NYC AppleByte coming this April 2014";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -2793,24 +2793,17 @@ bool InitBlockIndex() {
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1396294348; 
+        block.nTime    = 1396128009; 
         block.nBits    = 0x1e0ffff0;
         block.nNonce   = 125000;
 
         if (fTestNet)
         {
-            block.nTime    = 1396294348;
+            block.nTime    = 1396131951;
             block.nNonce   = 125000;
         }
 
-
-        //// debug print
-        uint256 hash = block.GetHash();
-        printf("%s\n", hash.ToString().c_str());
-        printf("%s\n", hashGenesisBlock.ToString().c_str());
-        printf("%s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("0xabeb0db9c2704328ef96da2090ba713c807a7812c2c124c3ca3106336efbffed"));
-
+//to generate new hash
 // If genesis block hash does not match, then generate new genesis hash.
         if (true && block.GetHash() != hashGenesisBlock)
         {
@@ -2854,10 +2847,13 @@ bool InitBlockIndex() {
             printf("block.nNonce = %u \n", block.nNonce);
             printf("block.GetHash = %s\n", block.GetHash().ToString().c_str());
         }
-// End tmp code to generate Genesis Block
 
-
-
+        //// debug print
+        uint256 hash = block.GetHash();
+        printf("%s\n", hash.ToString().c_str());
+        printf("%s\n", hashGenesisBlock.ToString().c_str());
+        printf("%s\n", block.hashMerkleRoot.ToString().c_str());
+        assert(block.hashMerkleRoot == uint256("0xedee20c5703f5dbc961fa468e1d936662d96cf4cee99b2b4ac043784f450da8b"));
         block.print();
         assert(hash == hashGenesisBlock);
 
