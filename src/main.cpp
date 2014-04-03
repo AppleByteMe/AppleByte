@@ -1066,10 +1066,9 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     int64 nSubsidy = 20 * COIN;
 
 
-    if(nHeight < 2500
-    )
+    if(nHeight < 2500)
 
-{
+    {
         nSubsidy = 100000 * COIN;
     }
 
@@ -1096,7 +1095,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan = 4 * 60 * 60; // Applebyte: 4 hours 
+static const int64 nTargetTimespan = 1 * 60 * 60; // Applebyte: 1 hour 
 static const int64 nTargetSpacing = 2 * 60; // Applebyte: 2 minutes
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
