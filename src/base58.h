@@ -272,7 +272,7 @@ class CBitcoinAddress : public CBase58Data
 public:
     enum
     {
-        PUBKEY_ADDRESS = 9, // Applebyte addresses start with A
+        PUBKEY_ADDRESS = 37, // Applebyte addresses start with a
         SCRIPT_ADDRESS = 5,
         PUBKEY_ADDRESS_TEST = 111,
         SCRIPT_ADDRESS_TEST = 196,
