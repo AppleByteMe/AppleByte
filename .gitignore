@@ -1,0 +1,34 @@
+src/*.exe
+src/applebyte
+src/applebyted
+src/test_applebyte
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.applebyte
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+applebyte-qt
+applebyte-Qt.app
+
+# Unit-tests
+Makefile.test
+applebyte-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
