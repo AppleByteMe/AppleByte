@@ -33,7 +33,7 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="+0"/>
-        <source>The Applebyte developers</source>
+        <source>The Litecoin Developers</source>
         <translation>Applebyte curatores</translation>
     </message>
 </context>
@@ -1648,7 +1648,7 @@ Inscriptio: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Applebyte developers</source>
+        <source>The Litecoin Developers</source>
         <translation>Applebyte curatores</translation>
     </message>
     <message>

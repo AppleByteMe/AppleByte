@@ -34,7 +34,7 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     </message>
     <message>
         <location line="+0"/>
-        <source>The Applebyte developers</source>
+        <source>The Litecoin Developers</source>
         <translation>Sviluppatori di Applebyte</translation>
     </message>
 </context>
@@ -1651,7 +1651,7 @@ Indirizzo: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Applebyte developers</source>
+        <source>The Litecoin Developers</source>
         <translation>Sviluppatori di Applebyte</translation>
     </message>
     <message>

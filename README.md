@@ -3,8 +3,8 @@ AppleByte integration/staging tree
 
 http://www.AppleByte.me
 
-Copyright (c) 2009-2013 Bitcoin Developers
-
+Copyright (c) 2009-2014 Bitcoin Developers
+Copyright (c) 2011-2014 Litecoin Developers
 Copyright (c) 2014 AppleByte Developers
 
 What is AppleByte?
