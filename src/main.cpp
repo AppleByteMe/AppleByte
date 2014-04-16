@@ -2731,10 +2731,10 @@ bool LoadBlockIndex()
 {
     if (fTestNet)
     {
-        pchMessageStart[0] = 0xfc;
-        pchMessageStart[1] = 0xc1;
-        pchMessageStart[2] = 0xb7;
-        pchMessageStart[3] = 0xdc;
+        pchMessageStart[0] = 0xeb;
+        pchMessageStart[1] = 0xb0;
+        pchMessageStart[2] = 0xa6;
+        pchMessageStart[3] = 0xcb;
         hashGenesisBlock = uint256("0xdcc9eac151c97f24d2de9404920dd4dd9c20db147755567c8c80cecafcc6072c");
     }
 
@@ -3072,7 +3072,7 @@ bool static AlreadyHave(const CInv& inv)
 // The message start string is designed to be unlikely to occur in normal data.
 // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
 // a large 4-byte int at any alignment.
-unsigned char pchMessageStart[4] = { 0xfb, 0xc0, 0xb6, 0xdb }; // Applebyte: increase each by adding 2 to bitcoin's value.
+unsigned char pchMessageStart[4] = { 0xea, 0xaf, 0xa5, 0xca };
 
 
 void static ProcessGetData(CNode* pfrom)
