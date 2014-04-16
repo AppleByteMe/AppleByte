@@ -1192,16 +1192,12 @@ void MapPort(bool)
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strMainNetDNSSeed[][2] = {
-     // {"applebytetools.com", "dnsseed.applebytetools.com"},
-        {"107.170.116.196", "107.170.116.196"},
-        {"107.170.116.157", "107.170.116.157"}, 
-         
+    {"applebyte.me", "dnsseed1.applebyte.me"},
     {NULL, NULL}
 };
 
 static const char *strTestNetDNSSeed[][2] = {
-        {"107.170.116.196", "107.170.116.196"},
-        {"107.170.116.157", "107.170.116.157"},
+     {"applebyte.me", "testnet-dnsseed1.applebyte.me"},
      {NULL, NULL}
 };
 
