@@ -32,7 +32,7 @@ CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0x2e418c6a73710b5ba8ff1b98155cc835464efdf7ce6617c3021185a4b103357e");
+uint256 hashGenesisBlock("0xe8492193de64cc8c5ec569841f009d575832c630dd730b1c00af94238a4aba79");
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // Applebyte: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
@@ -2827,7 +2827,7 @@ bool LoadBlockIndex()
         pchMessageStart[1] = 0xb0;
         pchMessageStart[2] = 0xa6;
         pchMessageStart[3] = 0xcb;
-        hashGenesisBlock = uint256("0x37a9a4eb4c1f6c4151b494091852ef16a8d2ee4ad796999f2aff93533f6b40f8");
+        hashGenesisBlock = uint256("0x8e29722b1ed3a280ac4f23601005685762caaa522175f193c45326c59cbed4a0");
     }
 
     //
@@ -2853,11 +2853,11 @@ bool InitBlockIndex() {
     // Only add the genesis block if not reindexing (in which case we reuse the one already on disk)
     if (!fReindex) {
         // Genesis Block:
-        // CBlock(hash=12a765e31ffd4059bada, PoW=0000050c34a64b415b6b, ver=1, hashPrevBlock=00000000000000000000, hashMerkleRoot=97ddfbbae6, nTime=1317972665, nBits=1e0ffff0, nNonce=2084524493, vtx=1)
-        //   CTransaction(hash=97ddfbbae6, ver=1, vin.size=1, vout.size=1, nLockTime=0)
-        //     CTxIn(COutPoint(0000000000, -1), coinbase 04ffff001d0104404e592054696d65732030352f4f63742f32303131205374657665204a6f62732c204170706c65e280997320566973696f6e6172792c2044696573206174203536)
-        //     CTxOut(nValue=50.00000000, scriptPubKey=040184710fa689ad5023690c80f3a4)
-        //   vMerkleTree: 97ddfbbae6
+        // CBlock(hash=e8492193de64cc8c5ec569841f009d575832c630dd730b1c00af94238a4aba79, input=010000000000000000000000000000000000000000000000000000000000000000000000edfffb6e330631cac324c1c212787a803c71ba9020da96ef284370c2b90debab554e5e53f0ff0f1e85cae4fc, PoW=000003a2a84effb2fa2ebdecd1ab6cbbf703697b74c3ada89791c4d826c27658, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=abeb0db9c2704328ef96da2090ba713c807a7812c2c124c3ca3106336efbffed, nTime=1398689365, nBits=1e0ffff0, nNonce=4242852485, vtx=1)
+        // CTransaction(hash=abeb0db9c2704328ef96da2090ba713c807a7812c2c124c3ca3106336efbffed, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+        // CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 04ffff001d01042c4e657720596f726b202d20204170706c654279746520636f6d696e67207468697320417072696c2032303134)
+        // CTxOut(nValue=50.00000000, scriptPubKey=040184710fa689ad5023690c80f3a4)
+        // vMerkleTree: abeb0db9c2704328ef96da2090ba713c807a7812c2c124c3ca3106336efbffed 
 
         // Genesis block
         const char* pszTimestamp = "New York -  AppleByte coming this April 2014";
@@ -2872,14 +2872,14 @@ bool InitBlockIndex() {
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1396363396; 
+        block.nTime    = 1398689365; 
         block.nBits    = 0x1e0ffff0;
-        block.nNonce   = 647320;
+        block.nNonce   = 4242852485;
 
         if (fTestNet)
         {
-            block.nTime    = 1398278790;
-            block.nNonce   = 359531495;
+            block.nTime    = 1398689379;
+            block.nNonce   = 2538618741;
         }
 
         //// debug print
