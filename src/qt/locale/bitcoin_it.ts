@@ -1409,8 +1409,8 @@ Indirizzo: %4
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. GBYxGRBdnJ8NEFn21GMKLi7zCsN3P26J3v)</source>
-        <translation>L&apos;indirizzo del beneficiario a cui inviare il pagamento (ad esempio GBYxGRBdnJ8NEFn21GMKLi7zCsN3P26J3v)</translation>
+        <source>The address to send the payment to (e.g. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</source>
+        <translation>L&apos;indirizzo del beneficiario a cui inviare il pagamento (ad esempio AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1450,8 +1450,8 @@ Indirizzo: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Applebyte address (e.g. GBYxGRBdnJ8NEFn21GMKLi7zCsN3P26J3v)</source>
-        <translation>Inserisci un indirizzo Applebyte (ad esempio GBYxGRBdnJ8NEFn21GMKLi7zCsN3P26J3v)</translation>
+        <source>Enter a Applebyte address (e.g. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</source>
+        <translation>Inserisci un indirizzo Applebyte (ad esempio AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</translation>
     </message>
 </context>
 <context>
@@ -1473,8 +1473,8 @@ Indirizzo: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. GBYxGRBdnJ8NEFn21GMKLi7zCsN3P26J3v)</source>
-        <translation>Inserisci un indirizzo Applebyte (ad esempio GBYxGRBdnJ8NEFn21GMKLi7zCsN3P26J3v)</translation>
+        <source>The address to sign the message with (e.g. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</source>
+        <translation>Inserisci un indirizzo Applebyte (ad esempio AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1546,8 +1546,8 @@ Indirizzo: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. GBYxGRBdnJ8NEFn21GMKLi7zCsN3P26J3v)</source>
-        <translation>Inserisci un indirizzo Applebyte (ad esempio GBYxGRBdnJ8NEFn21GMKLi7zCsN3P26J3v)</translation>
+        <source>The address the message was signed with (e.g. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</source>
+        <translation>Inserisci un indirizzo Applebyte (ad esempio AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1567,8 +1567,8 @@ Indirizzo: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Applebyte address (e.g. GBYxGRBdnJ8NEFn21GMKLi7zCsN3P26J3v)</source>
-        <translation>Inserisci un indirizzo Applebyte (ad esempio GBYxGRBdnJ8NEFn21GMKLi7zCsN3P26J3v)</translation>
+        <source>Enter a Applebyte address (e.g. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</source>
+        <translation>Inserisci un indirizzo Applebyte (ad esempio AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</translation>
     </message>
     <message>
         <location line="-2"/>
