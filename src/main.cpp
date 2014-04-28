@@ -1194,7 +1194,7 @@ unsigned int static GetNextWorkRequired_V1(const CBlockIndex* pindexLast, const 
     return bnNew.GetCompact();
 }
 
-unsigned int static DarkGravityWave(const CBlockIndex* pindexLast, const CBlockHeader *pblock) {
+unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader *pblock) {
     /* current difficulty formula, darkcoin - DarkGravity v2, written by Evan Duffield - evan@darkcoin.io */
     const CBlockIndex *BlockLastSolved = pindexLast;
     const CBlockIndex *BlockReading = pindexLast;
@@ -1269,23 +1269,6 @@ unsigned int static DarkGravityWave(const CBlockIndex* pindexLast, const CBlockH
     }
 
     return bnNew.GetCompact();
-}
-
-unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader *pblock)
-{
-        int DiffMode = 1;
-        if (fTestNet) {
-            if (pindexLast->nHeight+1 >= 25)
-                DiffMode = 2;
-        } else {
-            if (pindexLast->nHeight+1 >= 9000)
-                DiffMode = 2;
-        }
-
-        if (DiffMode == 1)
-            return GetNextWorkRequired_V1(pindexLast, pblock);
-
-        return DarkGravityWave(pindexLast, pblock);
 }
 
 bool CheckProofOfWork(uint256 hash, unsigned int nBits)
