@@ -1018,7 +1018,7 @@ Address: %4
     </message>
     <message>
         <location line="+29"/>
-        <source>Unconfirmed:</source>
+        <source>Pending:</source>
         <translation>تایید نشده</translation>
     </message>
     <message>
@@ -1028,7 +1028,7 @@ Address: %4
     </message>
     <message>
         <location line="+107"/>
-        <source>Immature:</source>
+        <source>Unconfirmed:</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1878,7 +1878,7 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Unconfirmed (%1 of %2 confirmations)</source>
+        <source>Pending (%1 of %2 confirmations)</source>
         <translation>تایید نشده (%1 از %2 تاییدها)</translation>
     </message>
     <message>

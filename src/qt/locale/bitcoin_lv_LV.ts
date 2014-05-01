@@ -1020,7 +1020,7 @@ Adrese: %4
     </message>
     <message>
         <location line="+29"/>
-        <source>Unconfirmed:</source>
+        <source>Pending:</source>
         <translation>Neapstiprinātas:</translation>
     </message>
     <message>
@@ -1030,7 +1030,7 @@ Adrese: %4
     </message>
     <message>
         <location line="+107"/>
-        <source>Immature:</source>
+        <source>Unconfirmed:</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1879,7 +1879,7 @@ Adrese: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Unconfirmed (%1 of %2 confirmations)</source>
+        <source>Pending (%1 of %2 confirmations)</source>
         <translation>Nav apstiprināts (%1 no %2 apstiprinājumu)</translation>
     </message>
     <message>

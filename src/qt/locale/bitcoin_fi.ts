@@ -1025,7 +1025,7 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+29"/>
-        <source>Unconfirmed:</source>
+        <source>Pending:</source>
         <translation>Vahvistamatta:</translation>
     </message>
     <message>
@@ -1035,7 +1035,7 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+107"/>
-        <source>Immature:</source>
+        <source>Unconfirmed:</source>
         <translation>Epäkypsää:</translation>
     </message>
     <message>
@@ -1884,7 +1884,7 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Unconfirmed (%1 of %2 confirmations)</source>
+        <source>Pending (%1 of %2 confirmations)</source>
         <translation>Vahvistamatta (%1/%2 vahvistusta)</translation>
     </message>
     <message>

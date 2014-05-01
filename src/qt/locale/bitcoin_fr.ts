@@ -1025,7 +1025,7 @@ Adresse : %4
     </message>
     <message>
         <location line="+29"/>
-        <source>Unconfirmed:</source>
+        <source>Pending:</source>
         <translation>Non confirmé :</translation>
     </message>
     <message>
@@ -1035,8 +1035,8 @@ Adresse : %4
     </message>
     <message>
         <location line="+107"/>
-        <source>Immature:</source>
-        <translation>Immature :</translation>
+        <source>Unconfirmed:</source>
+        <translation>Unconfirmed :</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1884,7 +1884,7 @@ Adresse : %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Unconfirmed (%1 of %2 confirmations)</source>
+        <source>Pending (%1 of %2 confirmations)</source>
         <translation>Non confirmée (%1 confirmations sur un total de %2)</translation>
     </message>
     <message>

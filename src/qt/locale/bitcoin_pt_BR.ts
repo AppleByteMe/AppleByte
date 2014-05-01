@@ -1024,7 +1024,7 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+29"/>
-        <source>Unconfirmed:</source>
+        <source>Pending:</source>
         <translation>Não confirmadas:</translation>
     </message>
     <message>
@@ -1034,7 +1034,7 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+107"/>
-        <source>Immature:</source>
+        <source>Unconfirmed:</source>
         <translation>Imaturo:</translation>
     </message>
     <message>
@@ -1883,7 +1883,7 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Unconfirmed (%1 of %2 confirmations)</source>
+        <source>Pending (%1 of %2 confirmations)</source>
         <translation>Não confirmado (%1 of %2 confirmações)</translation>
     </message>
     <message>

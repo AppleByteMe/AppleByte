@@ -1025,7 +1025,7 @@ Address: %4
     </message>
     <message>
         <location line="+29"/>
-        <source>Unconfirmed:</source>
+        <source>Pending:</source>
         <translation>Непідтверджені:</translation>
     </message>
     <message>
@@ -1035,7 +1035,7 @@ Address: %4
     </message>
     <message>
         <location line="+107"/>
-        <source>Immature:</source>
+        <source>Unconfirmed:</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1884,7 +1884,7 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Unconfirmed (%1 of %2 confirmations)</source>
+        <source>Pending (%1 of %2 confirmations)</source>
         <translation>Непідтверджено (%1 із %2 підтверджень)</translation>
     </message>
     <message>

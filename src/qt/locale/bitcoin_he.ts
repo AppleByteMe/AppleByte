@@ -1024,7 +1024,7 @@ Address: %4
     </message>
     <message>
         <location line="+29"/>
-        <source>Unconfirmed:</source>
+        <source>Pending:</source>
         <translation>ממתין לאישור:</translation>
     </message>
     <message>
@@ -1034,7 +1034,7 @@ Address: %4
     </message>
     <message>
         <location line="+107"/>
-        <source>Immature:</source>
+        <source>Unconfirmed:</source>
         <translation>לא בשל:</translation>
     </message>
     <message>
@@ -1883,7 +1883,7 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Unconfirmed (%1 of %2 confirmations)</source>
+        <source>Pending (%1 of %2 confirmations)</source>
         <translation>ממתין לאישור (%1 מתוך %2 אישורים)</translation>
     </message>
     <message>

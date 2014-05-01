@@ -1026,7 +1026,7 @@ Address: %4
     </message>
     <message>
         <location line="+29"/>
-        <source>Unconfirmed:</source>
+        <source>Pending:</source>
         <translation>未确认：</translation>
     </message>
     <message>
@@ -1036,7 +1036,7 @@ Address: %4
     </message>
     <message>
         <location line="+107"/>
-        <source>Immature:</source>
+        <source>Unconfirmed:</source>
         <translation>未成熟的：</translation>
     </message>
     <message>
@@ -1885,7 +1885,7 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Unconfirmed (%1 of %2 confirmations)</source>
+        <source>Pending (%1 of %2 confirmations)</source>
         <translation>未确认 (%1 / %2 条确认信息)</translation>
     </message>
     <message>

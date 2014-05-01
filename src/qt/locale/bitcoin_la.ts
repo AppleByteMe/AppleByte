@@ -1024,7 +1024,7 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+29"/>
-        <source>Unconfirmed:</source>
+        <source>Pending:</source>
         <translation>Non confirmata:</translation>
     </message>
     <message>
@@ -1034,7 +1034,7 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+107"/>
-        <source>Immature:</source>
+        <source>Unconfirmed:</source>
         <translation>Immatura:</translation>
     </message>
     <message>
@@ -1883,7 +1883,7 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Unconfirmed (%1 of %2 confirmations)</source>
+        <source>Pending (%1 of %2 confirmations)</source>
         <translation>Non confirmatum (%1 de %2 confirmationibus)</translation>
     </message>
     <message>

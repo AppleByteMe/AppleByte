@@ -1026,7 +1026,7 @@ Adress: %4
     </message>
     <message>
         <location line="+29"/>
-        <source>Unconfirmed:</source>
+        <source>Pending:</source>
         <translation>Obekräftade:</translation>
     </message>
     <message>
@@ -1036,7 +1036,7 @@ Adress: %4
     </message>
     <message>
         <location line="+107"/>
-        <source>Immature:</source>
+        <source>Unconfirmed:</source>
         <translation>Omogen:</translation>
     </message>
     <message>
@@ -1885,7 +1885,7 @@ Adress: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Unconfirmed (%1 of %2 confirmations)</source>
+        <source>Pending (%1 of %2 confirmations)</source>
         <translation>Obekräftad (%1 av %2 bekräftelser)</translation>
     </message>
     <message>
