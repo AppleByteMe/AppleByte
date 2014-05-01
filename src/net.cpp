@@ -1193,6 +1193,7 @@ void MapPort(bool)
 // The second name should resolve to a list of seed addresses.
 static const char *strMainNetDNSSeed[][2] = {
     {"applebyte.me", "dnsseed1.applebyte.me"},
+    {"applebyte.me", "dnsseed2.applebyte.me"},
     {NULL, NULL}
 };
 
@@ -1244,7 +1245,10 @@ void ThreadDNSAddressSeed()
 
 
 
-unsigned int pnSeed[] = {0x0f84f25c};
+unsigned int pnSeed[] =
+{
+    0x0dfbf3a2, 0x82a9e2bc
+};
 
 void DumpAddresses()
 {
