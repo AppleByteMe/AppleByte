@@ -40,7 +40,7 @@ Var StartMenuGroup
 !insertmacro MUI_UNPAGE_INSTFILES
 
 # Installer attributes
-OutFile applebyte-0.8.6.0-win32-setup.exe
+OutFile applebyte-0.8.6.0-setup.exe
 InstallDir $PROGRAMFILES\AppleByte
 CRCCheck on
 XPStyle on
@@ -61,8 +61,10 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-    File ../release/applebyte-qt.exe
-    File /oname=COPYING.txt ../COPYING
+    File ..\release\applebyte-qt.exe
+    File /oname=COPYING.txt ..\COPYING
+    SetOutPath $INSTDIR\daemon
+    File ..\src\applebyted.exe
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 
@@ -111,7 +113,7 @@ done${UNSECTION_ID}:
 Section /o -un.Main UNSEC0000
     Delete /REBOOTOK $INSTDIR\applebyte-qt.exe
     Delete /REBOOTOK $INSTDIR\COPYING.txt
-    Delete /REBOOTOK $INSTDIR\readme.txt
+    RMDir /r /REBOOTOK $INSTDIR\daemon
     DeleteRegValue HKCU "${REGKEY}\Components" Main
 SectionEnd
 
