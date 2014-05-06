@@ -917,6 +917,25 @@ int CMerkleTx::GetDepthInMainChain(CBlockIndex* &pindexRet) const
     return pindexBest->nHeight - pindex->nHeight + 1;
 }
 
+double ConvertBitsToDouble(unsigned int nBits){
+    int nShift = (nBits >> 24) & 0xff;
+
+    double dDiff =
+        (double)0x0000ffff / (double)(nBits & 0x00ffffff);
+
+    while (nShift < 29)
+    {
+        dDiff *= 256.0;
+        nShift++;
+    }
+    while (nShift > 29)
+    {
+        dDiff /= 256.0;
+        nShift--;
+    }
+
+    return dDiff;
+}
 
 int CMerkleTx::GetBlocksToMaturity() const
 {
@@ -2179,10 +2198,20 @@ bool CBlock::AcceptBlock(CValidationState &state, CDiskBlockPos *dbp)
         pindexPrev = (*mi).second;
         nHeight = pindexPrev->nHeight+1;
 
+        #ifdef _WIN32
+        // Check proof of work     
+        unsigned int nBitsNext = GetNextWorkRequired(pindexPrev, this);
+        double n1 = ConvertBitsToDouble(nBits);
+        double n2 = ConvertBitsToDouble(nBitsNext);
+
+        if (abs(n1-n2) > n1*0.005) 
+            return state.DoS(100, error("AcceptBlock() : incorrect proof of work (DGW2)"));
+        #else
         // Check proof of work
         if (nBits != GetNextWorkRequired(pindexPrev, this))
             return state.DoS(100, error("AcceptBlock() : incorrect proof of work"));
-
+        #endif
+ 
         // Check timestamp against prev
         if (GetBlockTime() <= pindexPrev->GetMedianTimePast())
             return state.Invalid(error("AcceptBlock() : block's timestamp is too early"));
