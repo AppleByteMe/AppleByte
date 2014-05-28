@@ -351,26 +351,26 @@ void MiningPage::enablePoolMiningControls(bool enable)
 
 ClientModel::MiningType MiningPage::getMiningType()
 {
-    if (ui->typeBox->currentIndex() == 0)  // Solo Mining
-    {
-        return ClientModel::SoloMining;
-    }
-    else if (ui->typeBox->currentIndex() == 1)  // Pool Mining
+    if (ui->typeBox->currentIndex() == 0)  // Pool Mining
     {
         return ClientModel::PoolMining;
+    }
+    else if (ui->typeBox->currentIndex() == 1)  // Solo Mining
+    {
+        return ClientModel::SoloMining;
     }
     return ClientModel::SoloMining;
 }
 
 void MiningPage::typeChanged(int index)
 {
-    if (index == 0)  // Solo Mining
-    {
-        enablePoolMiningControls(false);
-    }
-    else if (index == 1)  // Pool Mining
+    if (index == 0)  // Pool Mining
     {
         enablePoolMiningControls(true);
+    }
+    else if (index == 1)  // Solo Mining
+    {
+        enablePoolMiningControls(false);
     }
 }
 
