@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Applebyte</source>
-        <translation>Informatio de Applebyte</translation>
+        <source>About ArtByte</source>
+        <translation>Informatio de ArtByte</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Applebyte&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Applebyte&lt;/b&gt; versio</translation>
+        <source>&lt;b&gt;ArtByte&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;ArtByte&lt;/b&gt; versio</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,7 +34,7 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     <message>
         <location line="+0"/>
         <source>The Litecoin Developers</source>
-        <translation>Applebyte curatores</translation>
+        <translation>ArtByte curatores</translation>
     </message>
 </context>
 <context>
@@ -66,8 +66,8 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Applebyte addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Haec sunt inscriptiones Applebyte tuae pro accipendo pensitationes.  Cupias variam ad quemque mittentem dare ut melius scias quem tibi pensare.</translation>
+        <source>These are your ArtByte addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Haec sunt inscriptiones ArtByte tuae pro accipendo pensitationes.  Cupias variam ad quemque mittentem dare ut melius scias quem tibi pensare.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -81,8 +81,8 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Applebyte address</source>
-        <translation>Signa nuntium ut demonstres inscriptionem Applebyte a te possessam esse</translation>
+        <source>Sign a message to prove you own a ArtByte address</source>
+        <translation>Signa nuntium ut demonstres inscriptionem ArtByte a te possessam esse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -106,8 +106,8 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Applebyte address</source>
-        <translation>Verifica nuntium ut cures signatum esse cum specificata inscriptione Applebyte</translation>
+        <source>Verify a message to ensure it was signed with a specified ArtByte address</source>
+        <translation>Verifica nuntium ut cures signatum esse cum specificata inscriptione ArtByte</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -121,7 +121,7 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Applebyte addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your ArtByte addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Hae sunt inscriptiones mittendi pensitationes.  Semper inspice quantitatem et inscriptionem accipiendi antequam nummos mittis.</translation>
     </message>
     <message>
@@ -247,7 +247,7 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR APPLEBYTES&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ARTBYTES&lt;/b&gt;!</source>
         <translation>Monitio: Si cassidile tuum cifras et tesseram amittis, tu &lt;b&gt;AMITTES OMNES TUOS NUMMOS BITOS&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -274,8 +274,8 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="-56"/>
-        <source>Applebyte will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your applebytes from being stolen by malware infecting your computer.</source>
-        <translation>Applebyte iam desinet ut finiat actionem cifrandi.  Memento cassidile cifrare non posse cuncte curare ne tui nummi clepantur ab malis programatibus in tuo computatro.</translation>
+        <source>ArtByte will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your artbytes from being stolen by malware infecting your computer.</source>
+        <translation>ArtByte iam desinet ut finiat actionem cifrandi.  Memento cassidile cifrare non posse cuncte curare ne tui nummi clepantur ab malis programatibus in tuo computatro.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -373,8 +373,8 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Applebyte</source>
-        <translation>Monstra informationem de Applebyte</translation>
+        <source>Show information about ArtByte</source>
+        <translation>Monstra informationem de ArtByte</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -418,13 +418,13 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Applebyte address</source>
-        <translation>Mitte nummos ad inscriptionem Applebyte</translation>
+        <source>Send coins to a ArtByte address</source>
+        <translation>Mitte nummos ad inscriptionem ArtByte</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Applebyte</source>
-        <translation>Muta configurationis optiones pro Applebyte</translation>
+        <source>Modify configuration options for ArtByte</source>
+        <translation>Muta configurationis optiones pro ArtByte</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -454,8 +454,8 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Applebyte</source>
-        <translation>Applebyte</translation>
+        <source>ArtByte</source>
+        <translation>ArtByte</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -479,8 +479,8 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Applebyte</source>
-        <translation>&amp;Informatio de Applebyte</translation>
+        <source>&amp;About ArtByte</source>
+        <translation>&amp;Informatio de ArtByte</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -499,13 +499,13 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Applebyte addresses to prove you own them</source>
-        <translation>Signa nuntios cum tuis inscriptionibus Applebyte ut demonstres te eas possidere</translation>
+        <source>Sign messages with your ArtByte addresses to prove you own them</source>
+        <translation>Signa nuntios cum tuis inscriptionibus ArtByte ut demonstres te eas possidere</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Applebyte addresses</source>
-        <translation>Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus Applebyte</translation>
+        <source>Verify messages to ensure they were signed with specified ArtByte addresses</source>
+        <translation>Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus ArtByte</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -535,13 +535,13 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="+47"/>
-        <source>Applebyte client</source>
-        <translation>Applebyte cliens</translation>
+        <source>ArtByte client</source>
+        <translation>ArtByte cliens</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Applebyte network</source>
-        <translation><numerusform>%n activa conexio ad rete Applebyte</numerusform><numerusform>%n activae conexiones ad rete Applebyte</numerusform></translation>
+        <source>%n active connection(s) to ArtByte network</source>
+        <translation><numerusform>%n activa conexio ad rete ArtByte</numerusform><numerusform>%n activae conexiones ad rete ArtByte</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -655,8 +655,8 @@ Inscriptio: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Applebyte address or malformed URI parameters.</source>
-        <translation>URI intellegi non posse!  Huius causa possit inscriptionem Applebyte non validam aut URI parametra maleformata.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid ArtByte address or malformed URI parameters.</source>
+        <translation>URI intellegi non posse!  Huius causa possit inscriptionem ArtByte non validam aut URI parametra maleformata.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -670,8 +670,8 @@ Inscriptio: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Applebyte can no longer continue safely and will quit.</source>
-        <translation>Error fatalis accidit.  Applebyte nondum pergere tute potest, et exibit.</translation>
+        <source>A fatal error occurred. ArtByte can no longer continue safely and will quit.</source>
+        <translation>Error fatalis accidit.  ArtByte nondum pergere tute potest, et exibit.</translation>
     </message>
 </context>
 <context>
@@ -736,8 +736,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Applebyte address.</source>
-        <translation>Inscriptio inserta &quot;%1&quot; non valida inscriptio Applebyte est.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid ArtByte address.</source>
+        <translation>Inscriptio inserta &quot;%1&quot; non valida inscriptio ArtByte est.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -755,8 +755,8 @@ Inscriptio: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Applebyte-Qt</source>
-        <translation>Applebyte-Qt</translation>
+        <source>ArtByte-Qt</source>
+        <translation>ArtByte-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -818,13 +818,13 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Applebyte after logging in to the system.</source>
-        <translation>Pelle Applebyte per se postquam in systema inire.</translation>
+        <source>Automatically start ArtByte after logging in to the system.</source>
+        <translation>Pelle ArtByte per se postquam in systema inire.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Applebyte on system login</source>
-        <translation>&amp;Pelle Applebyte cum inire systema</translation>
+        <source>&amp;Start ArtByte on system login</source>
+        <translation>&amp;Pelle ArtByte cum inire systema</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -843,8 +843,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Applebyte client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Aperi per se portam clientis Applebyte in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
+        <source>Automatically open the ArtByte client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Aperi per se portam clientis ArtByte in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -853,8 +853,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Applebyte network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connecte ad rete Applebyte per SOCKS vicarium (e.g. quando conectens per Tor).</translation>
+        <source>Connect to the ArtByte network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connecte ad rete ArtByte per SOCKS vicarium (e.g. quando conectens per Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -928,8 +928,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Applebyte.</source>
-        <translation>Lingua monstranda utenti hic constitui potest.  Haec configuratio effectiva erit postquam Applebyte iterum initiatum erit.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting ArtByte.</source>
+        <translation>Lingua monstranda utenti hic constitui potest.  Haec configuratio effectiva erit postquam ArtByte iterum initiatum erit.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -943,8 +943,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Applebyte addresses in the transaction list or not.</source>
-        <translation>Num monstrare inscriptiones Applebyte in enumeratione transactionum.</translation>
+        <source>Whether to show ArtByte addresses in the transaction list or not.</source>
+        <translation>Num monstrare inscriptiones ArtByte in enumeratione transactionum.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -995,8 +995,8 @@ Inscriptio: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Applebyte.</source>
-        <translation>Haec configuratio effectiva erit postquam Applebyte iterum initiatum erit.</translation>
+        <source>This setting will take effect after restarting ArtByte.</source>
+        <translation>Haec configuratio effectiva erit postquam ArtByte iterum initiatum erit.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1014,8 +1014,8 @@ Inscriptio: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Applebyte network after a connection is established, but this process has not completed yet.</source>
-        <translation>Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete Applebyte postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ArtByte network after a connection is established, but this process has not completed yet.</source>
+        <translation>Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete ArtByte postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1068,8 +1068,8 @@ Inscriptio: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start applebyte: click-to-pay handler</source>
-        <translation>Applebyte incipere non potest: cliccare-ad-pensandum handler</translation>
+        <source>Cannot start artbyte: click-to-pay handler</source>
+        <translation>ArtByte incipere non potest: cliccare-ad-pensandum handler</translation>
     </message>
 </context>
 <context>
@@ -1218,8 +1218,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Applebyte-Qt help message to get a list with possible Applebyte command-line options.</source>
-        <translation>Monstra nuntium auxilii Applebyte-Qt ut videas enumerationem possibilium optionum Applebyte mandati initiantis.</translation>
+        <source>Show the ArtByte-Qt help message to get a list with possible ArtByte command-line options.</source>
+        <translation>Monstra nuntium auxilii ArtByte-Qt ut videas enumerationem possibilium optionum ArtByte mandati initiantis.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1238,13 +1238,13 @@ Inscriptio: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Applebyte - Debug window</source>
-        <translation>Applebyte - Fenestra debug</translation>
+        <source>ArtByte - Debug window</source>
+        <translation>ArtByte - Fenestra debug</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Applebyte Core</source>
-        <translation>Applebyte Nucleus</translation>
+        <source>ArtByte Core</source>
+        <translation>ArtByte Nucleus</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1253,8 +1253,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Applebyte debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Aperi plicam catalogi de Applebyte debug ex activo indice datorum.  Hoc possit pauca secunda pro plicis magnis catalogi.</translation>
+        <source>Open the ArtByte debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Aperi plicam catalogi de ArtByte debug ex activo indice datorum.  Hoc possit pauca secunda pro plicis magnis catalogi.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1263,8 +1263,8 @@ Inscriptio: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Applebyte RPC console.</source>
-        <translation>Bene ventio in terminale RPC de Applebyte.</translation>
+        <source>Welcome to the ArtByte RPC console.</source>
+        <translation>Bene ventio in terminale RPC de ArtByte.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1447,8 +1447,8 @@ Inscriptio: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Applebyte address (e.g. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</source>
-        <translation>Insero inscriptionem Applebyte (e.g. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</translation>
+        <source>Enter a ArtByte address (e.g. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</source>
+        <translation>Insero inscriptionem ArtByte (e.g. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</translation>
     </message>
 </context>
 <context>
@@ -1512,8 +1512,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Applebyte address</source>
-        <translation>Signa nuntium ut demonstres hanc inscriptionem Applebyte a te possessa esse</translation>
+        <source>Sign the message to prove you own this ArtByte address</source>
+        <translation>Signa nuntium ut demonstres hanc inscriptionem ArtByte a te possessa esse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1548,8 +1548,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Applebyte address</source>
-        <translation>Verifica nuntium ut cures signatum esse cum specifica inscriptione Applebyte</translation>
+        <source>Verify the message to ensure it was signed with the specified ArtByte address</source>
+        <translation>Verifica nuntium ut cures signatum esse cum specifica inscriptione ArtByte</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1564,8 +1564,8 @@ Inscriptio: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Applebyte address (e.g. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</source>
-        <translation>Insere inscriptionem Applebyte (e.g. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</translation>
+        <source>Enter a ArtByte address (e.g. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</source>
+        <translation>Insere inscriptionem ArtByte (e.g. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1574,8 +1574,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Applebyte signature</source>
-        <translation>Insere signationem Applebyte</translation>
+        <source>Enter ArtByte signature</source>
+        <translation>Insere signationem ArtByte</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1649,7 +1649,7 @@ Inscriptio: %4
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
         <source>The Litecoin Developers</source>
-        <translation>Applebyte curatores</translation>
+        <translation>ArtByte curatores</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2186,8 +2186,8 @@ Inscriptio: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Applebyte version</source>
-        <translation>Versio de Applebyte</translation>
+        <source>ArtByte version</source>
+        <translation>Versio de ArtByte</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2196,8 +2196,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or applebyted</source>
-        <translation>Mitte mandatum ad -server vel applebyted</translation>
+        <source>Send command to -server or artbyted</source>
+        <translation>Mitte mandatum ad -server vel artbyted</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2216,13 +2216,13 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: applebyte.conf)</source>
-        <translation>Specifica configurationis plicam (praedefinitum: applebyte.conf)</translation>
+        <source>Specify configuration file (default: artbyte.conf)</source>
+        <translation>Specifica configurationis plicam (praedefinitum: artbyte.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: applebyted.pid)</source>
-        <translation>Specifica pid plicam (praedefinitum: applebyte.pid)</translation>
+        <source>Specify pid file (default: artbyted.pid)</source>
+        <translation>Specifica pid plicam (praedefinitum: artbyte.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2299,24 +2299,24 @@ Inscriptio: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=applebyterpc
+rpcuser=artbyterpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Applebyte Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;ArtByte Alert&quot; admin@foo.com
 </source>
         <translation>%s, necesse est te rpcpassword constituere in plica configurationis:
 %s
 Hortatur te hanc fortuitam tesseram uti:
-rpcuser=applebyterpc
+rpcuser=artbyterpc
 rpcpassword=%s
 (non est necesse te hanc tesseram meminisse)
 Nomen usoris et tessera eadem esse NON POSSUNT.
 Si plica non existit, eam crea cum permissionibus ut eius dominus tantum sinitur id legere.
 Quoque hortatur alertnotify constituere ut tu notificetur de problematibus;
-exempli gratia: alertnotify=echo %%s | mail -s &quot;Applebyte Notificatio&quot; admin@foo.com
+exempli gratia: alertnotify=echo %%s | mail -s &quot;ArtByte Notificatio&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2331,8 +2331,8 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;Applebyte Notificatio&quot;
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Applebyte is probably already running.</source>
-        <translation>Non posse serare datorum indicem %s.  Applebyte probabiliter iam operatur.</translation>
+        <source>Cannot obtain a lock on data directory %s. ArtByte is probably already running.</source>
+        <translation>Non posse serare datorum indicem %s.  ArtByte probabiliter iam operatur.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2376,8 +2376,8 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;Applebyte Notificatio&quot;
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Applebyte will not work properly.</source>
-        <translation>Monitio: Sodes cura ut dies tempusque computatri tui recti sunt!  Si horologium tuum pravum est, Applebyte non proprie fungetur.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ArtByte will not work properly.</source>
+        <translation>Monitio: Sodes cura ut dies tempusque computatri tui recti sunt!  Si horologium tuum pravum est, ArtByte non proprie fungetur.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2626,8 +2626,8 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;Applebyte Notificatio&quot;
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Applebyte Wiki for SSL setup instructions)</source>
-        <translation>Optiones SSL: (vide vici de Applebyte pro instructionibus SSL configurationis)</translation>
+        <source>SSL options: (see the ArtByte Wiki for SSL setup instructions)</source>
+        <translation>Optiones SSL: (vide vici de ArtByte pro instructionibus SSL configurationis)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2816,13 +2816,13 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;Applebyte Notificatio&quot;
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Applebyte</source>
-        <translation>Error legendi wallet.dat: Cassidili necesse est recentior versio Applebyte</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of ArtByte</source>
+        <translation>Error legendi wallet.dat: Cassidili necesse est recentior versio ArtByte</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Applebyte to complete</source>
-        <translation>Cassidili necesse erat rescribi: Repelle Applebyte ut compleas</translation>
+        <source>Wallet needed to be rewritten: restart ArtByte to complete</source>
+        <translation>Cassidili necesse erat rescribi: Repelle ArtByte ut compleas</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2881,8 +2881,8 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;Applebyte Notificatio&quot;
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Applebyte is probably already running.</source>
-        <translation>Non posse conglutinare ad %s in hoc cumputatro.  Applebyte probabiliter iam operatur.</translation>
+        <source>Unable to bind to %s on this computer. ArtByte is probably already running.</source>
+        <translation>Non posse conglutinare ad %s in hoc cumputatro.  ArtByte probabiliter iam operatur.</translation>
     </message>
     <message>
         <location line="+64"/>

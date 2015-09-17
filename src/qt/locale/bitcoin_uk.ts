@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Applebyte</source>
-        <translation>Про Applebyte</translation>
+        <source>About ArtByte</source>
+        <translation>Про ArtByte</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Applebyte&lt;/b&gt; version</source>
-        <translation>Версія &lt;b&gt;Applebyte&apos;a&lt;b&gt;</translation>
+        <source>&lt;b&gt;ArtByte&lt;/b&gt; version</source>
+        <translation>Версія &lt;b&gt;ArtByte&apos;a&lt;b&gt;</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -67,7 +67,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Applebyte addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your ArtByte addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Це ваші адреси для отримання платежів. Ви можете давати різні адреси різним людям, таким чином маючи можливість відслідкувати хто конкретно і скільки вам заплатив.</translation>
     </message>
     <message>
@@ -82,7 +82,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Applebyte address</source>
+        <source>Sign a message to prove you own a ArtByte address</source>
         <translation>Підпишіть повідомлення щоб довести, що ви є власником цієї адреси</translation>
     </message>
     <message>
@@ -107,8 +107,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Applebyte address</source>
-        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною Applebyte-адресою</translation>
+        <source>Verify a message to ensure it was signed with a specified ArtByte address</source>
+        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною ArtByte-адресою</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,7 +122,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Applebyte addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your ArtByte addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -248,7 +248,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR APPLEBYTES&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ARTBYTES&lt;/b&gt;!</source>
         <translation>УВАГА: Якщо ви зашифруєте гаманець і забудете пароль, ви &lt;b&gt;ВТРАТИТЕ ВСІ СВОЇ БІТКОІНИ&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -275,7 +275,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>Applebyte will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your applebytes from being stolen by malware infecting your computer.</source>
+        <source>ArtByte will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your artbytes from being stolen by malware infecting your computer.</source>
         <translation>Біткоін-клієнт буде закрито для завершення процесу шифрування. Пам&apos;ятайте, що шифрування гаманця не може повністю захистити ваші біткоіни від крадіжки, у випадку якщо ваш комп&apos;ютер буде інфіковано шкідливими програмами.</translation>
     </message>
     <message>
@@ -374,8 +374,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Applebyte</source>
-        <translation>Показати інформацію про Applebyte</translation>
+        <source>Show information about ArtByte</source>
+        <translation>Показати інформацію про ArtByte</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,12 +419,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Applebyte address</source>
+        <source>Send coins to a ArtByte address</source>
         <translation>Відправити монети на вказану адресу</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Applebyte</source>
+        <source>Modify configuration options for ArtByte</source>
         <translation>Редагувати параметри</translation>
     </message>
     <message>
@@ -455,8 +455,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Applebyte</source>
-        <translation>Applebyte</translation>
+        <source>ArtByte</source>
+        <translation>ArtByte</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Applebyte</source>
-        <translation>&amp;Про Applebyte</translation>
+        <source>&amp;About ArtByte</source>
+        <translation>&amp;Про ArtByte</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Applebyte addresses to prove you own them</source>
-        <translation>Підтвердіть, що Ви є власником повідомлення підписавши його Вашою Applebyte-адресою </translation>
+        <source>Sign messages with your ArtByte addresses to prove you own them</source>
+        <translation>Підтвердіть, що Ви є власником повідомлення підписавши його Вашою ArtByte-адресою </translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Applebyte addresses</source>
-        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною Applebyte-адресою</translation>
+        <source>Verify messages to ensure they were signed with specified ArtByte addresses</source>
+        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною ArtByte-адресою</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,12 +536,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>Applebyte client</source>
-        <translation>Applebyte-клієнт</translation>
+        <source>ArtByte client</source>
+        <translation>ArtByte-клієнт</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Applebyte network</source>
+        <source>%n active connection(s) to ArtByte network</source>
         <translation><numerusform>%n активне з&apos;єднання з мережею</numerusform><numerusform>%n активні з&apos;єднання з мережею</numerusform><numerusform>%n активних з&apos;єднань з мережею</numerusform></translation>
     </message>
     <message>
@@ -656,8 +656,8 @@ Address: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Applebyte address or malformed URI parameters.</source>
-        <translation>Неможливо обробити URI! Це може бути викликано неправильною Applebyte-адресою, чи невірними параметрами URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid ArtByte address or malformed URI parameters.</source>
+        <translation>Неможливо обробити URI! Це може бути викликано неправильною ArtByte-адресою, чи невірними параметрами URI.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,7 +671,7 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Applebyte can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. ArtByte can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -737,8 +737,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Applebyte address.</source>
-        <translation>Введена адреса «%1» не є коректною адресою в мережі Applebyte.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid ArtByte address.</source>
+        <translation>Введена адреса «%1» не є коректною адресою в мережі ArtByte.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,8 +756,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Applebyte-Qt</source>
-        <translation>Applebyte-Qt</translation>
+        <source>ArtByte-Qt</source>
+        <translation>ArtByte-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,12 +819,12 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Applebyte after logging in to the system.</source>
+        <source>Automatically start ArtByte after logging in to the system.</source>
         <translation>Автоматично запускати гаманець при вході до системи.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Applebyte on system login</source>
+        <source>&amp;Start ArtByte on system login</source>
         <translation>&amp;Запускати гаманець при вході в систему</translation>
     </message>
     <message>
@@ -844,7 +844,7 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Applebyte client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the ArtByte client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Автоматично відкривати порт для клієнту біткоін на роутері. Працює лише якщо ваш роутер підтримує UPnP і ця функція увімкнена.</translation>
     </message>
     <message>
@@ -854,8 +854,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Applebyte network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Підключатись до мережі Applebyte через SOCKS-проксі (наприклад при використанні Tor).</translation>
+        <source>Connect to the ArtByte network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Підключатись до мережі ArtByte через SOCKS-проксі (наприклад при використанні Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,8 +929,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Applebyte.</source>
-        <translation>Встановлює мову інтерфейсу. Зміни набудуть чинності після перезапуску Applebyte.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting ArtByte.</source>
+        <translation>Встановлює мову інтерфейсу. Зміни набудуть чинності після перезапуску ArtByte.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -944,7 +944,7 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Applebyte addresses in the transaction list or not.</source>
+        <source>Whether to show ArtByte addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -996,8 +996,8 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Applebyte.</source>
-        <translation>Цей параметр набуде чинності після перезапуску Applebyte.</translation>
+        <source>This setting will take effect after restarting ArtByte.</source>
+        <translation>Цей параметр набуде чинності після перезапуску ArtByte.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,8 +1015,8 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Applebyte network after a connection is established, but this process has not completed yet.</source>
-        <translation>Показана інформація вже може бути застарілою. Ваш гаманець буде автоматично синхронізовано з мережею Applebyte після встановлення підключення, але цей процес ще не завершено.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ArtByte network after a connection is established, but this process has not completed yet.</source>
+        <translation>Показана інформація вже може бути застарілою. Ваш гаманець буде автоматично синхронізовано з мережею ArtByte після встановлення підключення, але цей процес ще не завершено.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1069,7 +1069,7 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start applebyte: click-to-pay handler</source>
+        <source>Cannot start artbyte: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1219,8 +1219,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Applebyte-Qt help message to get a list with possible Applebyte command-line options.</source>
-        <translation>Показати довідку Applebyte-Qt для отримання переліку можливих параметрів командного рядка.</translation>
+        <source>Show the ArtByte-Qt help message to get a list with possible ArtByte command-line options.</source>
+        <translation>Показати довідку ArtByte-Qt для отримання переліку можливих параметрів командного рядка.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,12 +1239,12 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Applebyte - Debug window</source>
-        <translation>Applebyte - Вікно зневадження</translation>
+        <source>ArtByte - Debug window</source>
+        <translation>ArtByte - Вікно зневадження</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Applebyte Core</source>
+        <source>ArtByte Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1254,7 +1254,7 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Applebyte debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the ArtByte debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1264,8 +1264,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Applebyte RPC console.</source>
-        <translation>Вітаємо у консолі Applebyte RPC.</translation>
+        <source>Welcome to the ArtByte RPC console.</source>
+        <translation>Вітаємо у консолі ArtByte RPC.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1448,8 +1448,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Applebyte address (e.g. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</source>
-        <translation>Введіть адресу Applebyte (наприклад AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</translation>
+        <source>Enter a ArtByte address (e.g. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</source>
+        <translation>Введіть адресу ArtByte (наприклад AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</translation>
     </message>
 </context>
 <context>
@@ -1472,7 +1472,7 @@ Address: %4
     <message>
         <location line="+18"/>
         <source>The address to sign the message with (e.g. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</source>
-        <translation>Введіть адресу Applebyte (наприклад AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</translation>
+        <translation>Введіть адресу ArtByte (наприклад AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1513,7 +1513,7 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Applebyte address</source>
+        <source>Sign the message to prove you own this ArtByte address</source>
         <translation>Підпишіть повідомлення щоб довести, що ви є власником цієї адреси</translation>
     </message>
     <message>
@@ -1545,12 +1545,12 @@ Address: %4
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</source>
-        <translation>Введіть адресу Applebyte (наприклад AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</translation>
+        <translation>Введіть адресу ArtByte (наприклад AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Applebyte address</source>
-        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною Applebyte-адресою</translation>
+        <source>Verify the message to ensure it was signed with the specified ArtByte address</source>
+        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною ArtByte-адресою</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,8 +1565,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Applebyte address (e.g. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</source>
-        <translation>Введіть адресу Applebyte (наприклад AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</translation>
+        <source>Enter a ArtByte address (e.g. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</source>
+        <translation>Введіть адресу ArtByte (наприклад AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Applebyte signature</source>
-        <translation>Введіть сигнатуру Applebyte</translation>
+        <source>Enter ArtByte signature</source>
+        <translation>Введіть сигнатуру ArtByte</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2187,7 +2187,7 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Applebyte version</source>
+        <source>ArtByte version</source>
         <translation>Версія</translation>
     </message>
     <message>
@@ -2197,7 +2197,7 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or applebyted</source>
+        <source>Send command to -server or artbyted</source>
         <translation>Відправити команду серверу -server чи демону</translation>
     </message>
     <message>
@@ -2217,13 +2217,13 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: applebyte.conf)</source>
-        <translation>Вкажіть файл конфігурації (типово: applebyte.conf)</translation>
+        <source>Specify configuration file (default: artbyte.conf)</source>
+        <translation>Вкажіть файл конфігурації (типово: artbyte.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: applebyted.pid)</source>
-        <translation>Вкажіть pid-файл (типово: applebyted.pid)</translation>
+        <source>Specify pid file (default: artbyted.pid)</source>
+        <translation>Вкажіть pid-файл (типово: artbyted.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2300,13 +2300,13 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=applebyterpc
+rpcuser=artbyterpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Applebyte Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;ArtByte Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2322,7 +2322,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Applebyte Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Applebyte is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. ArtByte is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2367,8 +2367,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Applebyte Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Applebyte will not work properly.</source>
-        <translation>Увага: будь ласка, перевірте дату і час на своєму комп&apos;ютері. Якщо ваш годинник йде неправильно, Applebyte може працювати некоректно.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ArtByte will not work properly.</source>
+        <translation>Увага: будь ласка, перевірте дату і час на своєму комп&apos;ютері. Якщо ваш годинник йде неправильно, ArtByte може працювати некоректно.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2617,8 +2617,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Applebyte Alert&quot; admin@fo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Applebyte Wiki for SSL setup instructions)</source>
-        <translation>Параметри SSL: (див. Applebyte Wiki для налаштування SSL)</translation>
+        <source>SSL options: (see the ArtByte Wiki for SSL setup instructions)</source>
+        <translation>Параметри SSL: (див. ArtByte Wiki для налаштування SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2807,12 +2807,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Applebyte Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Applebyte</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of ArtByte</source>
         <translation>Помилка при завантаженні wallet.dat: Гаманець потребує новішої версії Біткоін-клієнта</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Applebyte to complete</source>
+        <source>Wallet needed to be rewritten: restart ArtByte to complete</source>
         <translation>Потрібно перезаписати гаманець: перезапустіть Біткоін-клієнт для завершення</translation>
     </message>
     <message>
@@ -2872,7 +2872,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Applebyte Alert&quot; admin@fo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Applebyte is probably already running.</source>
+        <source>Unable to bind to %s on this computer. ArtByte is probably already running.</source>
         <translation>Неможливо прив&apos;язати до порту %s на цьому комп&apos;ютері. Можливо гаманець вже запущено.</translation>
     </message>
     <message>

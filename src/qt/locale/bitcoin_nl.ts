@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Applebyte</source>
-        <translation>Over Applebyte</translation>
+        <source>About ArtByte</source>
+        <translation>Over ArtByte</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Applebyte&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Applebyte&lt;/b&gt; versie</translation>
+        <source>&lt;b&gt;ArtByte&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;ArtByte&lt;/b&gt; versie</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -35,7 +35,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+0"/>
         <source>The Litecoin Developers</source>
-        <translation>De Applebyte-ontwikkelaars</translation>
+        <translation>De ArtByte-ontwikkelaars</translation>
     </message>
 </context>
 <context>
@@ -67,8 +67,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Applebyte addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dit zijn uw Applebyteadressen om betalingen mee te ontvangen. U kunt er voor kiezen om een uniek adres aan te maken voor elke afzender. Op deze manier kunt u bijhouden wie al aan u betaald heeft.</translation>
+        <source>These are your ArtByte addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dit zijn uw ArtByteadressen om betalingen mee te ontvangen. U kunt er voor kiezen om een uniek adres aan te maken voor elke afzender. Op deze manier kunt u bijhouden wie al aan u betaald heeft.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,8 +82,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Applebyte address</source>
-        <translation>Onderteken een bericht om te bewijzen dat u een bepaald Applebyteadres bezit</translation>
+        <source>Sign a message to prove you own a ArtByte address</source>
+        <translation>Onderteken een bericht om te bewijzen dat u een bepaald ArtByteadres bezit</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Applebyte address</source>
-        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Applebyteadres het bericht heeft ondertekend.</translation>
+        <source>Verify a message to ensure it was signed with a specified ArtByte address</source>
+        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde ArtByteadres het bericht heeft ondertekend.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Applebyte addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw Applebyteadressen om betalingen mee te verzenden. Check altijd het bedrag en het ontvangende adres voordat u uw applebytes verzendt.</translation>
+        <source>These are your ArtByte addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dit zijn uw ArtByteadressen om betalingen mee te verzenden. Check altijd het bedrag en het ontvangende adres voordat u uw artbytes verzendt.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -248,8 +248,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR APPLEBYTES&lt;/b&gt;!</source>
-        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW APPLEBYTES VERLIEZEN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ARTBYTES&lt;/b&gt;!</source>
+        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW ARTBYTES VERLIEZEN&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -275,8 +275,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-56"/>
-        <source>Applebyte will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your applebytes from being stolen by malware infecting your computer.</source>
-        <translation>Applebyte zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw applebytes stelen.</translation>
+        <source>ArtByte will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your artbytes from being stolen by malware infecting your computer.</source>
+        <translation>ArtByte zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw artbytes stelen.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Applebyte</source>
-        <translation>Laat informatie zien over Applebyte</translation>
+        <source>Show information about ArtByte</source>
+        <translation>Laat informatie zien over ArtByte</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Applebyte address</source>
-        <translation>Verstuur munten naar een Applebyteadres</translation>
+        <source>Send coins to a ArtByte address</source>
+        <translation>Verstuur munten naar een ArtByteadres</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Applebyte</source>
-        <translation>Wijzig instellingen van Applebyte</translation>
+        <source>Modify configuration options for ArtByte</source>
+        <translation>Wijzig instellingen van ArtByte</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Applebyte</source>
-        <translation>Applebyte</translation>
+        <source>ArtByte</source>
+        <translation>ArtByte</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Applebyte</source>
-        <translation>&amp;Over Applebyte</translation>
+        <source>&amp;About ArtByte</source>
+        <translation>&amp;Over ArtByte</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Applebyte addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw Applebyteadressen om te bewijzen dat u deze adressen bezit</translation>
+        <source>Sign messages with your ArtByte addresses to prove you own them</source>
+        <translation>Onderteken berichten met uw ArtByteadressen om te bewijzen dat u deze adressen bezit</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Applebyte addresses</source>
-        <translation>Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde Applebyteadressen</translation>
+        <source>Verify messages to ensure they were signed with specified ArtByte addresses</source>
+        <translation>Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde ArtByteadressen</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+47"/>
-        <source>Applebyte client</source>
-        <translation>Applebyte client</translation>
+        <source>ArtByte client</source>
+        <translation>ArtByte client</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Applebyte network</source>
-        <translation><numerusform>%n actieve connectie naar Applebytenetwerk</numerusform><numerusform>%n actieve connecties naar Applebytenetwerk</numerusform></translation>
+        <source>%n active connection(s) to ArtByte network</source>
+        <translation><numerusform>%n actieve connectie naar ArtBytenetwerk</numerusform><numerusform>%n actieve connecties naar ArtBytenetwerk</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -607,7 +607,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+70"/>
         <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation>Deze transactie overschrijdt de groottelimiet. Om de transactie alsnog te versturen kunt u transactiekosten betalen van %1. Deze transactiekosten gaan naar de nodes die uw transactie verwerken en het helpt op deze manier bij het ondersteunen van het Applebytenetwerk. Wilt u de transactiekosten betalen?</translation>
+        <translation>Deze transactie overschrijdt de groottelimiet. Om de transactie alsnog te versturen kunt u transactiekosten betalen van %1. Deze transactiekosten gaan naar de nodes die uw transactie verwerken en het helpt op deze manier bij het ondersteunen van het ArtBytenetwerk. Wilt u de transactiekosten betalen?</translation>
     </message>
     <message>
         <location line="-140"/>
@@ -656,8 +656,8 @@ Adres: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Applebyte address or malformed URI parameters.</source>
-        <translation>URI kan niet worden geïnterpreteerd. Dit kan komen door een ongeldig Applebyteadres of misvormde URI-parameters.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid ArtByte address or malformed URI parameters.</source>
+        <translation>URI kan niet worden geïnterpreteerd. Dit kan komen door een ongeldig ArtByteadres of misvormde URI-parameters.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,8 +671,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Applebyte can no longer continue safely and will quit.</source>
-        <translation>Er is een fatale fout opgetreden. Applebyte kan niet meer veilig doorgaan en zal nu afgesloten worden.</translation>
+        <source>A fatal error occurred. ArtByte can no longer continue safely and will quit.</source>
+        <translation>Er is een fatale fout opgetreden. ArtByte kan niet meer veilig doorgaan en zal nu afgesloten worden.</translation>
     </message>
 </context>
 <context>
@@ -737,8 +737,8 @@ Adres: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Applebyte address.</source>
-        <translation>Het opgegeven adres &quot;%1&quot; is een ongeldig Applebyteadres</translation>
+        <source>The entered address &quot;%1&quot; is not a valid ArtByte address.</source>
+        <translation>Het opgegeven adres &quot;%1&quot; is een ongeldig ArtByteadres</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,8 +756,8 @@ Adres: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Applebyte-Qt</source>
-        <translation>Applebyte-Qt</translation>
+        <source>ArtByte-Qt</source>
+        <translation>ArtByte-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Adres: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Applebyte after logging in to the system.</source>
-        <translation>Start Applebyte automatisch na inloggen in het systeem</translation>
+        <source>Automatically start ArtByte after logging in to the system.</source>
+        <translation>Start ArtByte automatisch na inloggen in het systeem</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Applebyte on system login</source>
-        <translation>Start &amp;Applebyte bij het inloggen in het systeem</translation>
+        <source>&amp;Start ArtByte on system login</source>
+        <translation>Start &amp;ArtByte bij het inloggen in het systeem</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,8 +844,8 @@ Adres: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Applebyte client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Open de Applebyte-poort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
+        <source>Automatically open the ArtByte client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Open de ArtByte-poort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -854,8 +854,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Applebyte network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Verbind met het Applebyte-netwerk via een SOCKS-proxy (bijv. wanneer u via Tor wilt verbinden)</translation>
+        <source>Connect to the ArtByte network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Verbind met het ArtByte-netwerk via een SOCKS-proxy (bijv. wanneer u via Tor wilt verbinden)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,8 +929,8 @@ Adres: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Applebyte.</source>
-        <translation>De taal van de gebruikersinterface kan hier ingesteld worden. Deze instelling zal pas van kracht worden nadat Applebyte herstart wordt.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting ArtByte.</source>
+        <translation>De taal van de gebruikersinterface kan hier ingesteld worden. Deze instelling zal pas van kracht worden nadat ArtByte herstart wordt.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -944,8 +944,8 @@ Adres: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Applebyte addresses in the transaction list or not.</source>
-        <translation>Of Applebyteadressen getoond worden in de transactielijst</translation>
+        <source>Whether to show ArtByte addresses in the transaction list or not.</source>
+        <translation>Of ArtByteadressen getoond worden in de transactielijst</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -996,8 +996,8 @@ Adres: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Applebyte.</source>
-        <translation>Deze instelling zal pas van kracht worden na het herstarten van Applebyte.</translation>
+        <source>This setting will take effect after restarting ArtByte.</source>
+        <translation>Deze instelling zal pas van kracht worden na het herstarten van ArtByte.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,8 +1015,8 @@ Adres: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Applebyte network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automaticsh met het Applebytenetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ArtByte network after a connection is established, but this process has not completed yet.</source>
+        <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automaticsh met het ArtBytenetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1069,8 +1069,8 @@ Adres: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start applebyte: click-to-pay handler</source>
-        <translation>Kan applebyte niet starten: click-to-pay handler</translation>
+        <source>Cannot start artbyte: click-to-pay handler</source>
+        <translation>Kan artbyte niet starten: click-to-pay handler</translation>
     </message>
 </context>
 <context>
@@ -1219,8 +1219,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Applebyte-Qt help message to get a list with possible Applebyte command-line options.</source>
-        <translation>Toon het ApplebyteQt-hulpbericht voor een lijst met mogelijke Applebyte commandoregel-opties.</translation>
+        <source>Show the ArtByte-Qt help message to get a list with possible ArtByte command-line options.</source>
+        <translation>Toon het ArtByteQt-hulpbericht voor een lijst met mogelijke ArtByte commandoregel-opties.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,13 +1239,13 @@ Adres: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Applebyte - Debug window</source>
-        <translation>Applebyte-debugscherm</translation>
+        <source>ArtByte - Debug window</source>
+        <translation>ArtByte-debugscherm</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Applebyte Core</source>
-        <translation>Applebyte Kern</translation>
+        <source>ArtByte Core</source>
+        <translation>ArtByte Kern</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1254,8 +1254,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Applebyte debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open het Applebytedebug-logbestand van de huidige datamap. Dit kan een aantal seconden duren voor grote logbestanden.</translation>
+        <source>Open the ArtByte debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open het ArtBytedebug-logbestand van de huidige datamap. Dit kan een aantal seconden duren voor grote logbestanden.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1264,8 +1264,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Applebyte RPC console.</source>
-        <translation>Welkom bij de Applebyte RPC-console.</translation>
+        <source>Welcome to the ArtByte RPC console.</source>
+        <translation>Welkom bij de ArtByte RPC-console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1448,8 +1448,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Applebyte address (e.g. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</source>
-        <translation>Vul een Applebyteadres in (bijv. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</translation>
+        <source>Enter a ArtByte address (e.g. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</source>
+        <translation>Vul een ArtByteadres in (bijv. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</translation>
     </message>
 </context>
 <context>
@@ -1513,8 +1513,8 @@ Adres: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Applebyte address</source>
-        <translation>Onderteken een bericht om te bewijzen dat u een bepaald Applebyteadres bezit</translation>
+        <source>Sign the message to prove you own this ArtByte address</source>
+        <translation>Onderteken een bericht om te bewijzen dat u een bepaald ArtByteadres bezit</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1549,8 +1549,8 @@ Adres: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Applebyte address</source>
-        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Applebyteadres het bericht heeft ondertekend.</translation>
+        <source>Verify the message to ensure it was signed with the specified ArtByte address</source>
+        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde ArtByteadres het bericht heeft ondertekend.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,8 +1565,8 @@ Adres: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Applebyte address (e.g. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</source>
-        <translation>Vul een Applebyteadres in (bijv. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</translation>
+        <source>Enter a ArtByte address (e.g. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</source>
+        <translation>Vul een ArtByteadres in (bijv. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Adres: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Applebyte signature</source>
-        <translation>Voer Applebyte-handtekening in</translation>
+        <source>Enter ArtByte signature</source>
+        <translation>Voer ArtByte-handtekening in</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1650,7 +1650,7 @@ Adres: %4
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
         <source>The Litecoin Developers</source>
-        <translation>De Applebyte-ontwikkelaars</translation>
+        <translation>De ArtByte-ontwikkelaars</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2187,8 +2187,8 @@ Adres: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Applebyte version</source>
-        <translation>Applebyteversie</translation>
+        <source>ArtByte version</source>
+        <translation>ArtByteversie</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2197,8 +2197,8 @@ Adres: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or applebyted</source>
-        <translation>Stuur commando naar -server of applebyted</translation>
+        <source>Send command to -server or artbyted</source>
+        <translation>Stuur commando naar -server of artbyted</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2217,14 +2217,14 @@ Adres: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: applebyte.conf)</source>
-        <translation>Specificeer configuratiebestand (standaard: applebyte.conf)
+        <source>Specify configuration file (default: artbyte.conf)</source>
+        <translation>Specificeer configuratiebestand (standaard: artbyte.conf)
 </translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: applebyted.pid)</source>
-        <translation>Specificeer pid-bestand (standaard: applebyted.pid)
+        <source>Specify pid file (default: artbyted.pid)</source>
+        <translation>Specificeer pid-bestand (standaard: artbyted.pid)
 </translation>
     </message>
     <message>
@@ -2302,23 +2302,23 @@ Adres: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=applebyterpc
+rpcuser=artbyterpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Applebyte Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;ArtByte Alert&quot; admin@foo.com
 </source>
         <translation>%s, u moet een RPC-wachtwoord instellen in het configuratiebestand: %s
 U wordt aangeraden het volgende willekeurige wachtwoord te gebruiken:
-rpcuser=applebyterpc
+rpcuser=artbyterpc
 rpcpassword=%s
 (u hoeft dit wachtwoord niet te onthouden)
 De gebruikersnaam en wachtwoord mogen niet hetzelfde zijn.
 Als het bestand niet bestaat, make hem dan aan met leesrechten voor enkel de eigenaar.
 Het is ook aan te bevelen &quot;alertnotify&quot; in te stellen zodat u op de hoogte gesteld wordt van problemen;
-for example: alertnotify=echo %%s | mail -s &quot;Applebyte Alert&quot; admin@foo.com</translation>
+for example: alertnotify=echo %%s | mail -s &quot;ArtByte Alert&quot; admin@foo.com</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2332,8 +2332,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Applebyte Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Applebyte is probably already running.</source>
-        <translation>Kan geen lock op de datamap %s verkrijgen. Applebyte draait vermoedelijk reeds.</translation>
+        <source>Cannot obtain a lock on data directory %s. ArtByte is probably already running.</source>
+        <translation>Kan geen lock op de datamap %s verkrijgen. ArtByte draait vermoedelijk reeds.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2377,8 +2377,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Applebyte Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Applebyte will not work properly.</source>
-        <translation>Waarschuwing: Controleer dat de datum en tijd op uw computer correct zijn ingesteld. Als uw klok fout staat zal Applebyte niet correct werken.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ArtByte will not work properly.</source>
+        <translation>Waarschuwing: Controleer dat de datum en tijd op uw computer correct zijn ingesteld. Als uw klok fout staat zal ArtByte niet correct werken.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2627,8 +2627,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Applebyte Alert&quot; admin@fo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Applebyte Wiki for SSL setup instructions)</source>
-        <translation>SSL-opties: (zie de Applebyte wiki voor SSL-instructies)</translation>
+        <source>SSL options: (see the ArtByte Wiki for SSL setup instructions)</source>
+        <translation>SSL-opties: (zie de ArtByte wiki voor SSL-instructies)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2817,13 +2817,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Applebyte Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Applebyte</source>
-        <translation>Fout bij laden wallet.dat: Portemonnee vereist een nieuwere versie van Applebyte</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of ArtByte</source>
+        <translation>Fout bij laden wallet.dat: Portemonnee vereist een nieuwere versie van ArtByte</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Applebyte to complete</source>
-        <translation>Portemonnee moest herschreven worden: Herstart Applebyte om te voltooien</translation>
+        <source>Wallet needed to be rewritten: restart ArtByte to complete</source>
+        <translation>Portemonnee moest herschreven worden: Herstart ArtByte om te voltooien</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2882,8 +2882,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Applebyte Alert&quot; admin@fo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Applebyte is probably already running.</source>
-        <translation>Niet in staat om aan %s te binden op deze computer. Applebyte draait vermoedelijk reeds.</translation>
+        <source>Unable to bind to %s on this computer. ArtByte is probably already running.</source>
+        <translation>Niet in staat om aan %s te binden op deze computer. ArtByte draait vermoedelijk reeds.</translation>
     </message>
     <message>
         <location line="+64"/>

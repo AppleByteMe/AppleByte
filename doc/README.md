@@ -1,9 +1,9 @@
-AppleByte 0.8.x BETA
+ArtByte 0.8.x BETA
 ====================
 
 Copyright (c) 2009-2014 Bitcoin Developers
 Copyright (c) 2011-2014 Litecoin Developers
-Copyright (c) 2014 AppleByte Developers
+Copyright (c) 2014 ArtByte Developers
 
 Distributed under the MIT/X11 software license, see the accompanying
 file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -13,7 +13,7 @@ cryptographic software written by Eric Young ([eay@cryptsoft.com](mailto:eay@cry
 
 Intro
 ---------------------
-AppleByte is a free open source peer-to-peer electronic cash system that is
+ArtByte is a free open source peer-to-peer electronic cash system that is
 completely decentralized, without the need for a central server or trusted
 parties.  Users hold the crypto keys to their own money and transact directly
 with each other, with the help of a P2P network to check for double-spending.
@@ -21,17 +21,17 @@ with each other, with the help of a P2P network to check for double-spending.
 
 Setup
 ---------------------
-You need the Qt4 run-time libraries to run AppleByte-Qt. On Debian or Ubuntu:
+You need the Qt4 run-time libraries to run ArtByte-Qt. On Debian or Ubuntu:
 	`sudo apt-get install libqtgui4`
 
 Unpack the files into a directory and run:
 
-- bin/32/applebyte-qt (GUI, 32-bit)
-- bin/32/applebyted (headless, 32-bit)
-- bin/64/applebyte-qt (GUI, 64-bit)
-- bin/64/applebyted (headless, 64-bit)
+- bin/32/artbyte-qt (GUI, 32-bit)
+- bin/32/artbyted (headless, 32-bit)
+- bin/64/artbyte-qt (GUI, 64-bit)
+- bin/64/artbyted (headless, 64-bit)
 
-See the documentation at the [AppleByte Wiki](http://applebyte.info)
+See the documentation at the [ArtByte Wiki](http://artbyte.info)
 for help and more information.
 
 

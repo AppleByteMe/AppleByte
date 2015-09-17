@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Applebyte</source>
-        <translation>O Applebyteu</translation>
+        <source>About ArtByte</source>
+        <translation>O ArtByteu</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Applebyte&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Applebyte&lt;/b&gt; verze</translation>
+        <source>&lt;b&gt;ArtByte&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;ArtByte&lt;/b&gt; verze</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -35,7 +35,7 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     <message>
         <location line="+0"/>
         <source>The Litecoin Developers</source>
-        <translation>Vývojáři Applebyteu</translation>
+        <translation>Vývojáři ArtByteu</translation>
     </message>
 </context>
 <context>
@@ -67,8 +67,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Applebyte addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Tohle jsou tvé Applebyteové adresy pro příjem plateb. Můžeš dát pokaždé každému plátci novou adresu, abys věděl, kdo ti kdy kolik platil.</translation>
+        <source>These are your ArtByte addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Tohle jsou tvé ArtByteové adresy pro příjem plateb. Můžeš dát pokaždé každému plátci novou adresu, abys věděl, kdo ti kdy kolik platil.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,8 +82,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Applebyte address</source>
-        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem Applebyteové adresy</translation>
+        <source>Sign a message to prove you own a ArtByte address</source>
+        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem ArtByteové adresy</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Applebyte address</source>
-        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou Applebyteovou adresou</translation>
+        <source>Verify a message to ensure it was signed with a specified ArtByte address</source>
+        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou ArtByteovou adresou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Applebyte addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Tohle jsou tvé Applebyteové adresy pro posílání plateb. Před odesláním mincí si vždy zkontroluj částku a cílovou adresu.</translation>
+        <source>These are your ArtByte addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Tohle jsou tvé ArtByteové adresy pro posílání plateb. Před odesláním mincí si vždy zkontroluj částku a cílovou adresu.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -248,8 +248,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR APPLEBYTES&lt;/b&gt;!</source>
-        <translation>Varování: Pokud si zašifruješ peněženku a ztratíš či zapomeneš heslo, &lt;b&gt;PŘIJDEŠ O VŠECHNY APPLEBYTEY&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ARTBYTES&lt;/b&gt;!</source>
+        <translation>Varování: Pokud si zašifruješ peněženku a ztratíš či zapomeneš heslo, &lt;b&gt;PŘIJDEŠ O VŠECHNY ARTBYTEY&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -275,8 +275,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="-56"/>
-        <source>Applebyte will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your applebytes from being stolen by malware infecting your computer.</source>
-        <translation>Applebyte se teď ukončí, aby dokončil zašifrování. Pamatuj však, že pouhé zašifrování peněženky úplně nezabraňuje krádeži tvých applebyteů malwarem, kterým se může počítač nakazit.</translation>
+        <source>ArtByte will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your artbytes from being stolen by malware infecting your computer.</source>
+        <translation>ArtByte se teď ukončí, aby dokončil zašifrování. Pamatuj však, že pouhé zašifrování peněženky úplně nezabraňuje krádeži tvých artbyteů malwarem, kterým se může počítač nakazit.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Applebyte</source>
-        <translation>Zobraz informace o Applebyteu</translation>
+        <source>Show information about ArtByte</source>
+        <translation>Zobraz informace o ArtByteu</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Applebyte address</source>
-        <translation>Pošli mince na Applebyteovou adresu</translation>
+        <source>Send coins to a ArtByte address</source>
+        <translation>Pošli mince na ArtByteovou adresu</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Applebyte</source>
-        <translation>Uprav nastavení Applebyteu</translation>
+        <source>Modify configuration options for ArtByte</source>
+        <translation>Uprav nastavení ArtByteu</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Applebyte</source>
-        <translation>Applebyte</translation>
+        <source>ArtByte</source>
+        <translation>ArtByte</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Applebyte</source>
-        <translation>O &amp;Applebyteu</translation>
+        <source>&amp;About ArtByte</source>
+        <translation>O &amp;ArtByteu</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Applebyte addresses to prove you own them</source>
-        <translation>Podepiš zprávy svými Applebyteovými adresami, čímž prokážeš, že jsi jejich vlastníkem</translation>
+        <source>Sign messages with your ArtByte addresses to prove you own them</source>
+        <translation>Podepiš zprávy svými ArtByteovými adresami, čímž prokážeš, že jsi jejich vlastníkem</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Applebyte addresses</source>
-        <translation>Ověř zprávy, aby ses ujistil, že byly podepsány danými Applebyteovými adresami</translation>
+        <source>Verify messages to ensure they were signed with specified ArtByte addresses</source>
+        <translation>Ověř zprávy, aby ses ujistil, že byly podepsány danými ArtByteovými adresami</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+47"/>
-        <source>Applebyte client</source>
-        <translation>Applebyte klient</translation>
+        <source>ArtByte client</source>
+        <translation>ArtByte klient</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Applebyte network</source>
-        <translation><numerusform>%n aktivní spojení do Applebyteové sítě</numerusform><numerusform>%n aktivní spojení do Applebyteové sítě</numerusform><numerusform>%n aktivních spojení do Applebyteové sítě</numerusform></translation>
+        <source>%n active connection(s) to ArtByte network</source>
+        <translation><numerusform>%n aktivní spojení do ArtByteové sítě</numerusform><numerusform>%n aktivní spojení do ArtByteové sítě</numerusform><numerusform>%n aktivních spojení do ArtByteové sítě</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -656,8 +656,8 @@ Adresa: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Applebyte address or malformed URI parameters.</source>
-        <translation>Nepodařilo se analyzovat URI! Důvodem může být neplatná Applebyteová adresa nebo poškozené parametry URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid ArtByte address or malformed URI parameters.</source>
+        <translation>Nepodařilo se analyzovat URI! Důvodem může být neplatná ArtByteová adresa nebo poškozené parametry URI.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,8 +671,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Applebyte can no longer continue safely and will quit.</source>
-        <translation>Stala se fatální chyba. Applebyte nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
+        <source>A fatal error occurred. ArtByte can no longer continue safely and will quit.</source>
+        <translation>Stala se fatální chyba. ArtByte nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
     </message>
 </context>
 <context>
@@ -737,8 +737,8 @@ Adresa: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Applebyte address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; není platná Applebyteová adresa.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid ArtByte address.</source>
+        <translation>Zadaná adresa &quot;%1&quot; není platná ArtByteová adresa.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,8 +756,8 @@ Adresa: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Applebyte-Qt</source>
-        <translation>Applebyte-Qt</translation>
+        <source>ArtByte-Qt</source>
+        <translation>ArtByte-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Adresa: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Applebyte after logging in to the system.</source>
-        <translation>Automaticky spustí Applebyte po přihlášení do systému.</translation>
+        <source>Automatically start ArtByte after logging in to the system.</source>
+        <translation>Automaticky spustí ArtByte po přihlášení do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Applebyte on system login</source>
-        <translation>S&amp;pustit Applebyte po přihlášení do systému</translation>
+        <source>&amp;Start ArtByte on system login</source>
+        <translation>S&amp;pustit ArtByte po přihlášení do systému</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,7 +844,7 @@ Adresa: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Applebyte client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the ArtByte client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Automaticky otevře potřebný port na routeru. Tohle funguje jen za předpokladu, že tvůj router podporuje UPnP a že je UPnP povolené.</translation>
     </message>
     <message>
@@ -854,8 +854,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Applebyte network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Připojí se do Applebyteové sítě přes SOCKS proxy (např. když se připojuje přes Tor).</translation>
+        <source>Connect to the ArtByte network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Připojí se do ArtByteové sítě přes SOCKS proxy (např. když se připojuje přes Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,8 +929,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Applebyte.</source>
-        <translation>Tady lze nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartování Applebyteu.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting ArtByte.</source>
+        <translation>Tady lze nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartování ArtByteu.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -944,8 +944,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Applebyte addresses in the transaction list or not.</source>
-        <translation>Zda ukazovat applebyteové adresy ve výpisu transakcí nebo ne.</translation>
+        <source>Whether to show ArtByte addresses in the transaction list or not.</source>
+        <translation>Zda ukazovat artbyteové adresy ve výpisu transakcí nebo ne.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -996,8 +996,8 @@ Adresa: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Applebyte.</source>
-        <translation>Nastavení se projeví až po restartování Applebyteu.</translation>
+        <source>This setting will take effect after restarting ArtByte.</source>
+        <translation>Nastavení se projeví až po restartování ArtByteu.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,8 +1015,8 @@ Adresa: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Applebyte network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s Applebyteovou sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ArtByte network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s ArtByteovou sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1069,8 +1069,8 @@ Adresa: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start applebyte: click-to-pay handler</source>
-        <translation>Nemůžu spustit applebyte: obsluha click-to-pay</translation>
+        <source>Cannot start artbyte: click-to-pay handler</source>
+        <translation>Nemůžu spustit artbyte: obsluha click-to-pay</translation>
     </message>
 </context>
 <context>
@@ -1219,8 +1219,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Applebyte-Qt help message to get a list with possible Applebyte command-line options.</source>
-        <translation>Seznam parametrů Applebyteu pro příkazovou řádku získáš v nápovědě Applebyteu Qt.</translation>
+        <source>Show the ArtByte-Qt help message to get a list with possible ArtByte command-line options.</source>
+        <translation>Seznam parametrů ArtByteu pro příkazovou řádku získáš v nápovědě ArtByteu Qt.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,13 +1239,13 @@ Adresa: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Applebyte - Debug window</source>
-        <translation>Applebyte - ladicí okno</translation>
+        <source>ArtByte - Debug window</source>
+        <translation>ArtByte - ladicí okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Applebyte Core</source>
-        <translation>Jádro Applebyteu</translation>
+        <source>ArtByte Core</source>
+        <translation>Jádro ArtByteu</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1254,8 +1254,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Applebyte debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otevři soubor s ladicími záznamy Applebyteu z aktuálního datového adresáře. U velkých logů to může pár vteřin zabrat.</translation>
+        <source>Open the ArtByte debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otevři soubor s ladicími záznamy ArtByteu z aktuálního datového adresáře. U velkých logů to může pár vteřin zabrat.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1264,8 +1264,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Applebyte RPC console.</source>
-        <translation>Vítej v Applebyteové RPC konzoli.</translation>
+        <source>Welcome to the ArtByte RPC console.</source>
+        <translation>Vítej v ArtByteové RPC konzoli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1448,8 +1448,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Applebyte address (e.g. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</source>
-        <translation>Zadej Applebyteovou adresu (např. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</translation>
+        <source>Enter a ArtByte address (e.g. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</source>
+        <translation>Zadej ArtByteovou adresu (např. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</translation>
     </message>
 </context>
 <context>
@@ -1513,8 +1513,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Applebyte address</source>
-        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem této Applebyteové adresy</translation>
+        <source>Sign the message to prove you own this ArtByte address</source>
+        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem této ArtByteové adresy</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1549,8 +1549,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Applebyte address</source>
-        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou Applebyteovou adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified ArtByte address</source>
+        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou ArtByteovou adresou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,8 +1565,8 @@ Adresa: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Applebyte address (e.g. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</source>
-        <translation>Zadej Applebyteovou adresu (např. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</translation>
+        <source>Enter a ArtByte address (e.g. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</source>
+        <translation>Zadej ArtByteovou adresu (např. AWJ3HHKGjiEbJdqNyGnY16Uv7UuMiqi8e4)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Applebyte signature</source>
-        <translation>Vlož Applebyteový podpis</translation>
+        <source>Enter ArtByte signature</source>
+        <translation>Vlož ArtByteový podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1650,7 +1650,7 @@ Adresa: %4
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
         <source>The Litecoin Developers</source>
-        <translation>Vývojáři Applebyteu</translation>
+        <translation>Vývojáři ArtByteu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2187,8 +2187,8 @@ Adresa: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Applebyte version</source>
-        <translation>Verze Applebyteu</translation>
+        <source>ArtByte version</source>
+        <translation>Verze ArtByteu</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2197,8 +2197,8 @@ Adresa: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or applebyted</source>
-        <translation>Poslat příkaz pro -server nebo applebyted</translation>
+        <source>Send command to -server or artbyted</source>
+        <translation>Poslat příkaz pro -server nebo artbyted</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2217,13 +2217,13 @@ Adresa: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: applebyte.conf)</source>
-        <translation>Konfigurační soubor (výchozí: applebyte.conf)</translation>
+        <source>Specify configuration file (default: artbyte.conf)</source>
+        <translation>Konfigurační soubor (výchozí: artbyte.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: applebyted.pid)</source>
-        <translation>PID soubor (výchozí: applebyted.pid)</translation>
+        <source>Specify pid file (default: artbyted.pid)</source>
+        <translation>PID soubor (výchozí: artbyted.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2300,24 +2300,24 @@ Adresa: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=applebyterpc
+rpcuser=artbyterpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Applebyte Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;ArtByte Alert&quot; admin@foo.com
 </source>
         <translation>%s, musíš nastavit rpcpassword v konfiguračním souboru:
 %s
 Je vhodné použít následující náhodné heslo:
-rpcuser=applebyterpc
+rpcuser=artbyterpc
 rpcpassword=%s
 (není potřeba si ho pamatovat)
 rpcuser a rpcpassword NESMÍ být stejné.
 Pokud konfigurační soubor ještě neexistuje, vytvoř ho tak, aby ho mohl číst pouze vlastník.
 Je také doporučeno si nastavit alertnotify, abys byl upozorněn na případné problémy;
-například: alertnotify=echo %%s | mail -s &quot;Applebyte Alert&quot; admin@foo.com
+například: alertnotify=echo %%s | mail -s &quot;ArtByte Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2332,8 +2332,8 @@ například: alertnotify=echo %%s | mail -s &quot;Applebyte Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Applebyte is probably already running.</source>
-        <translation>Nedaří se mi získat zámek na datový adresář %s. Applebyte pravděpodobně už jednou běží.</translation>
+        <source>Cannot obtain a lock on data directory %s. ArtByte is probably already running.</source>
+        <translation>Nedaří se mi získat zámek na datový adresář %s. ArtByte pravděpodobně už jednou běží.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2377,8 +2377,8 @@ například: alertnotify=echo %%s | mail -s &quot;Applebyte Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Applebyte will not work properly.</source>
-        <translation>Upozornění: Zkontroluj, že máš v počítači správně nastavený datum a čas! Pokud jsou nastaveny špatně, Applebyte nebude fungovat správně.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ArtByte will not work properly.</source>
+        <translation>Upozornění: Zkontroluj, že máš v počítači správně nastavený datum a čas! Pokud jsou nastaveny špatně, ArtByte nebude fungovat správně.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2627,8 +2627,8 @@ například: alertnotify=echo %%s | mail -s &quot;Applebyte Alert&quot; admin@fo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Applebyte Wiki for SSL setup instructions)</source>
-        <translation>Možnosti SSL: (viz instrukce nastavení SSL v Applebyte Wiki)</translation>
+        <source>SSL options: (see the ArtByte Wiki for SSL setup instructions)</source>
+        <translation>Možnosti SSL: (viz instrukce nastavení SSL v ArtByte Wiki)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2817,13 +2817,13 @@ například: alertnotify=echo %%s | mail -s &quot;Applebyte Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Applebyte</source>
-        <translation>Chyba při načítání wallet.dat: peněženka vyžaduje novější verzi Applebyteu</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of ArtByte</source>
+        <translation>Chyba při načítání wallet.dat: peněženka vyžaduje novější verzi ArtByteu</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Applebyte to complete</source>
-        <translation>Soubor s peněženkou potřeboval přepsat: restartuj Applebyte, aby se operace dokončila</translation>
+        <source>Wallet needed to be rewritten: restart ArtByte to complete</source>
+        <translation>Soubor s peněženkou potřeboval přepsat: restartuj ArtByte, aby se operace dokončila</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2882,8 +2882,8 @@ například: alertnotify=echo %%s | mail -s &quot;Applebyte Alert&quot; admin@fo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Applebyte is probably already running.</source>
-        <translation>Nedaří se mi připojit na %s na tomhle počítači. Applebyte už pravděpodobně jednou běží.</translation>
+        <source>Unable to bind to %s on this computer. ArtByte is probably already running.</source>
+        <translation>Nedaří se mi připojit na %s na tomhle počítači. ArtByte už pravděpodobně jednou běží.</translation>
     </message>
     <message>
         <location line="+64"/>

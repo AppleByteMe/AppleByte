@@ -1,4 +1,4 @@
-Name AppleByte
+Name ArtByte
 
 RequestExecutionLevel highest
 SetCompressor /SOLID lzma
@@ -6,8 +6,8 @@ SetCompressor /SOLID lzma
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
 !define VERSION 0.8.6.0
-!define COMPANY "AppleByte project"
-!define URL http://www.applebyte.org/
+!define COMPANY "ArtByte project"
+!define URL http://www.artbyte.org/
 
 # MUI Symbol Definitions
 !define MUI_ICON "../share/pixmaps/bitcoin.ico"
@@ -19,8 +19,8 @@ SetCompressor /SOLID lzma
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
-!define MUI_STARTMENUPAGE_DEFAULTFOLDER AppleByte
-!define MUI_FINISHPAGE_RUN $INSTDIR\applebyte-qt.exe
+!define MUI_STARTMENUPAGE_DEFAULTFOLDER ArtByte
+!define MUI_FINISHPAGE_RUN $INSTDIR\artbyte-qt.exe
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
 !define MUI_UNWELCOMEFINISHPAGE_BITMAP "../share/pixmaps/nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
@@ -40,14 +40,14 @@ Var StartMenuGroup
 !insertmacro MUI_UNPAGE_INSTFILES
 
 # Installer attributes
-OutFile applebyte-0.8.6.0-setup.exe
-InstallDir $PROGRAMFILES\AppleByte
+OutFile artbyte-0.8.6.0-setup.exe
+InstallDir $PROGRAMFILES\ArtByte
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
 VIProductVersion 0.8.6.0
-VIAddVersionKey ProductName AppleByte
+VIAddVersionKey ProductName ArtByte
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
 VIAddVersionKey CompanyWebsite "${URL}"
@@ -61,15 +61,15 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-    File ..\release\applebyte-qt.exe
+    File ..\release\artbyte-qt.exe
     File /oname=COPYING.txt ..\COPYING
     SetOutPath $INSTDIR\daemon
-    File ..\src\applebyted.exe
+    File ..\src\artbyted.exe
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 
     # Remove old wxwidgets-based-bitcoin executable and locales:
-    Delete /REBOOTOK $INSTDIR\applebyte.exe
+    Delete /REBOOTOK $INSTDIR\artbyte.exe
     RMDir /r /REBOOTOK $INSTDIR\locale
 SectionEnd
 
@@ -79,8 +79,8 @@ Section -post SEC0001
     WriteUninstaller $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_BEGIN Application
     CreateDirectory $SMPROGRAMS\$StartMenuGroup
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\AppleByte.lnk" $INSTDIR\applebyte-qt.exe
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall AppleByte.lnk" $INSTDIR\uninstall.exe
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\ArtByte.lnk" $INSTDIR\artbyte-qt.exe
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall ArtByte.lnk" $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_END
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayName "$(^Name)"
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayVersion "${VERSION}"
@@ -90,10 +90,10 @@ Section -post SEC0001
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" UninstallString $INSTDIR\uninstall.exe
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
-    WriteRegStr HKCR "applebyte" "URL Protocol" ""
-    WriteRegStr HKCR "applebyte" "" "URL:AppleByte"
-    WriteRegStr HKCR "applebyte\DefaultIcon" "" $INSTDIR\applebyte-qt.exe
-    WriteRegStr HKCR "applebyte\shell\open\command" "" '"$INSTDIR\applebyte-qt.exe" "%1"'
+    WriteRegStr HKCR "artbyte" "URL Protocol" ""
+    WriteRegStr HKCR "artbyte" "" "URL:ArtByte"
+    WriteRegStr HKCR "artbyte\DefaultIcon" "" $INSTDIR\artbyte-qt.exe
+    WriteRegStr HKCR "artbyte\shell\open\command" "" '"$INSTDIR\artbyte-qt.exe" "%1"'
 SectionEnd
 
 # Macro for selecting uninstaller sections
@@ -111,7 +111,7 @@ done${UNSECTION_ID}:
 
 # Uninstaller sections
 Section /o -un.Main UNSEC0000
-    Delete /REBOOTOK $INSTDIR\applebyte-qt.exe
+    Delete /REBOOTOK $INSTDIR\artbyte-qt.exe
     Delete /REBOOTOK $INSTDIR\COPYING.txt
     RMDir /r /REBOOTOK $INSTDIR\daemon
     DeleteRegValue HKCU "${REGKEY}\Components" Main
@@ -119,9 +119,9 @@ SectionEnd
 
 Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
-    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall AppleByte.lnk"
-    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\AppleByte.lnk"
-    Delete /REBOOTOK "$SMSTARTUP\AppleByte.lnk"
+    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall ArtByte.lnk"
+    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\ArtByte.lnk"
+    Delete /REBOOTOK "$SMSTARTUP\ArtByte.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log
     Delete /REBOOTOK $INSTDIR\db.log
@@ -129,7 +129,7 @@ Section -un.post UNSEC0001
     DeleteRegValue HKCU "${REGKEY}" Path
     DeleteRegKey /IfEmpty HKCU "${REGKEY}\Components"
     DeleteRegKey /IfEmpty HKCU "${REGKEY}"
-    DeleteRegKey HKCR "applebyte"
+    DeleteRegKey HKCR "artbyte"
     RmDir /REBOOTOK $SMPROGRAMS\$StartMenuGroup
     RmDir /REBOOTOK $INSTDIR
     Push $R0

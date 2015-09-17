@@ -1,7 +1,7 @@
 src/*.exe
-src/applebyte
-src/applebyted
-src/test_applebyte
+src/artbyte
+src/artbyted
+src/test_artbyte
 .*.swp
 *.*~*
 *.bak
@@ -9,17 +9,17 @@ src/test_applebyte
 *.orig
 *.o
 *.patch
-.applebyte
+.artbyte
 
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-applebyte-qt
-applebyte-Qt.app
+artbyte-qt
+artbyte-Qt.app
 
 # Unit-tests
 Makefile.test
-applebyte-qt_test
+artbyte-qt_test
 
 # Resources cpp
 qrc_*.cpp

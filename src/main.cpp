@@ -33,7 +33,7 @@ unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
 uint256 hashGenesisBlock("0xe8492193de64cc8c5ec569841f009d575832c630dd730b1c00af94238a4aba79");
-static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // Applebyte: starting difficulty is 1 / 2^12
+static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // ArtByte: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
 uint256 nBestChainWork = 0;
@@ -65,7 +65,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Applebyte Signed Message:\n";
+const string strMessageMagic = "ArtByte Signed Message:\n";
 
 double dHashesPerSec = 0.0;
 int64 nHPSTimerStart = 0;
@@ -356,7 +356,7 @@ unsigned int LimitOrphanTxSize(unsigned int nMaxOrphans)
 
 bool CTxOut::IsDust() const
 {
-    // Applebyte: IsDust() detection disabled, allows any valid dust to be relayed.
+    // ArtByte: IsDust() detection disabled, allows any valid dust to be relayed.
     // The fees imposed on each dust txo is considered sufficient spam deterrant. 
     return false;
 }
@@ -613,7 +613,7 @@ int64 CTransaction::GetMinFee(unsigned int nBlockSize, bool fAllowFree,
             nMinFee = 0;
     }
 
-    // Applebyte
+    // ArtByte
     // To limit dust spam, add nBaseFee for each output less than DUST_SOFT_LIMIT
     BOOST_FOREACH(const CTxOut& txout, vout)
         if (txout.nValue < DUST_SOFT_LIMIT)
@@ -1115,8 +1115,8 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan = 1 * 60 * 60; // Applebyte: 1 hour 
-static const int64 nTargetSpacing = 2 * 60; // Applebyte: 2 minutes
+static const int64 nTargetTimespan = 1 * 60 * 60; // ArtByte: 1 hour 
+static const int64 nTargetSpacing = 2 * 60; // ArtByte: 2 minutes
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
 //
@@ -2293,7 +2293,7 @@ bool CBlock::AcceptBlock(CValidationState &state, CDiskBlockPos *dbp)
 
 bool CBlockIndex::IsSuperMajority(int minVersion, const CBlockIndex* pstart, unsigned int nRequired, unsigned int nToCheck)
 {
-    // Applebyte: temporarily disable v2 block lockin until we are ready for v2 transition
+    // ArtByte: temporarily disable v2 block lockin until we are ready for v2 transition
     return false;
     unsigned int nFound = 0;
     for (unsigned int i = 0; i < nToCheck && nFound < nRequired && pstart != NULL; i++)
@@ -2814,7 +2814,7 @@ bool InitBlockIndex() {
         // vMerkleTree: abeb0db9c2704328ef96da2090ba713c807a7812c2c124c3ca3106336efbffed 
 
         // Genesis block
-        const char* pszTimestamp = "New York -  AppleByte coming this April 2014";
+        const char* pszTimestamp = "New York -  ArtByte coming this April 2014";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -4187,7 +4187,7 @@ bool SendMessages(CNode* pto, bool fSendTrickle)
 
 //////////////////////////////////////////////////////////////////////////////
 //
-// ApplebyteMiner
+// ArtByteMiner
 //
 
 int static FormatHashBlocks(void* pbuffer, unsigned int len)
@@ -4600,7 +4600,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         return false;
 
     //// debug print
-    printf("ApplebyteMiner:\n");
+    printf("ArtByteMiner:\n");
     printf("proof-of-work found  \n  hash: %s  \ntarget: %s\n", hash.GetHex().c_str(), hashTarget.GetHex().c_str());
     pblock->print();
     printf("generated %s\n", FormatMoney(pblock->vtx[0].vout[0].nValue).c_str());
@@ -4609,7 +4609,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != hashBestChain)
-            return error("ApplebyteMiner : generated block is stale");
+            return error("ArtByteMiner : generated block is stale");
 
         // Remove key from key pool
         reservekey.KeepKey();
@@ -4623,17 +4623,17 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         // Process this block the same as if we had received it from another node
         CValidationState state;
         if (!ProcessBlock(state, NULL, pblock))
-            return error("ApplebyteMiner : ProcessBlock, block not accepted");
+            return error("ArtByteMiner : ProcessBlock, block not accepted");
     }
 
     return true;
 }
 
-void static ApplebyteMiner(CWallet *pwallet)
+void static ArtByteMiner(CWallet *pwallet)
 {
-    printf("ApplebyteMiner started\n");
+    printf("ArtByteMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("applebyte-miner");
+    RenameThread("artbyte-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);
@@ -4655,7 +4655,7 @@ void static ApplebyteMiner(CWallet *pwallet)
         CBlock *pblock = &pblocktemplate->block;
         IncrementExtraNonce(pblock, pindexPrev, nExtraNonce);
 
-        printf("Running ApplebyteMiner with %"PRIszu" transactions in block (%u bytes)\n", pblock->vtx.size(),
+        printf("Running ArtByteMiner with %"PRIszu" transactions in block (%u bytes)\n", pblock->vtx.size(),
                ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
         //
@@ -4754,7 +4754,7 @@ void static ApplebyteMiner(CWallet *pwallet)
     } }
     catch (boost::thread_interrupted)
     {
-        printf("ApplebyteMiner terminated\n");
+        printf("ArtByteMiner terminated\n");
         throw;
     }
 }
@@ -4779,7 +4779,7 @@ void GenerateBitcoins(bool fGenerate, CWallet* pwallet)
 
     minerThreads = new boost::thread_group();
     for (int i = 0; i < nThreads; i++)
-        minerThreads->create_thread(boost::bind(&ApplebyteMiner, pwallet));
+        minerThreads->create_thread(boost::bind(&ArtByteMiner, pwallet));
 }
 
 // Amount compression:

@@ -1,21 +1,21 @@
-AppleByte integration/staging tree
+ArtByte integration/staging tree
 ================================
 
-http://www.AppleByte.me
+http://www.ArtByte.me
 
 Copyright (c) 2009-2014 Bitcoin Developers
 Copyright (c) 2011-2014 Litecoin Developers
-Copyright (c) 2014 AppleByte Developers
+Copyright (c) 2014 ArtByte Developers
 
-What is AppleByte?
+What is ArtByte?
 ----------------
 
-AppleByte is cloned from Litecoin using scrypt as a proof-of-work algorithm.
+ArtByte is cloned from Litecoin using scrypt as a proof-of-work algorithm.
  - 2 minute block targets
  - 4 hour difficulty retarget
  - Approx. 1 billion total coins, plus 0.5% inflation after year 8 
 
-   Block 1-2500: Premine - 25% to fund the AppleByte Foundation and get the coin                           in the hands of the user community
+   Block 1-2500: Premine - 25% to fund the ArtByte Foundation and get the coin                           in the hands of the user community
  
    Block 2,501 — 500,000: 800
 
@@ -28,12 +28,12 @@ AppleByte is cloned from Litecoin using scrypt as a proof-of-work algorithm.
    Block > 1,250,000: 20: Approx. 0.005% per year
 
 For more information, as well as an immediately useable, binary version of
-the AppleByte client sofware, see http://www.AppleByte.me
+the ArtByte client sofware, see http://www.ArtByte.me
 
 License
 -------
 
-AppleByte is released under the terms of the MIT license. See `COPYING` for more
+ArtByte is released under the terms of the MIT license. See `COPYING` for more
 information or see http://opensource.org/licenses/MIT.
 
 Development process
@@ -42,7 +42,7 @@ Development process
 Developers work in their own trees, then submit pull requests when they think
 their feature or bug fix is ready.
 
-If it is a simple/trivial/non-controversial change, then one of the AppleByte
+If it is a simple/trivial/non-controversial change, then one of the ArtByte
 development team members simply pulls it.
 
 If it is a *more complicated or potentially controversial* change, then the patch
@@ -56,7 +56,7 @@ controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
 completely stable. [Tags](https://github.com/bitcoin/bitcoin/tags) are created
-regularly to indicate new official, stable release versions of AppleByte.
+regularly to indicate new official, stable release versions of ArtByte.
 
 Testing
 -------
@@ -79,5 +79,5 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
 
     qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
     make -f Makefile.test
-    ./applebyte-qt_test
+    ./artbyte-qt_test
 
