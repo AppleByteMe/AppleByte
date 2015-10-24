@@ -2814,7 +2814,7 @@ bool InitBlockIndex() {
         // vMerkleTree: abeb0db9c2704328ef96da2090ba713c807a7812c2c124c3ca3106336efbffed 
 
         // Genesis block
-        const char* pszTimestamp = "New York -  ArtByte coming this April 2014";
+        const char* pszTimestamp = "New York -  AppleByte coming this April 2014";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
