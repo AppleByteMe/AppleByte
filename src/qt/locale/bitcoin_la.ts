@@ -2216,8 +2216,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: artbyte.conf)</source>
-        <translation>Specifica configurationis plicam (praedefinitum: artbyte.conf)</translation>
+        <source>Specify configuration file (default: applebyte.conf)</source>
+        <translation>Specifica configurationis plicam (praedefinitum: applebyte.conf)</translation>
     </message>
     <message>
         <location line="+3"/>

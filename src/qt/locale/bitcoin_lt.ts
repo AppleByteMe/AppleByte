@@ -2215,8 +2215,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: artbyte.conf)</source>
-        <translation>Nurodyti konfigūracijos failą (pagal nutylėjimąt: artbyte.conf)</translation>
+        <source>Specify configuration file (default: applebyte.conf)</source>
+        <translation>Nurodyti konfigūracijos failą (pagal nutylėjimąt: applebyte.conf)</translation>
     </message>
     <message>
         <location line="+3"/>

@@ -2213,7 +2213,7 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: artbyte.conf)</source>
+        <source>Specify configuration file (default: applebyte.conf)</source>
         <translation type="unfinished"/>
     </message>
     <message>

@@ -2217,8 +2217,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: artbyte.conf)</source>
-        <translation>Määritä asetustiedosto (oletus: artbyte.conf)</translation>
+        <source>Specify configuration file (default: applebyte.conf)</source>
+        <translation>Määritä asetustiedosto (oletus: applebyte.conf)</translation>
     </message>
     <message>
         <location line="+3"/>

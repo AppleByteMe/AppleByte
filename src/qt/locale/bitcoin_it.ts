@@ -2223,8 +2223,8 @@ Indirizzo: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: artbyte.conf)</source>
-        <translation>Specifica il file di configurazione (di default: artbyte.conf)
+        <source>Specify configuration file (default: applebyte.conf)</source>
+        <translation>Specifica il file di configurazione (di default: applebyte.conf)
 </translation>
     </message>
     <message>

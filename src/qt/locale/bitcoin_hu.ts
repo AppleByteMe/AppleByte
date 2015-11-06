@@ -2222,8 +2222,8 @@ Cím: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: artbyte.conf)</source>
-        <translation>Konfigurációs fájl (alapértelmezett: artbyte.conf)
+        <source>Specify configuration file (default: applebyte.conf)</source>
+        <translation>Konfigurációs fájl (alapértelmezett: applebyte.conf)
 </translation>
     </message>
     <message>

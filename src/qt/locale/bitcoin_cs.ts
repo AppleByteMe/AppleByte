@@ -2217,8 +2217,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: artbyte.conf)</source>
-        <translation>Konfigurační soubor (výchozí: artbyte.conf)</translation>
+        <source>Specify configuration file (default: applebyte.conf)</source>
+        <translation>Konfigurační soubor (výchozí: applebyte.conf)</translation>
     </message>
     <message>
         <location line="+3"/>

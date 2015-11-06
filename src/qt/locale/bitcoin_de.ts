@@ -2216,8 +2216,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: artbyte.conf)</source>
-        <translation>Konfigurationsdatei festlegen (Standard: artbyte.conf)</translation>
+        <source>Specify configuration file (default: applebyte.conf)</source>
+        <translation>Konfigurationsdatei festlegen (Standard: applebyte.conf)</translation>
     </message>
     <message>
         <location line="+3"/>

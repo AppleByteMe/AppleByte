@@ -298,7 +298,7 @@ std::string HelpMessage()
 {
     string strUsage = _("Options:") + "\n" +
         "  -?                     " + _("This help message") + "\n" +
-        "  -conf=<file>           " + _("Specify configuration file (default: artbyte.conf)") + "\n" +
+        "  -conf=<file>           " + _("Specify configuration file (default: applebyte.conf)") + "\n" +
         "  -pid=<file>            " + _("Specify pid file (default: artbyted.pid)") + "\n" +
         "  -gen                   " + _("Generate coins (default: 0)") + "\n" +
         "  -datadir=<dir>         " + _("Specify data directory") + "\n" +

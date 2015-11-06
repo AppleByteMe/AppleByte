@@ -2209,8 +2209,8 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: artbyte.conf)</source>
-        <translation>Potvrdi željeni konfiguracioni fajl (podrazumevani:artbyte.conf)</translation>
+        <source>Specify configuration file (default: applebyte.conf)</source>
+        <translation>Potvrdi željeni konfiguracioni fajl (podrazumevani:applebyte.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
