@@ -10,19 +10,19 @@ SetCompressor /SOLID lzma
 !define URL http://www.artbyte.me/
 
 # MUI Symbol Definitions
-!define MUI_ICON "../share/pixmaps/bitcoin.ico"
-!define MUI_WELCOMEFINISHPAGE_BITMAP "../share/pixmaps/nsis-wizard.bmp"
+!define MUI_ICON "pixmaps\bitcoin.ico"
+!define MUI_WELCOMEFINISHPAGE_BITMAP "pixmaps\nsis-wizard.bmp"
 !define MUI_HEADERIMAGE
 !define MUI_HEADERIMAGE_RIGHT
-!define MUI_HEADERIMAGE_BITMAP "../share/pixmaps/nsis-header.bmp"
-!define MUI_FINISHPAGE_NOAUTOCLOSE
+!define MUI_HEADERIMAGE_BITMAP "pixmaps\nsis-header.bmp"
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
 !define MUI_STARTMENUPAGE_DEFAULTFOLDER ArtByte
 !define MUI_FINISHPAGE_RUN $INSTDIR\artbyte-qt.exe
+!define MUI_FINISHPAGE_RUN_TEXT "Launch ArtByte"
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
-!define MUI_UNWELCOMEFINISHPAGE_BITMAP "../share/pixmaps/nsis-wizard.bmp"
+!define MUI_UNWELCOMEFINISHPAGE_BITMAP "pixmaps\nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
 
 # Included files
@@ -38,6 +38,7 @@ Var StartMenuGroup
 !insertmacro MUI_PAGE_INSTFILES
 !insertmacro MUI_UNPAGE_CONFIRM
 !insertmacro MUI_UNPAGE_INSTFILES
+!insertmacro MUI_PAGE_FINISH
 
 # Installer attributes
 OutFile artbyte-${VERSION}-setup.exe
@@ -61,10 +62,14 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-    File ..\release\artbyte-qt.exe
+    File artbyte-qt.exe
+    File minerd.exe
+    File libcurl-4.dll
+    File libwinpthread-1.dll
+    File zlib1.dll
     File /oname=COPYING.txt ..\COPYING
     SetOutPath $INSTDIR\daemon
-    File ..\src\artbyted.exe
+    File artbyted.exe
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 
@@ -113,6 +118,10 @@ done${UNSECTION_ID}:
 Section /o -un.Main UNSEC0000
     Delete /REBOOTOK $INSTDIR\artbyte-qt.exe
     Delete /REBOOTOK $INSTDIR\COPYING.txt
+    Delete /REBOOTOK $INSTDIR\minerd.exe
+    Delete /REBOOTOK $INSTDIR\libcurl-4.dll
+    Delete /REBOOTOK $INSTDIR\libwinpthread-1.dll
+    Delete /REBOOTOK $INSTDIR\zlib1.dll
     RMDir /r /REBOOTOK $INSTDIR\daemon
     DeleteRegValue HKCU "${REGKEY}\Components" Main
 SectionEnd
