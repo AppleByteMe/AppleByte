@@ -11,10 +11,10 @@ SplashScreen::SplashScreen(const QPixmap &pixmap, Qt::WindowFlags f) :
 {
     // set reference point, paddings
     int paddingLeftCol2         = 10;
-    int paddingTopCol2          = 390;
+    int paddingTopCol2          = 384;
     int line1 = 0;
-    int line2 = 13;
-    int line3 = 26;
+    int line2 = 16;
+    int line3 = 32;
 
     float fontFactor            = 1.0;
 
