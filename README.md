@@ -5,7 +5,7 @@ http://www.ArtByte.me
 
 Copyright (c) 2009-2014 Bitcoin Developers
 Copyright (c) 2011-2014 Litecoin Developers
-Copyright (c) 2014 ArtByte Developers
+Copyright (c) 2014-2016 ArtByte Developers
 
 What is ArtByte?
 ----------------
@@ -15,7 +15,7 @@ ArtByte is cloned from Litecoin using scrypt as a proof-of-work algorithm.
  - 4 hour difficulty retarget
  - Approx. 1 billion total coins, plus 0.5% inflation after year 8 
 
-   Block 1-2500: Premine - 25% to fund the ArtByte Foundation and get the coin                           in the hands of the user community
+   Block 1-2500: Premine - 25% to fund the ArtByte Foundation and get the coin in the hands of the user community
  
    Block 2,501 — 500,000: 800
 

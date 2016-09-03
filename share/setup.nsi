@@ -5,9 +5,9 @@ SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 0.8.6.0
+!define VERSION 0.8.7.0
 !define COMPANY "ArtByte project"
-!define URL http://www.artbyte.org/
+!define URL http://www.artbyte.me/
 
 # MUI Symbol Definitions
 !define MUI_ICON "../share/pixmaps/bitcoin.ico"
@@ -40,13 +40,13 @@ Var StartMenuGroup
 !insertmacro MUI_UNPAGE_INSTFILES
 
 # Installer attributes
-OutFile artbyte-0.8.6.0-setup.exe
+OutFile artbyte-${VERSION}-setup.exe
 InstallDir $PROGRAMFILES\ArtByte
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
-VIProductVersion 0.8.6.0
+VIProductVersion ${VERSION}
 VIAddVersionKey ProductName ArtByte
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
