@@ -514,8 +514,8 @@ UniValue getblockheader(const UniValue& params, bool fHelp)
             "\nResult (for verbose=false):\n"
             "\"data\"             (string) A string that is serialized, hex-encoded data for block 'hash'.\n"
             "\nExamples:\n"
-            + HelpExampleCli("getblockheader", "\"00000000c937983704a73af28acdec37b049d214adbda81d7e2a3dd146f6ed09\"")
-            + HelpExampleRpc("getblockheader", "\"00000000c937983704a73af28acdec37b049d214adbda81d7e2a3dd146f6ed09\"")
+            + HelpExampleCli("getblockheader", "\"43df0dd6dc0aeb7f2ca209766b80d231414a05918e417f77b94f1cbc6e1c5d3b\"")
+            + HelpExampleRpc("getblockheader", "\"43df0dd6dc0aeb7f2ca209766b80d231414a05918e417f77b94f1cbc6e1c5d3b\"")
         );
 
     LOCK(cs_main);
@@ -580,8 +580,8 @@ UniValue getblock(const UniValue& params, bool fHelp)
             "\nResult (for verbose=false):\n"
             "\"data\"             (string) A string that is serialized, hex-encoded data for block 'hash'.\n"
             "\nExamples:\n"
-            + HelpExampleCli("getblock", "\"00000000c937983704a73af28acdec37b049d214adbda81d7e2a3dd146f6ed09\"")
-            + HelpExampleRpc("getblock", "\"00000000c937983704a73af28acdec37b049d214adbda81d7e2a3dd146f6ed09\"")
+            + HelpExampleCli("getblock", "\"43df0dd6dc0aeb7f2ca209766b80d231414a05918e417f77b94f1cbc6e1c5d3b\"")
+            + HelpExampleRpc("getblock", "\"43df0dd6dc0aeb7f2ca209766b80d231414a05918e417f77b94f1cbc6e1c5d3b\"")
         );
 
     LOCK(cs_main);
@@ -730,8 +730,8 @@ UniValue gettxout(const UniValue& params, bool fHelp)
             "     \"hex\" : \"hex\",        (string) \n"
             "     \"reqSigs\" : n,          (numeric) Number of required signatures\n"
             "     \"type\" : \"pubkeyhash\", (string) The type, eg pubkeyhash\n"
-            "     \"addresses\" : [          (array of string) array of bitcoin addresses\n"
-            "        \"bitcoinaddress\"     (string) bitcoin address\n"
+            "     \"addresses\" : [          (array of string) array of artbyte addresses\n"
+            "        \"artbyteaddress\"     (string) artbyte address\n"
             "        ,...\n"
             "     ]\n"
             "  },\n"
