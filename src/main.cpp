@@ -1721,7 +1721,19 @@ bool ReadBlockFromDisk(CBlock& block, const CBlockIndex* pindex, const Consensus
 
 CAmount GetBlockSubsidy(int nHeight)
 {
-    CAmount nSubsidy = 50 * COIN;
+    CAmount nSubsidy = 20 * COIN;
+	
+	if(nHeight <= 1250) {
+        nSubsidy = 200000 * COIN;
+    } else if(nHeight < 500000) {
+        nSubsidy = 800 * COIN;
+    } else if(nHeight < 1000000) {
+        nSubsidy = 400 * COIN;
+    } else if(nHeight < 1500000) {
+        nSubsidy = 200 * COIN;
+    } else if(nHeight < 2000000) {
+        nSubsidy = 100 * COIN;
+    }
     
     return nSubsidy;
 }
