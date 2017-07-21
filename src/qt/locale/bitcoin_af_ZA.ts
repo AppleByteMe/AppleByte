@@ -78,8 +78,8 @@
         <translation>&amp;Opsies</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>ArtByte</source>
+        <translation>ArtByte</translation>
     </message>
     <message>
         <source>Wallet</source>
