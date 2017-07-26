@@ -2419,27 +2419,37 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
 
     unsigned int flags = SCRIPT_VERIFY_P2SH;
 
+    std::string chain = ChainNameFromCommandLine();
+
     // Start enforcing the DERSIG (BIP66) rules, for block.nVersion=3 blocks,
     // when 75% of the network has upgraded:
     if (block.nVersion >= 3 && IsSuperMajority(3, pindex->pprev, chainparams.GetConsensus().nMajorityEnforceBlockUpgrade, chainparams.GetConsensus())) {
+        if (chain == CBaseChainParams::TESTNET)
+            LogPrintf("Consensus fork BIP66 enabled\n");
         flags |= SCRIPT_VERIFY_DERSIG;
     }
 
     // Start enforcing CHECKLOCKTIMEVERIFY, (BIP65) for block.nVersion=4
     // blocks, when 75% of the network has upgraded:
     if (block.nVersion >= 4 && IsSuperMajority(4, pindex->pprev, chainparams.GetConsensus().nMajorityEnforceBlockUpgrade, chainparams.GetConsensus())) {
+        if (chain == CBaseChainParams::TESTNET)
+            LogPrintf("Consensus fork BIP65 enabled\n");
         flags |= SCRIPT_VERIFY_CHECKLOCKTIMEVERIFY;
     }
 
     // Start enforcing BIP68 (sequence locks) and BIP112 (CHECKSEQUENCEVERIFY) using versionbits logic.
     int nLockTimeFlags = 0;
     if (VersionBitsState(pindex->pprev, chainparams.GetConsensus(), Consensus::DEPLOYMENT_CSV, versionbitscache) == THRESHOLD_ACTIVE) {
+        if (chain == CBaseChainParams::TESTNET)
+            LogPrintf("Consensus fork CSV BIP68/BIP112 enabled\n");
         flags |= SCRIPT_VERIFY_CHECKSEQUENCEVERIFY;
         nLockTimeFlags |= LOCKTIME_VERIFY_SEQUENCE;
     }
 
     // Start enforcing WITNESS rules using versionbits logic.
     if (IsWitnessEnabled(pindex->pprev, chainparams.GetConsensus())) {
+        if (chain == CBaseChainParams::TESTNET)
+            LogPrintf("Consensus fork SEGWIT enabled\n");
         flags |= SCRIPT_VERIFY_WITNESS;
         flags |= SCRIPT_VERIFY_NULLDUMMY;
     }
@@ -3594,6 +3604,9 @@ bool ContextualCheckBlock(const CBlock& block, CValidationState& state, CBlockIn
     // Start enforcing BIP113 (Median Time Past) using versionbits logic.
     int nLockTimeFlags = 0;
     if (VersionBitsState(pindexPrev, consensusParams, Consensus::DEPLOYMENT_CSV, versionbitscache) == THRESHOLD_ACTIVE) {
+		std::string chain = ChainNameFromCommandLine();
+		if (chain == CBaseChainParams::TESTNET)
+            LogPrintf("Consensus fork CSV BIP113 enabled\n");
         nLockTimeFlags |= LOCKTIME_MEDIAN_TIME_PAST;
     }
 
