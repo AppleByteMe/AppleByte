@@ -24,10 +24,11 @@ Then, install the toolchains and curl:
 
 To build executables for Windows 32-bit:
 
+    export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
     cd depends
-    make HOST=i686-w64-mingw32 -j4
+    make HOST=i686-w64-mingw32 V=1 AUTOCONF=: AUTOHEADER=: AUTOMAKE=: ACLOCAL=:
     cd ..
-    ./configure --prefix=`pwd`/depends/i686-w64-mingw32
+    ./configure --prefix=`pwd`/depends/i686-w64-mingw32 --with-miniupnpc --enable-upnp-default
     make
 
 To build executables for Windows 64-bit:
