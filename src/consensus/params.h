@@ -46,8 +46,7 @@ struct Params {
     int BIP34Height;
     uint256 BIP34Hash;
     /**
-     * Minimum blocks including miner confirmation of the total of 2016 blocks in a retargetting period,
-     * (nPowTargetTimespan / nPowTargetSpacing) which is also used for BIP9 deployments.
+     * Minimum blocks including miner confirmation of the total of 2016 blocks in a retargetting period
      * Examples: 1916 for 95%, 1512 for testchains.
      */
     uint32_t nRuleChangeActivationThreshold;
@@ -58,8 +57,6 @@ struct Params {
     bool fPowAllowMinDifficultyBlocks;
     bool fPowNoRetargeting;
     int64_t nPowTargetSpacing;
-    int64_t nPowTargetTimespan;
-    int64_t DifficultyAdjustmentInterval() const { return nPowTargetTimespan / nPowTargetSpacing; }
 };
 } // namespace Consensus
 
