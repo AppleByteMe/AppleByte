@@ -169,13 +169,13 @@ public:
 
         // Deployment of BIP68, BIP112, and BIP113.
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].bit = 0;
-        consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nStartTime = 1501545600; // Aug 1st, 2017
-        consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nTimeout = 1533081600; // Aug 1st, 2018
+        consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nStartTime = 1501545600; // July 1st, 2017
+        consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nTimeout = 1533081600; // July 1st, 2018
 
         // Deployment of SegWit (BIP141, BIP143, and BIP147)
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].bit = 1;
-        consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nStartTime = 1501545600; // Aug 1st, 2017.
-        consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 1533081600; // Aug 1st, 2018.
+        consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nStartTime = 1501545600; // July 1st, 2017
+        consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 1533081600; // July 1st, 2018
 
         pchMessageStart[0] = 0xeb;
         pchMessageStart[1] = 0xb0;
@@ -184,9 +184,9 @@ public:
         nDefaultPort = 18608;
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1398689379, 2538618741, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1501675200, 38496, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x8e29722b1ed3a280ac4f23601005685762caaa522175f193c45326c59cbed4a0"));
+        assert(consensus.hashGenesisBlock == uint256S("0x02e890de125e4e85965ed783e85be2e7f63f5c1cf59ed997c4796d8d987bf9a4"));
         assert(genesis.hashMerkleRoot == uint256S("0xabeb0db9c2704328ef96da2090ba713c807a7812c2c124c3ca3106336efbffed"));
 
         vFixedSeeds.clear();
@@ -211,7 +211,7 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            ( 0, uint256S("0x8e29722b1ed3a280ac4f23601005685762caaa522175f193c45326c59cbed4a0")),
+            ( 0, uint256S("0x02e890de125e4e85965ed783e85be2e7f63f5c1cf59ed997c4796d8d987bf9a4")),
             1398689379,
             1,
             720
