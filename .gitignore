@@ -14,8 +14,12 @@ src/test_artbyte
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
+Makefile.Release
+Makefile.Debug
 artbyte-qt
 artbyte-Qt.app
+artbyte-qt_plugin_import.cpp
+object_script.artbyte-qt.*
 
 # Unit-tests
 Makefile.test
