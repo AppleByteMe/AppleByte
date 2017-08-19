@@ -1115,7 +1115,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetSpacing = 2 * 60; // ArtByte: 2 minutes
+static const int64 nTargetSpacing = fTestNet ? 10 : 2 * 60; // ArtByte: 2 minutes
 
 unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader *pblock) {
     /* current difficulty formula, darkcoin - DarkGravity v2, written by Evan Duffield - evan@darkcoin.io */
