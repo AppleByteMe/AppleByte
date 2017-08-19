@@ -23,15 +23,15 @@ if [ -e "$(which git 2>/dev/null)" -a "$(git rev-parse --is-inside-work-tree 2>/
     # clean 'dirty' status of touched files that haven't been modified
     git diff >/dev/null 2>/dev/null 
 
-    # if latest commit is tagged and not dirty, then override using the tag name
+    # if latest commit is tagged, then override using the tag name
     RAWDESC=$(git describe --abbrev=0 2>/dev/null)
     if [ "$(git rev-parse HEAD)" = "$(git rev-list -1 $RAWDESC 2>/dev/null)" ]; then
         git diff-index --quiet HEAD -- && DESC=$RAWDESC
     fi
 
-    # otherwise generate suffix from git, i.e. string like "59887e8-dirty"
+    # otherwise generate suffix from git, i.e. string like "59887e8"
     SUFFIX=$(git rev-parse --short HEAD)
-    git diff-index --quiet HEAD -- || SUFFIX="$SUFFIX-dirty"
+    git diff-index --quiet HEAD -- || SUFFIX="$SUFFIX"
 fi
 
 if [ -n "$DESC" ]; then
