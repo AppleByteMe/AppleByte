@@ -80,7 +80,7 @@ private:
     {
     public:
         WorkQueue &wq;
-        ThreadCounter(WorkQueue &w): wq(w)
+        explicit ThreadCounter(WorkQueue &w): wq(w)
         {
             boost::lock_guard<boost::mutex> lock(wq.cs);
             wq.numThreads += 1;
@@ -94,7 +94,7 @@ private:
     };
 
 public:
-    WorkQueue(size_t maxDepth) : running(true),
+    explicit WorkQueue(size_t maxDepth) : running(true),
                                  maxDepth(maxDepth),
                                  numThreads(0)
     {

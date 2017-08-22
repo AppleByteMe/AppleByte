@@ -48,7 +48,7 @@ class CNetAddr
 
     public:
         CNetAddr();
-        CNetAddr(const struct in_addr& ipv4Addr);
+        explicit CNetAddr(const struct in_addr& ipv4Addr);
         explicit CNetAddr(const char *pszIp);
         explicit CNetAddr(const std::string &strIp);
         void Init();
@@ -90,7 +90,7 @@ class CNetAddr
         std::vector<unsigned char> GetGroup() const;
         int GetReachabilityFrom(const CNetAddr *paddrPartner = NULL) const;
 
-        CNetAddr(const struct in6_addr& pipv6Addr, const uint32_t scope = 0);
+        explicit CNetAddr(const struct in6_addr& pipv6Addr, const uint32_t scope = 0);
         bool GetIn6Addr(struct in6_addr* pipv6Addr) const;
 
         friend bool operator==(const CNetAddr& a, const CNetAddr& b);
@@ -152,8 +152,8 @@ class CService : public CNetAddr
     public:
         CService();
         CService(const CNetAddr& ip, unsigned short port);
-        CService(const struct in_addr& ipv4Addr, unsigned short port);
-        CService(const struct sockaddr_in& addr);
+        explicit CService(const struct in_addr& ipv4Addr, unsigned short port);
+        explicit CService(const struct sockaddr_in& addr);
         explicit CService(const char *pszIpPort, int portDefault);
         explicit CService(const char *pszIpPort);
         explicit CService(const std::string& strIpPort, int portDefault);
@@ -172,7 +172,7 @@ class CService : public CNetAddr
         std::string ToStringIPPort() const;
 
         CService(const struct in6_addr& ipv6Addr, unsigned short port);
-        CService(const struct sockaddr_in6& addr);
+        explicit CService(const struct sockaddr_in6& addr);
 
         ADD_SERIALIZE_METHODS;
 
@@ -190,7 +190,7 @@ class proxyType
 {
 public:
     proxyType(): randomize_credentials(false) {}
-    proxyType(const CService &proxy, bool randomize_credentials=false): proxy(proxy), randomize_credentials(randomize_credentials) {}
+    explicit proxyType(const CService &proxy, bool randomize_credentials=false): proxy(proxy), randomize_credentials(randomize_credentials) {}
 
     bool IsValid() const { return proxy.IsValid(); }
 

@@ -20,7 +20,7 @@
 class dbwrapper_error : public std::runtime_error
 {
 public:
-    dbwrapper_error(const std::string& msg) : std::runtime_error(msg) {}
+    explicit dbwrapper_error(const std::string& msg) : std::runtime_error(msg) {}
 };
 
 class CDBWrapper;
@@ -54,7 +54,7 @@ public:
     /**
      * @param[in] parent    CDBWrapper that this batch is to be submitted to
      */
-    CDBBatch(const CDBWrapper &parent) : parent(parent) { };
+    explicit CDBBatch(const CDBWrapper &parent) : parent(parent) { };
 
     template <typename K, typename V>
     void Write(const K& key, const V& value)

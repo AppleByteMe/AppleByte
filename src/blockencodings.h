@@ -16,7 +16,7 @@ struct TransactionCompressor {
 private:
     CTransaction& tx;
 public:
-    TransactionCompressor(CTransaction& txIn) : tx(txIn) {}
+    explicit TransactionCompressor(CTransaction& txIn) : tx(txIn) {}
 
     ADD_SERIALIZE_METHODS;
 
@@ -75,7 +75,7 @@ public:
     std::vector<CTransaction> txn;
 
     BlockTransactions() {}
-    BlockTransactions(const BlockTransactionsRequest& req) :
+    explicit BlockTransactions(const BlockTransactionsRequest& req) :
         blockhash(req.blockhash), txn(req.indexes.size()) {}
 
     ADD_SERIALIZE_METHODS;
@@ -198,7 +198,7 @@ protected:
     CTxMemPool* pool;
 public:
     CBlockHeader header;
-    PartiallyDownloadedBlock(CTxMemPool* poolIn) : pool(poolIn) {}
+    explicit PartiallyDownloadedBlock(CTxMemPool* poolIn) : pool(poolIn) {}
 
     ReadStatus InitData(const CBlockHeaderAndShortTxIDs& cmpctblock);
     bool IsTxAvailable(size_t index) const;

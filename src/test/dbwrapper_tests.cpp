@@ -243,7 +243,7 @@ struct StringContentsSerializer {
     // This is a terrible idea
     string str;
     StringContentsSerializer() {}
-    StringContentsSerializer(const string& inp) : str(inp) {}
+    explicit StringContentsSerializer(const string& inp) : str(inp) {}
 
     StringContentsSerializer& operator+=(const string& s) {
         str += s;

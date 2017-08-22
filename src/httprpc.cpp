@@ -45,7 +45,7 @@ private:
 class HTTPRPCTimerInterface : public RPCTimerInterface
 {
 public:
-    HTTPRPCTimerInterface(struct event_base* base) : base(base)
+    explicit HTTPRPCTimerInterface(struct event_base* base) : base(base)
     {
     }
     const char* Name()

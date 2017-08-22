@@ -427,7 +427,7 @@ class CVarInt
 protected:
     I &n;
 public:
-    CVarInt(I& nIn) : n(nIn) { }
+    explicit CVarInt(I& nIn) : n(nIn) { }
 
     unsigned int GetSerializeSize(int, int) const {
         return GetSizeOfVarInt<I>(n);
@@ -449,7 +449,7 @@ class CCompactSize
 protected:
     uint64_t &n;
 public:
-    CCompactSize(uint64_t& nIn) : n(nIn) { }
+    explicit CCompactSize(uint64_t& nIn) : n(nIn) { }
 
     unsigned int GetSerializeSize(int, int) const {
         return GetSizeOfCompactSize(n);
@@ -472,7 +472,7 @@ class LimitedString
 protected:
     std::string& string;
 public:
-    LimitedString(std::string& string) : string(string) {}
+    explicit LimitedString(std::string& string) : string(string) {}
 
     template<typename Stream>
     void Unserialize(Stream& s, int, int=0)
