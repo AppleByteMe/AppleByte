@@ -1134,61 +1134,184 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
     int64 CountBlocks = 0;
     CBigNum PastDifficultyAverage;
     CBigNum PastDifficultyAveragePrev;
+	CBigNum mathsInput;
+	CBigNum mathsOne;
+	CBigNum mathsTwo;
+	CBigNum mathsThree;
 
-    if (BlockLastSolved == NULL || BlockLastSolved->nHeight == 0 || BlockLastSolved->nHeight < PastBlocksMin) { return bnProofOfWorkLimit.GetCompact(); }
+	int nHeight = pindexLast->nHeight + 1;
+	bool fDebug = false;
+	
+	if (fDebug)
+		printf("DGW: %d Beginning BlockReading %s \n", nHeight, BlockReading->ToString().c_str());
 
-    for (unsigned int i = 1; BlockReading && BlockReading->nHeight > 0; i++) {
-        if (PastBlocksMax > 0 && i > PastBlocksMax) { break; }
+    if (BlockLastSolved == NULL || BlockLastSolved->nHeight == 0 || BlockLastSolved->nHeight < PastBlocksMin) 
+	{
+		if (fDebug)
+			printf("DGW: %d first conditonal returned minimum \n", nHeight);
+
+		return bnProofOfWorkLimit.GetCompact(); 
+	}
+
+    for (unsigned int i = 1; BlockReading && BlockReading->nHeight > 0; i++) 
+	{
+		if (fDebug)
+			printf("DGW: %d Loop i: %d, BlockReading->nHeight: %d \n", nHeight, i, BlockReading->nHeight);
+		
+        if (PastBlocksMax > 0 && i > PastBlocksMax) 
+		{
+			if (fDebug)
+				printf("DGW: %d Break at %d \n", nHeight, i);
+			
+			break; 
+		}
+		
         CountBlocks++;
+		
+		if (fDebug)
+			printf("DGW: %d CountBlocks %I64d \n", nHeight, CountBlocks);
 
-        if(CountBlocks <= PastBlocksMin) {
-            if (CountBlocks == 1) { PastDifficultyAverage.SetCompact(BlockReading->nBits); }
-            else { PastDifficultyAverage = ((CBigNum().SetCompact(BlockReading->nBits) - PastDifficultyAveragePrev) / CountBlocks) + PastDifficultyAveragePrev; }
-            PastDifficultyAveragePrev = PastDifficultyAverage;
+        if(CountBlocks <= PastBlocksMin) 
+		{
+            if (CountBlocks == 1) 
+			{ 
+				PastDifficultyAverage.SetCompact(BlockReading->nBits);
+				
+				if (fDebug)
+					printf("DGW: %d BlockReading->nBits %08x, PastDifficultyAveragePrev: %s, Countblocks: %I64d \n", nHeight, BlockReading->nBits, PastDifficultyAveragePrev.ToString().c_str(), CountBlocks);
+			} else {
+				mathsInput.SetCompact(BlockReading->nBits);
+				
+				if (fDebug)
+					printf("DGW: %d BlockReading->nBits: %08x, mathsInput: %s, PastDifficultyAveragePrev: %s, Countblocks: %I64d \n", nHeight, BlockReading->nBits, mathsInput.ToString().c_str(), PastDifficultyAveragePrev.ToString().c_str(), CountBlocks);
+				
+				mathsOne = mathsInput - PastDifficultyAveragePrev;
+				mathsTwo = mathsOne / CountBlocks;
+				mathsThree = mathsTwo + PastDifficultyAveragePrev;
+				
+				if (fDebug)
+					printf("DGW: %d mathsOne: %s, mathsTwo: %s, mathsThree: %s \n", nHeight, mathsOne.ToString().c_str(), mathsTwo.ToString().c_str(), mathsThree.ToString().c_str());
+				
+				PastDifficultyAverage = mathsThree; 
+			}
+			
+			if (fDebug)
+				printf("DGW: %d PastDifficultyAverage %s \n", nHeight, PastDifficultyAverage.ToString().c_str());
+			
+			PastDifficultyAveragePrev = PastDifficultyAverage;
         }
+		
+		if (fDebug)
+			printf("DGW: %d LastBlockTime %I64d \n", nHeight, LastBlockTime);
 
-        if(LastBlockTime > 0){
+        if (LastBlockTime > 0)
+		{
             int64 Diff = (LastBlockTime - BlockReading->GetBlockTime());
-            if(nBlockTimeCount <= PastBlocksMin) {
+			
+			if (fDebug)
+				printf("DGW: %d Diff %I64d \n", nHeight, Diff);
+			
+            if(nBlockTimeCount <= PastBlocksMin) 
+			{
                 nBlockTimeCount++;
+				
+				if (fDebug)
+					printf("DGW: %d nBlockTimeCount <= PastBlocksMin: true,  nBlockTimeCount: %I64d \n", nHeight, nBlockTimeCount);
 
-                if (nBlockTimeCount == 1) { nBlockTimeAverage = Diff; }
-                else { nBlockTimeAverage = ((Diff - nBlockTimeAveragePrev) / nBlockTimeCount) + nBlockTimeAveragePrev; }
+                if (nBlockTimeCount == 1) 
+				{ 
+					nBlockTimeAverage = Diff; 
+				} else { 
+					nBlockTimeAverage = ((Diff - nBlockTimeAveragePrev) / nBlockTimeCount) + nBlockTimeAveragePrev;
+				}
+				
                 nBlockTimeAveragePrev = nBlockTimeAverage;
+				
+				if (fDebug)
+					printf("DGW: %d nBlockTimeCount <= PastBlocksMin: true, nBlockTimeAveragePrev/nBlockTimeAverage %I64d \n", nHeight, nBlockTimeAverage);
             }
+			
             nBlockTimeCount2++;
             nBlockTimeSum2 += Diff;
+			
+			if (fDebug)
+				printf("DGW: %d End of if (LastBlockTime > 0), nBlockTimeCount2 %I64d, nBlockTimeSum2 %I64d\n", nHeight, nBlockTimeCount2, nBlockTimeSum2);
         }
+		
         LastBlockTime = BlockReading->GetBlockTime();
 
-        if (BlockReading->pprev == NULL) { assert(BlockReading); break; }
+        if (BlockReading->pprev == NULL) 
+		{
+			if (fDebug)
+				printf("DGW: %d BlockReading->pprev == NULL \n", nHeight);
+			
+			assert(BlockReading);
+			break; 
+		}
+		
         BlockReading = BlockReading->pprev;
+		
+		if (fDebug)
+			printf("DGW: %d End of for loop BlockReading %s \n", nHeight, BlockReading->ToString().c_str());
     }
 
     CBigNum bnNew(PastDifficultyAverage);
-    if (nBlockTimeCount != 0 && nBlockTimeCount2 != 0) {
-            double SmartAverage = ((((long double)nBlockTimeAverage)*0.7)+(((long double)nBlockTimeSum2 / (long double)nBlockTimeCount2)*0.3));
-            if(SmartAverage < 1) SmartAverage = 1;
-            double Shift = nTargetSpacing/SmartAverage;
+	
+	if (fDebug)
+		printf("DGW: %d bnNew.GetCompact() %s \n", nHeight, bnNew.ToString().c_str());
+	
+    if (nBlockTimeCount != 0 && nBlockTimeCount2 != 0) 
+	{
+            double SmartAverage = ((((long double) nBlockTimeAverage) * 0.7) + (((long double) nBlockTimeSum2 / (long double) nBlockTimeCount2) * 0.3));
+			
+			if (fDebug)
+				printf("DGW: %d SmartAverage %f \n", nHeight, SmartAverage);
+			
+            if(SmartAverage < 1)
+				SmartAverage = 1;
+			
+            double Shift = nTargetSpacing / SmartAverage;
+			
+			if (fDebug)
+				printf("DGW: %d Shift %f \n", nHeight, Shift);
 
-            double fActualTimespan = ((long double)CountBlocks*(double)nTargetSpacing)/Shift;
-            double fTargetTimespan = ((long double)CountBlocks*(double)nTargetSpacing);
+            double fActualTimespan = ((long double) CountBlocks * (double) nTargetSpacing) / Shift;
+            double fTargetTimespan = ((long double) CountBlocks * (double) nTargetSpacing);
+			
+			if (fDebug) {
+				printf("DGW: %d Before fActualTimespan %f, fTargetTimespan %f \n", nHeight, fActualTimespan, fTargetTimespan);
+				printf("DGW: %d nPowTargetSpacing %f \n", nHeight, (double) nTargetSpacing);
+			}
 
             if (fActualTimespan < fTargetTimespan/3)
                 fActualTimespan = fTargetTimespan/3;
+			
             if (fActualTimespan > fTargetTimespan*3)
                 fActualTimespan = fTargetTimespan*3;
+			
+			if (fDebug)
+				printf("DGW: %d Before fActualTimespan %f, fTargetTimespan %f \n", nHeight, fActualTimespan, fTargetTimespan);
 
             int64 nActualTimespan = fActualTimespan;
             int64 nTargetTimespan = fTargetTimespan;
+			
+			if (fDebug)
+				printf("DGW: %d int64 nActualTimespan %I64d, int64 nTargetTimespan %I64d \n", nHeight, nActualTimespan, nTargetTimespan);
 
             // Retarget
             bnNew *= nActualTimespan;
             bnNew /= nTargetTimespan;
+			
+			if (fDebug)
+				printf("DGW: %d Retarget bnNew.GetCompact() %s \n", nHeight, bnNew.ToString().c_str());
     }
 
-    if (bnNew > bnProofOfWorkLimit){
+    if (bnNew > bnProofOfWorkLimit)
+	{
         bnNew = bnProofOfWorkLimit;
+		
+		if (fDebug)
+			printf("DGW: %d bnNew > UintToArith256(params.powLimit) bnNew.GetCompact() %s \n", nHeight, bnNew.ToString().c_str());
     }
 
     return bnNew.GetCompact();
@@ -2175,7 +2298,10 @@ bool CBlock::AcceptBlock(CValidationState &state, CDiskBlockPos *dbp)
         unsigned int nBitsNext = GetNextWorkRequired(pindexPrev, this);
         double n1 = ConvertBitsToDouble(nBits);
         double n2 = ConvertBitsToDouble(nBitsNext);
-
+		
+		std::string error_bool = abs(n1-n2) > n1*0.005 ? "true" : "false";
+		printf("DGW: Error: %s, abs(n1-n2): %f, n1*0.005: %f,  n1: %f, n2: %f, nHeight: %d \n", error_bool.c_str(), abs(n1-n2), n1*0.005, n1, n2, nHeight);
+		
         if (abs(n1-n2) > n1*0.005) 
             return state.DoS(100, error("AcceptBlock() : incorrect proof of work (DGW2)"));
  
