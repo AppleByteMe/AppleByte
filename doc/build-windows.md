@@ -28,6 +28,7 @@ To build executables for Windows 32-bit:
     cd depends
     make HOST=i686-w64-mingw32 V=1 AUTOCONF=: AUTOHEADER=: AUTOMAKE=: ACLOCAL=:
     cd ..
+    ./autogen.sh
     ./configure --prefix=`pwd`/depends/i686-w64-mingw32 --with-miniupnpc --enable-upnp-default --disable-tests --disable-gui-tests --disable-bench --disable-dependency-tracking
     make
 
@@ -36,6 +37,7 @@ To build executables for Windows 64-bit:
     cd depends
     make HOST=x86_64-w64-mingw32 -j4
     cd ..
+    ./autogen.sh
     ./configure --prefix=`pwd`/depends/x86_64-w64-mingw32 --disable-tests --disable-gui-tests --disable-bench --disable-dependency-tracking
     make
 
