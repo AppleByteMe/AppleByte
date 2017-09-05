@@ -1115,7 +1115,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetSpacing = fTestNet ? 10 : 2 * 60; // ArtByte: 2 minutes
+int64 nTargetSpacing = 2 * 60; // ArtByte: 2 minutes
 
 unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader *pblock) {
     /* current difficulty formula, darkcoin - DarkGravity v2, written by Evan Duffield - evan@darkcoin.io */
@@ -1140,6 +1140,9 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
 	int nHeight = pindexLast->nHeight + 1;
 	bool fDebug = false;
 	
+	if (fTestNet)
+		nTargetSpacing = 10;
+
 	if (fDebug)
 		printf("DGW: %d Beginning BlockReading %s \n", nHeight, BlockReading->ToString().c_str());
 
