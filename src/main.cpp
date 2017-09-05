@@ -1121,8 +1121,6 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
     /* current difficulty formula, darkcoin - DarkGravity v2, written by Evan Duffield - evan@darkcoin.io */
     const CBlockIndex *BlockLastSolved = pindexLast;
     const CBlockIndex *BlockReading = pindexLast;
-    const CBlockHeader *BlockCreating = pblock;
-    BlockCreating = BlockCreating;
     int64 nBlockTimeAverage = 0;
     int64 nBlockTimeAveragePrev = 0;
     int64 nBlockTimeCount = 0;
