@@ -77,6 +77,7 @@ public:
         consensus.BIP34Height = 751;
         consensus.BIP34Hash = uint256S("0x96bd7809b1aebb5f12416f4f58f070c02b960f9263af2b10184df66515d110a1");
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
+        consensus.checkpointPubKey = "049c18a06d177d10a8eb295a0a9a77ddb7e670f4dd5a15d72ec724ef5762990cc9261d5ccf8c04a7cdd52453925fa512c0951a00cc370009980809f93b975afc84";
         consensus.nPowTargetSpacing = 2 * 60;
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
@@ -158,6 +159,7 @@ public:
         consensus.BIP34Height = 751;
         consensus.BIP34Hash = uint256S("0x0");
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
+        consensus.checkpointPubKey = "042984cb406a34e80b4d95cc263635222d9be752c9196e4d58ed3e6cb602d9119ee8794cac93b69757b163cdeb7ee3fd0293bf1fb15ec379bc1373f50b959e8e6a";
         consensus.nPowTargetSpacing = 10;
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = false;
@@ -212,9 +214,9 @@ public:
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
             ( 0, uint256S("0x02e890de125e4e85965ed783e85be2e7f63f5c1cf59ed997c4796d8d987bf9a4")),
-            1398689379,
+            1501675200,
             1,
-            720
+            100
         };
 
     }
@@ -234,6 +236,7 @@ public:
         consensus.BIP34Height = -1; // BIP34 has not necessarily activated on regtest
         consensus.BIP34Hash = uint256();
         consensus.powLimit = uint256S("7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
+        consensus.checkpointPubKey = "042984cb406a34e80b4d95cc263635222d9be752c9196e4d58ed3e6cb602d9119ee8794cac93b69757b163cdeb7ee3fd0293bf1fb15ec379bc1373f50b959e8e6a";
         consensus.nPowTargetSpacing = 2 * 60;
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = true;
