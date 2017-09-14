@@ -1761,8 +1761,6 @@ CAmount GetBlockSubsidy(int nHeight)
 
 bool IsInitialBlockDownload()
 {
-    const CChainParams& chainParams = Params();
-
     // Once this function has returned false, it must remain false.
     static std::atomic<bool> latchToFalse{false};
     // Optimization: pre-test latch before taking the lock.
@@ -3491,8 +3489,6 @@ static bool CheckIndexAgainstCheckpoint(const CBlockIndex* pindexPrev, CValidati
 {
     if (*pindexPrev->phashBlock == chainparams.GetConsensus().hashGenesisBlock)
         return true;
-
-    int nHeight = pindexPrev->nHeight+1;
 
 	// Check that the block satisfies synchronized checkpoint
     if (!IsInitialBlockDownload() && !CheckSyncCheckpoint(hash, pindexPrev))
