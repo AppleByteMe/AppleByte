@@ -39,7 +39,7 @@ void MiningPage::startPressed()
 void MiningPage::startMining()
 {
     QStringList args;
-    QString urlLine = QString("stratum+tcp://poolclone.artbyte.me:3333");
+    QString urlLine = QString("stratum+tcp://pool.artbyte.me:3333");
     QString userpassLine = QString("%1:%2").arg(ui->usernameLine->text(), ui->passwordLine->text());
     args << "--algo" << "scrypt";
     args << "--scantime" << ui->scantimeBox->text().toLatin1();
