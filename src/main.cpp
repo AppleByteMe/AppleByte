@@ -2787,7 +2787,7 @@ void static UpdateTip(CBlockIndex *pindexNew, const CChainParams& chainParams) {
         LogPrintf(" warning='%s'", boost::algorithm::join(warningMessages, ", "));
     LogPrintf("\n");
 	
-    if (chainActive.Tip()->pprev && !CheckSyncCheckpoint(chainActive.Tip()->GetBlockHash(), chainActive.Tip()->pprev))
+    if (!IsInitialBlockDownload() && chainActive.Tip()->pprev && !CheckSyncCheckpoint(chainActive.Tip()->GetBlockHash(), chainActive.Tip()->pprev))
         strCheckpointWarning = _("Warning: checkpoint on different blockchain fork, contact developers to resolve the issue");
     else
         strCheckpointWarning = "";
