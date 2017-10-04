@@ -183,7 +183,9 @@ bool CheckSyncCheckpoint(const uint256& hashBlock, const CBlockIndex* pindexPrev
 
     LOCK(cs_hashSyncCheckpoint);
     // sync-checkpoint should always be accepted block
-    assert(mapBlockIndex.count(hashSyncCheckpoint));
+    if (!mapBlockIndex.count(hashSyncCheckpoint))
+        return false;
+
     const CBlockIndex* pindexSync = mapBlockIndex[hashSyncCheckpoint];
 
     if (nHeight > pindexSync->nHeight)
