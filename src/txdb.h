@@ -6,6 +6,7 @@
 #ifndef BITCOIN_TXDB_H
 #define BITCOIN_TXDB_H
 
+#include "main.h"
 #include "coins.h"
 #include "dbwrapper.h"
 #include "chain.h"
@@ -20,17 +21,6 @@
 
 class CBlockIndex;
 class CCoinsViewDBCursor;
-struct CAddressUnspentKey;
-struct CAddressUnspentValue;
-struct CAddressIndexKey;
-struct CAddressIndexIteratorKey;
-struct CAddressIndexIteratorHeightKey;
-struct CTimestampIndexKey;
-struct CTimestampIndexIteratorKey;
-struct CTimestampBlockIndexKey;
-struct CTimestampBlockIndexValue;
-struct CSpentIndexKey;
-struct CSpentIndexValue;
 class uint256;
 
 //! -dbcache default (MiB)
