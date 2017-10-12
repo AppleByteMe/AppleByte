@@ -2786,11 +2786,6 @@ void static UpdateTip(CBlockIndex *pindexNew, const CChainParams& chainParams) {
     if (!warningMessages.empty())
         LogPrintf(" warning='%s'", boost::algorithm::join(warningMessages, ", "));
     LogPrintf("\n");
-	
-    if (!IsInitialBlockDownload() && chainActive.Tip()->pprev && !CheckSyncCheckpoint(chainActive.Tip()->GetBlockHash(), chainActive.Tip()->pprev))
-        strCheckpointWarning = _("Warning: Block rejected by synchronized checkpoint");
-    else
-        strCheckpointWarning = "";
 }
 
 /** Disconnect chainActive's tip. You probably want to call mempool.removeForReorg and manually re-limit mempool size after this, with cs_main held. */
@@ -3490,13 +3485,6 @@ static bool CheckIndexAgainstCheckpoint(const CBlockIndex* pindexPrev, CValidati
     if (*pindexPrev->phashBlock == chainparams.GetConsensus().hashGenesisBlock)
         return true;
 
-	// Check that the block satisfies synchronized checkpoint
-    if (!IsInitialBlockDownload() && !CheckSyncCheckpoint(hash, pindexPrev))
-        return error("AcceptBlock() : rejected by synchronized checkpoint");
-
-	// Check pending sync-checkpoint
-    AcceptPendingSyncCheckpoint();
-	
     return true;
 }
 
@@ -3681,6 +3669,11 @@ bool ContextualCheckBlock(const CBlock& block, CValidationState& state, CBlockIn
         return state.DoS(100, error("ContextualCheckBlock(): weight limit failed"), REJECT_INVALID, "bad-blk-weight");
     }
 
+    // Check that the block satisfies synchronized checkpoint
+    if (!IsInitialBlockDownload() && !CheckSyncCheckpoint(block.GetHash(), pindexPrev))
+        return state.Invalid(error("%s : rejected by synchronized checkpoint", __func__),
+                             REJECT_OBSOLETE, "bad-version");
+
     return true;
 }
 
@@ -3795,9 +3788,7 @@ static bool AcceptBlock(const CBlock& block, CValidationState& state, const CCha
     if (fCheckForPruning)
         FlushStateToDisk(state, FLUSH_STATE_NONE); // we just allocated more disk space for block files
 
-    LogPrintf("AcceptBlock sync-checkpoint,nHeight=%d.\n",nHeight);
 	AcceptPendingSyncCheckpoint();
-    LogPrintf("AcceptBlock OK,nHeight=%d.\n",nHeight);
 
     return true;
 }
