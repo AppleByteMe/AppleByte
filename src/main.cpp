@@ -6287,17 +6287,15 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
     {
         CSyncCheckpoint checkpoint;
         vRecv >> checkpoint;
-        LogPrintf("Receive checkpoint, hashCheckpoint=%s\n",checkpoint.hashCheckpoint.ToString().c_str());
 
         if (checkpoint.ProcessSyncCheckpoint(pfrom))
         {
-            LogPrintf("checkpoint.ProcessSyncCheckpoint(pfrom)=true, hashCheckpoint=%s\n",checkpoint.hashCheckpoint.ToString().c_str());
+            LogPrintf("%s: hashCheckpoint=%s\n", __func__, checkpoint.hashCheckpoint.ToString().c_str());
             // Relay
             pfrom->hashCheckpointKnown = checkpoint.hashCheckpoint;
             LOCK(cs_vNodes);
             BOOST_FOREACH(CNode* pnode, vNodes)
                 checkpoint.RelayTo(pnode);
-            LogPrintf("checkpoint.ProcessSyncCheckpoint  Relay=OK \n");
         }
     }
 
