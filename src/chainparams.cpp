@@ -97,6 +97,13 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nStartTime = 1504224000; // Oct 1st, 2017.
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 1535760000; // Oct 1st, 2018
 
+        // Deployment of SEGSIGNAL
+        consensus.vDeployments[Consensus::DEPLOYMENT_SEGSIGNAL].bit = 4;
+        consensus.vDeployments[Consensus::DEPLOYMENT_SEGSIGNAL].nStartTime = 1509580800; // November 2nd, 2017.
+        consensus.vDeployments[Consensus::DEPLOYMENT_SEGSIGNAL].nTimeout = 1541116800; // November 2nd, 2018.
+        consensus.vDeployments[Consensus::DEPLOYMENT_SEGSIGNAL].nOverrideMinerConfirmationWindow = 1680; // ~2.33 days
+        consensus.vDeployments[Consensus::DEPLOYMENT_SEGSIGNAL].nOverrideRuleChangeActivationThreshold = 1176; // 70%
+
         /**
          * The message start string is designed to be unlikely to occur in normal data.
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
@@ -163,8 +170,8 @@ public:
         consensus.nPowTargetSpacing = 10;
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = false;
-        consensus.nRuleChangeActivationThreshold = 1512; // 75% for testchains
-        consensus.nMinerConfirmationWindow = 2016;
+        consensus.nRuleChangeActivationThreshold = 1026; // 95% for testchains
+        consensus.nMinerConfirmationWindow = 1080;
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].bit = 28;
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].nStartTime = 1199145601; // January 1, 2008
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].nTimeout = 1230767999; // December 31, 2008
@@ -178,6 +185,13 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].bit = 1;
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nStartTime = 1501545600; // August 1st, 2017
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 1533081600; // August 1st, 2018
+
+        // Deployment of SEGSIGNAL
+        consensus.vDeployments[Consensus::DEPLOYMENT_SEGSIGNAL].bit = 4;
+        consensus.vDeployments[Consensus::DEPLOYMENT_SEGSIGNAL].nStartTime = 1509699600; // Nov 3rd, 2017.
+        consensus.vDeployments[Consensus::DEPLOYMENT_SEGSIGNAL].nTimeout = 1541235600; // Nov 3rd, 2017.
+        consensus.vDeployments[Consensus::DEPLOYMENT_SEGSIGNAL].nOverrideMinerConfirmationWindow = 540;
+        consensus.vDeployments[Consensus::DEPLOYMENT_SEGSIGNAL].nOverrideRuleChangeActivationThreshold = 378;
 
         pchMessageStart[0] = 0xeb;
         pchMessageStart[1] = 0xb0;
@@ -251,6 +265,11 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].bit = 1;
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nStartTime = 0;
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 999999999999ULL;
+        consensus.vDeployments[Consensus::DEPLOYMENT_SEGSIGNAL].bit = 4;
+        consensus.vDeployments[Consensus::DEPLOYMENT_SEGSIGNAL].nStartTime = 0;
+        consensus.vDeployments[Consensus::DEPLOYMENT_SEGSIGNAL].nTimeout = 999999999999ULL;
+        consensus.vDeployments[Consensus::DEPLOYMENT_SEGSIGNAL].nOverrideMinerConfirmationWindow = 48;
+        consensus.vDeployments[Consensus::DEPLOYMENT_SEGSIGNAL].nOverrideRuleChangeActivationThreshold = 29; // 60%
 
         pchMessageStart[0] = 0xfa;
         pchMessageStart[1] = 0xbf;
