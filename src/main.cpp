@@ -2964,10 +2964,6 @@ bool InitBlockIndex() {
         }
     }
 
-	// If checkpoint master key changed must reset sync-checkpoint
-    if (!CheckCheckpointPubKey())
-        return error("LoadBlockIndex() : failed to reset checkpoint master pubkey");
-
     return true;
 }
 
