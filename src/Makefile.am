@@ -112,7 +112,6 @@ BITCOIN_CORE_H = \
   net.h \
   netbase.h \
   noui.h \
-  opensslkey.h \
   policy/fees.h \
   policy/policy.h \
   policy/rbf.h \
@@ -302,7 +301,6 @@ libbitcoin_common_a_SOURCES = \
   key.cpp \
   keystore.cpp \
   netbase.cpp \
-  opensslkey.cpp \
   protocol.cpp \
   scheduler.cpp \
   script/sign.cpp \

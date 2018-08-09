@@ -77,7 +77,7 @@ public:
         consensus.BIP34Height = 751;
         consensus.BIP34Hash = uint256S("0x96bd7809b1aebb5f12416f4f58f070c02b960f9263af2b10184df66515d110a1");
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
-        consensus.checkpointPubKey = "049c18a06d177d10a8eb295a0a9a77ddb7e670f4dd5a15d72ec724ef5762990cc9261d5ccf8c04a7cdd52453925fa512c0951a00cc370009980809f93b975afc84";
+        consensus.checkpointPubKey = "042c73cad29eda742388ca8ee2e6c632c237767c97534822ad3d712889f123c078bc02b2d6f2369897144bbd8c346a5f5c66024c44e371ad710c6dc4d27c9e09f4";
         consensus.nPowTargetSpacing = 2 * 60;
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
@@ -141,11 +141,12 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-			( 100001, uint256S("0x33c84e3d5dc11ee219fed43ee3055af4180b574c8f3466980180d4b5aee9d52e"))
-			( 450000, uint256S("0xf0ec5a3b0360f87032ece16c79141e2ae4061a8eb014d72ab7921b4fe1edc800"))
-            ( 840000, uint256S("0xb65cf618824e6550442d4bfa52acc91cca0ced7f9ce0f6ca600f75165b30dce5")),
-            1500290781, // * UNIX timestamp of last checkpoint block
-            1405351,   // * total number of transactions between genesis and last checkpoint
+            ( 100001, uint256S("0x33c84e3d5dc11ee219fed43ee3055af4180b574c8f3466980180d4b5aee9d52e"))
+            ( 450000, uint256S("0xf0ec5a3b0360f87032ece16c79141e2ae4061a8eb014d72ab7921b4fe1edc800"))
+            ( 840000, uint256S("0xb65cf618824e6550442d4bfa52acc91cca0ced7f9ce0f6ca600f75165b30dce5"))
+            ( 1095070, uint256S("0xdb58911c736d27e46f62c8c24a519dca8bd02047ab4f0f6e93f89a54ffd45652")),
+            1533385344, // * UNIX timestamp of last checkpoint block
+            1918123,   // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
             1000.0     // * estimated number of transactions per day after checkpoint
         };
