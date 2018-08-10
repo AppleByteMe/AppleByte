@@ -1774,9 +1774,8 @@ bool IsInitialBlockDownload()
         return true;
     if (chainActive.Tip() == NULL)
         return true;
-// Temp fix until chain is moving again
-//    if (chainActive.Tip()->GetBlockTime() < (GetTime() - nMaxTipAge))
-//        return true;
+    if (chainActive.Tip()->GetBlockTime() < (GetTime() - nMaxTipAge))
+        return true;
     latchToFalse.store(true, std::memory_order_relaxed);
     return false;
 }
