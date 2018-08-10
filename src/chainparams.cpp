@@ -77,7 +77,7 @@ public:
         consensus.BIP34Height = 751;
         consensus.BIP34Hash = uint256S("0x96bd7809b1aebb5f12416f4f58f070c02b960f9263af2b10184df66515d110a1");
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
-        consensus.checkpointPubKey = "042c73cad29eda742388ca8ee2e6c632c237767c97534822ad3d712889f123c078bc02b2d6f2369897144bbd8c346a5f5c66024c44e371ad710c6dc4d27c9e09f4";
+        consensus.checkpointPubKey = "041c7cda200eff11786757b7a21b72799db193bc86bf34f0307f282bba8775f99ff8dcbf625a32b23660333d3a92a7aa3d85cb7302eabfd661a7a7cb128d38b1c1";
         consensus.nPowTargetSpacing = 2 * 60;
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
