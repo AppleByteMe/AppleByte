@@ -199,11 +199,12 @@ BitcoinGUI::BitcoinGUI(const PlatformStyle *platformStyle, const NetworkStyle *n
     labelBlocksIcon = new QLabel();
     if(enableWallet)
     {
+        frameBlocksLayout->addStretch();
         frameBlocksLayout->addWidget(unitDisplayControl);
         frameBlocksLayout->addStretch();
         frameBlocksLayout->addWidget(labelEncryptionIcon);
-        frameBlocksLayout->addStretch();
     }
+    frameBlocksLayout->addStretch();
     frameBlocksLayout->addWidget(labelConnectionsIcon);
     frameBlocksLayout->addStretch();
     frameBlocksLayout->addWidget(labelBlocksIcon);
@@ -295,12 +296,6 @@ void BitcoinGUI::createActions()
     historyAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_4));
     tabGroup->addAction(historyAction);
 
-    miningAction = new QAction(platformStyle->SingleColorIcon(":/icons/tx_mined"), tr("&Mining"), this);
-    miningAction->setToolTip(tr("Configure mining"));
-    miningAction->setCheckable(true);
-    miningAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_1));
-    tabGroup->addAction(miningAction);
-
 #ifdef ENABLE_WALLET
     // These showNormalIfMinimized are needed because Send Coins and Receive Coins
     // can be triggered from the tray menu, and need to show the GUI to be useful.
@@ -372,7 +367,6 @@ void BitcoinGUI::createActions()
     connect(toggleHideAction, SIGNAL(triggered()), this, SLOT(toggleHidden()));
     connect(showHelpMessageAction, SIGNAL(triggered()), this, SLOT(showHelpMessageClicked()));
     connect(openRPCConsoleAction, SIGNAL(triggered()), this, SLOT(showDebugWindow()));
-    connect(miningAction, SIGNAL(triggered()), this, SLOT(gotoMiningPage()));
     // prevents an open debug window from becoming stuck/unusable on client shutdown
     connect(quitAction, SIGNAL(triggered()), rpcConsole, SLOT(hide()));
 
@@ -450,7 +444,6 @@ void BitcoinGUI::createToolBars()
         toolbar->addAction(sendCoinsAction);
         toolbar->addAction(receiveCoinsAction);
         toolbar->addAction(historyAction);
-        toolbar->addAction(miningAction);
         overviewAction->setChecked(true);
     }
 }
@@ -700,12 +693,6 @@ void BitcoinGUI::gotoVerifyMessageTab(QString addr)
     if (walletFrame) walletFrame->gotoVerifyMessageTab(addr);
 }
 #endif // ENABLE_WALLET
-
-void BitcoinGUI::gotoMiningPage()
-{
-    miningAction->setChecked(true);
-    if (walletFrame) walletFrame->gotoMiningPage();
-}
 
 void BitcoinGUI::setNumConnections(int count)
 {

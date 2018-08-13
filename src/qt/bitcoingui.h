@@ -91,7 +91,6 @@ private:
 
     QMenuBar *appMenuBar;
     QAction *overviewAction;
-    QAction *miningAction;
     QAction *historyAction;
     QAction *quitAction;
     QAction *sendCoinsAction;
@@ -195,8 +194,6 @@ private Q_SLOTS:
     /** Show open dialog */
     void openClicked();
 #endif // ENABLE_WALLET
-    /** Switch to mining page */
-    void gotoMiningPage();
     /** Show configuration dialog */
     void optionsClicked();
     /** Show about dialog */
