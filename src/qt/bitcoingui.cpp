@@ -83,7 +83,6 @@ BitcoinGUI::BitcoinGUI(const PlatformStyle *platformStyle, const NetworkStyle *n
     labelEncryptionIcon(0),
     labelConnectionsIcon(0),
     labelBlocksIcon(0),
-    labelPool(0),
     progressBarLabel(0),
     progressBar(0),
     progressDialog(0),
@@ -198,12 +197,6 @@ BitcoinGUI::BitcoinGUI(const PlatformStyle *platformStyle, const NetworkStyle *n
     labelEncryptionIcon = new QLabel();
     labelConnectionsIcon = new QLabel();
     labelBlocksIcon = new QLabel();
-    labelPool = new QLabel();
-    labelPool->setText("<a href=\"http://pool.artbyte.me\">Create pool account</a>");
-    labelPool->setTextFormat(Qt::RichText);
-    labelPool->setTextInteractionFlags(Qt::TextBrowserInteraction);
-    labelPool->setOpenExternalLinks(true);
-    frameBlocksLayout->addWidget(labelPool);
     if(enableWallet)
     {
         frameBlocksLayout->addWidget(unitDisplayControl);
