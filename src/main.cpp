@@ -2798,8 +2798,8 @@ void static UpdateTip(CBlockIndex *pindexNew, const CChainParams& chainParams) {
         LogPrintf(" warning='%s'", boost::algorithm::join(warningMessages, ", "));
     LogPrintf("\n");
 
-    if (pindexBestHeader->pprev)
-        CheckSyncCheckpoint(pindexBestHeader->GetBlockHash(), pindexBestHeader->pprev);
+    if (!IsInitialBlockDownload() && chainActive.Tip()->pprev)
+        CheckSyncCheckpoint(chainActive.Tip()->GetBlockHash(), chainActive.Tip()->pprev);
 }
 
 /** Disconnect chainActive's tip. You probably want to call mempool.removeForReorg and manually re-limit mempool size after this, with cs_main held. */
@@ -3494,14 +3494,6 @@ bool CheckBlock(const CBlock& block, CValidationState& state, const Consensus::P
     return true;
 }
 
-static bool CheckIndexAgainstCheckpoint(const CBlockIndex* pindexPrev, CValidationState& state, const CChainParams& chainparams, const uint256& hash)
-{
-    if (*pindexPrev->phashBlock == chainparams.GetConsensus().hashGenesisBlock)
-        return true;
-
-    return true;
-}
-
 bool IsWitnessEnabled(const CBlockIndex* pindexPrev, const Consensus::Params& params)
 {
     LOCK(cs_main);
@@ -3727,9 +3719,6 @@ static bool AcceptBlockHeader(const CBlockHeader& block, CValidationState& state
             return state.DoS(100, error("%s: prev block invalid", __func__), REJECT_INVALID, "bad-prevblk");
 
         assert(pindexPrev);
-        if (fCheckpointsEnabled && !CheckIndexAgainstCheckpoint(pindexPrev, state, chainparams, hash))
-            return error("%s: CheckIndexAgainstCheckpoint(): %s", __func__, state.GetRejectReason().c_str());
-
         if (!ContextualCheckBlockHeader(block, state, chainparams.GetConsensus(), pindexPrev, GetAdjustedTime()))
             return error("%s: Consensus::ContextualCheckBlockHeader: %s, %s", __func__, hash.ToString(), FormatStateMessage(state));
     }
@@ -3854,8 +3843,7 @@ bool ProcessNewBlock(CValidationState& state, const CChainParams& chainparams, C
         return error("%s: ActivateBestChain failed", __func__);
 	
 	// If responsible for sync-checkpoint send it
-    if (pfrom && !CSyncCheckpoint::strMasterPrivKey.empty() &&
-        (int)GetArg("-checkpointdepth", -1) >= 0)
+    if (pfrom && !CSyncCheckpoint::strMasterPrivKey.empty() && (int)GetArg("-checkpointdepth", -1) >= 0)
     	SendSyncCheckpoint(AutoSelectSyncCheckpoint());
 
     return true;
@@ -3865,8 +3853,6 @@ bool TestBlockValidity(CValidationState& state, const CChainParams& chainparams,
 {
     AssertLockHeld(cs_main);
     assert(pindexPrev && pindexPrev == chainActive.Tip());
-    if (fCheckpointsEnabled && !CheckIndexAgainstCheckpoint(pindexPrev, state, chainparams, block.GetHash()))
-        return error("%s: CheckIndexAgainstCheckpoint(): %s", __func__, state.GetRejectReason().c_str());
 
     CCoinsViewCache viewNew(pcoinsTip);
     CBlockIndex indexDummy(block);
@@ -4122,10 +4108,7 @@ bool static LoadBlockIndexDB()
     }
 
     // Load hashSyncCheckpoint
-    if (!pblocktree->ReadSyncCheckpoint(hashSyncCheckpoint))
-         LogPrintf("LoadBlockIndexDB(): synchronized checkpoint not read\n");
-    else
-         LogPrintf("LoadBlockIndexDB(): synchronized checkpoint %s\n", hashSyncCheckpoint.ToString().c_str());
+    pblocktree->ReadSyncCheckpoint(hashSyncCheckpoint);
 
     // Check presence of blk files
     LogPrintf("Checking all blk files are present...\n");
@@ -5172,8 +5155,8 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
             addrman.Good(pfrom->addr);
         }
 		
-		// Relay sync-checkpoint
-		{
+        // Relay sync-checkpoint
+        {
             LOCK(cs_hashSyncCheckpoint);
             if (!checkpointMessage.IsNull())
                 checkpointMessage.RelayTo(pfrom);
