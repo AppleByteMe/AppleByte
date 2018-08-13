@@ -3559,12 +3559,6 @@ bool ContextualCheckBlockHeader(const CBlockHeader& block, CValidationState& sta
     unsigned int nBitsNext = GetNextWorkRequired(pindexPrev, &block, consensusParams);
     double n1 = ConvertBitsToDouble(block.nBits);
     double n2 = ConvertBitsToDouble(nBitsNext);
-	
-	std::string chain = ChainNameFromCommandLine();
-	if (chain == CBaseChainParams::TESTNET) {
-		std::string error_bool = abs(n1-n2) > n1*0.005 ? "true" : "false";
-		LogPrintf("DGW: Error: %s, abs(n1-n2): %f, n1*0.005: %f,  n1: %f, n2: %f, nHeight: %d \n", error_bool.c_str(), abs(n1-n2), n1*0.005, n1, n2, nHeight);
-	}
 
     if (abs(n1-n2) > n1*0.005)
         return state.DoS(100, error("%s : incorrect proof of work DGW - %f %f %f %f at %d", __func__, abs(n1-n2), n1 * 0.005, n1, n2, nHeight),
