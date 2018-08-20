@@ -9,64 +9,126 @@
 #include <chain.h>
 #include <primitives/block.h>
 #include <uint256.h>
+#include <bignum.h>
 
 unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params& params)
 {
-    assert(pindexLast != nullptr);
-    unsigned int nProofOfWorkLimit = UintToArith256(params.powLimit).GetCompact();
+    CBigNum bnProofOfWorkLimit;
+    bnProofOfWorkLimit.SetCompact(UintToArith256(params.powLimit).GetCompact());
 
-    // Only change once per difficulty adjustment interval
-    if ((pindexLast->nHeight+1) % params.DifficultyAdjustmentInterval() != 0)
-    {
-        if (params.fPowAllowMinDifficultyBlocks)
-        {
-            // Special difficulty rule for testnet:
-            // If the new block's timestamp is more than 2* 10 minutes
-            // then allow mining of a min-difficulty block.
-            if (pblock->GetBlockTime() > pindexLast->GetBlockTime() + params.nPowTargetSpacing*2)
-                return nProofOfWorkLimit;
-            else
-            {
-                // Return the last non-special-min-difficulty-rules-block
-                const CBlockIndex* pindex = pindexLast;
-                while (pindex->pprev && pindex->nHeight % params.DifficultyAdjustmentInterval() != 0 && pindex->nBits == nProofOfWorkLimit)
-                    pindex = pindex->pprev;
-                return pindex->nBits;
-            }
-        }
+    // RegTest - Do not change difficulty
+    if (params.fPowAllowMinDifficultyBlocks)
         return pindexLast->nBits;
+
+    const CBlockIndex *BlockLastSolved = pindexLast;
+    const CBlockIndex *BlockReading = pindexLast;
+    int64 nBlockTimeAverage = 0;
+    int64 nBlockTimeAveragePrev = 0;
+    int64 nBlockTimeCount = 0;
+    int64 nBlockTimeSum2 = 0;
+    int64 nBlockTimeCount2 = 0;
+    int64 LastBlockTime = 0;
+    int64 PastBlocksMin = 14;
+    int64 PastBlocksMax = 140;
+    int64 CountBlocks = 0;
+    CBigNum PastDifficultyAverage;
+    CBigNum PastDifficultyAveragePrev;
+    CBigNum mathsInput;
+    CBigNum mathsOne;
+    CBigNum mathsTwo;
+    CBigNum mathsThree;
+
+    int nHeight = pindexLast->nHeight + 1;
+
+    if (BlockLastSolved == NULL || BlockLastSolved->nHeight == 0 || BlockLastSolved->nHeight < PastBlocksMin) 
+        return bnProofOfWorkLimit.GetCompact(); 
+
+    for (unsigned int i = 1; BlockReading && BlockReading->nHeight > 0; i++) 
+    {
+        if (PastBlocksMax > 0 && i > PastBlocksMax) 
+            break; 
+
+        CountBlocks++;
+
+        if(CountBlocks <= PastBlocksMin) 
+        {
+            if (CountBlocks == 1) 
+            { 
+                PastDifficultyAverage.SetCompact(BlockReading->nBits);
+            } else { 
+                mathsInput.SetCompact(BlockReading->nBits);
+                mathsOne = mathsInput - PastDifficultyAveragePrev;
+                mathsTwo = mathsOne / CountBlocks;
+                mathsThree = mathsTwo + PastDifficultyAveragePrev;
+                PastDifficultyAverage = mathsThree;
+            }
+
+            PastDifficultyAveragePrev = PastDifficultyAverage;
+        }
+
+        if (LastBlockTime > 0)
+        {
+            int64_t Diff = (LastBlockTime - BlockReading->GetBlockTime());
+
+            if(nBlockTimeCount <= PastBlocksMin) 
+            {
+                nBlockTimeCount++;
+
+                if (nBlockTimeCount == 1) 
+                { 
+                    nBlockTimeAverage = Diff; 
+                } else { 
+                    nBlockTimeAverage = ((Diff - nBlockTimeAveragePrev) / nBlockTimeCount) + nBlockTimeAveragePrev; 
+                }
+
+                nBlockTimeAveragePrev = nBlockTimeAverage;
+            }
+
+            nBlockTimeCount2++;
+            nBlockTimeSum2 += Diff;
+        }
+
+        LastBlockTime = BlockReading->GetBlockTime();
+
+        if (BlockReading->pprev == NULL) 
+        {
+            assert(BlockReading);
+            break; 
+        }
+
+        BlockReading = BlockReading->pprev;
     }
 
-    // Go back by what we want to be 14 days worth of blocks
-    int nHeightFirst = pindexLast->nHeight - (params.DifficultyAdjustmentInterval()-1);
-    assert(nHeightFirst >= 0);
-    const CBlockIndex* pindexFirst = pindexLast->GetAncestor(nHeightFirst);
-    assert(pindexFirst);
+    CBigNum bnNew(PastDifficultyAverage);
 
-    return CalculateNextWorkRequired(pindexLast, pindexFirst->GetBlockTime(), params);
-}
+    if (nBlockTimeCount != 0 && nBlockTimeCount2 != 0) 
+    {
+        double SmartAverage = ((((long double) nBlockTimeAverage) * 0.7) + (((long double) nBlockTimeSum2 / (long double) nBlockTimeCount2) * 0.3));
 
-unsigned int CalculateNextWorkRequired(const CBlockIndex* pindexLast, int64_t nFirstBlockTime, const Consensus::Params& params)
-{
-    if (params.fPowNoRetargeting)
-        return pindexLast->nBits;
+        if (SmartAverage < 1)
+            SmartAverage = 1;
 
-    // Limit adjustment step
-    int64_t nActualTimespan = pindexLast->GetBlockTime() - nFirstBlockTime;
-    if (nActualTimespan < params.nPowTargetTimespan/4)
-        nActualTimespan = params.nPowTargetTimespan/4;
-    if (nActualTimespan > params.nPowTargetTimespan*4)
-        nActualTimespan = params.nPowTargetTimespan*4;
+        double Shift = params.nPowTargetSpacing / SmartAverage;
 
-    // Retarget
-    const arith_uint256 bnPowLimit = UintToArith256(params.powLimit);
-    arith_uint256 bnNew;
-    bnNew.SetCompact(pindexLast->nBits);
-    bnNew *= nActualTimespan;
-    bnNew /= params.nPowTargetTimespan;
+        double fActualTimespan = ((long double) CountBlocks * (double) params.nPowTargetSpacing) / Shift;
+        double fTargetTimespan = ((long double) CountBlocks * (double) params.nPowTargetSpacing);
 
-    if (bnNew > bnPowLimit)
-        bnNew = bnPowLimit;
+        if (fActualTimespan < fTargetTimespan / 3)
+            fActualTimespan = fTargetTimespan / 3;
+
+        if (fActualTimespan > fTargetTimespan * 3)
+            fActualTimespan = fTargetTimespan * 3;
+
+        int64_t nActualTimespan = fActualTimespan;
+        int64_t nTargetTimespan = fTargetTimespan;
+
+        // Retarget
+        bnNew *= nActualTimespan;
+        bnNew /= nTargetTimespan;
+    }
+
+    if (bnNew > bnProofOfWorkLimit)
+        bnNew = bnProofOfWorkLimit;
 
     return bnNew.GetCompact();
 }
