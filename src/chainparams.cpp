@@ -65,8 +65,8 @@ public:
     CMainParams() {
         strNetworkID = "main";
         consensus.BIP34Height = 751;
-        consensus.BIP65Height = 890805;
-        consensus.BIP66Height = 890805;
+        consensus.BIP65Height = 923334;
+        consensus.BIP66Height = 923334;
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 2 * 60;
         consensus.nPowTargetSpacing = 2 * 60;
