@@ -771,7 +771,7 @@
             </font>
             </property>
             <property name="text">
-             <string>Warning: Fee estimation is currently not possible.</string>
+             <string></string>
             </property>
             <property name="wordWrap">
              <bool>false</bool>
@@ -1005,7 +1005,7 @@
                  <item>
                   <widget class="QLabel" name="labelSmartFee2">
                    <property name="text">
-                    <string>(Smart fee not initialized yet. This usually takes a few blocks...)</string>
+                    <string></string>
                    </property>
                    <property name="margin">
                     <number>2</number>
